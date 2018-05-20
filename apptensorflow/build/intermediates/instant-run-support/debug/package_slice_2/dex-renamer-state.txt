@@ -1,4 +1,0 @@
-#Wed Apr 18 13:28:13 PKT 2018
-base.0=D\:\\urAmeer-master\\apptensorflow\\build\\intermediates\\transforms\\dexMerger\\debug\\2
-path.0=classes.dex
-renamed.0=classes.dex

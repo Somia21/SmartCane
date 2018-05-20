@@ -1,0 +1,819 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:19:1-31:12
+MERGED from [com.github.gabrielemariotti.cards:cardslib-core:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-core-2.1.0.aar\27e86d9401066ea31439d0597704449e\AndroidManifest.xml:19:1-31:12
+MERGED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\af09ce0c949fcccb33b3b4b6aa2d8363\AndroidManifest.xml:17:1-31:12
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:2:1-24:12
+MERGED from [com.github.lolucosmin:PermissionsWrapper:version_1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\PermissionsWrapper-version_1.0.aar\ec45d796516a301981fd240246e1c9a7\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\25f7be811eac652f50c47ba72a56be5e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta3] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta3.aar\3d7403f3d401a63a6d9c103b41a78163\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64107bb2bc7f64c958167ad3111a4b44\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\9f5c3b4886cf791c13611c1d6b74b92e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.thefinestartist:ytpa:1.2.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\ytpa-1.2.1.aar\69496bf9440f60e47ed895140892f121\AndroidManifest.xml:2:1-12:12
+MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.dmytrodanylyk.android-process-button:library:1.0.4] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\library-1.0.4.aar\d29104870fac7f26cc78efa1e257d65d\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\5f33ae757228c46e9c037559adcca834\AndroidManifest.xml:17:1-31:12
+MERGED from [com.etsy.android.grid:library:1.0.5] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\library-1.0.5.aar\7dcc670d29a801f4aee142cf3b8e8f4b\AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\7d8e97269b0cf3c87fd6a4623d7fbb33\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-auth:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.2.aar\cb1b591c31a5df8b73daa517109c0542\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-crash:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.6.2.aar\b06ebb380d0159e4ccec4ceac0e0b7ad\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-location:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.2.aar\5ae031ba064c9443884460cc4a9553bb\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\1f0f10375817aaf7ca4e9b35665e0bb0\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-core:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.2.aar\a2d09ab5d435cccadc0aaa8c241f936f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.firebase:firebase-database:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-11.6.2.aar\647fef38c99bb5aabe4f0779f303a4b3\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.6.2.aar\9b2ee32531c432f832dca31a28537a68\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\8eb0a7b94341f8228c4feb430314a588\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\39e034185391c3882ab444a9544675ce\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f07d43508b3110e9ab15552d0dc53a7f\AndroidManifest.xml:17:1-31:12
+MERGED from [de.cketti.mailto:email-intent-builder:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\email-intent-builder-1.0.0.aar\e60e6272f0233bd19a9cef41e3f831eb\AndroidManifest.xml:2:1-8:12
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\885deec86c425be724e2231885644e52\AndroidManifest.xml:2:1-14:12
+MERGED from [org.tensorflow:tensorflow-lite:0.1.7] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.7.aar\ce50827099a58674491247c96e9200eb\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a57ecb8855fb5b4fd813c59df4485fcf\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ff19782fb1eca67f9f914b48dc6b0530\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ab0a2e1ed16960544733db83a377e449\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\29ce65cce9ec2242e3bb2fe5fb709a02\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\72426e427d6dc21ca93f2f15f9142cfe\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e417994e0f00761b75e42ca30ba5e36f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\1d7987025595e2fef7ad9c4db193fbfe\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\d07e172d795b85e4ad42ac38d13c07f2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.2.aar\2c2e1b43f4c73093ca8c7d053b60f125\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.2.aar\71ea3eaa90fed605f469662840e93dc0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-crash-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.6.2.aar\40bfd7194adf9a118d4a80c7699f25f7\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.2.aar\4c19ab54f89f4cc8d77da6332e0a373f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.2.aar\165b4475a433968e352db3455a95ab55\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\5c45c4a023ab11f230a12c96641d6ce9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\c279e2e8f3940debe1b4ec6b4283e524\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.2.aar\6ae7f6e4bd6f0609333fa988b14761bd\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\e001ae98c854c583e4bf7b68a5d56a42\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.2.aar\880edb08b9be394d55a1c4918a01c988\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.2.aar\d7375792dd81001a6a72c6a6666766fd\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.2.aar\39790701c7ccc37496ad71db9541a753\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.2.aar\eca1f4f0f9b9411a622faa9ba137093a\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+	package
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:5:5-44
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:5:5-44
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:5:5-44
+MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:24:5-26:41
+MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:24:5-26:41
+MERGED from [com.github.gabrielemariotti.cards:cardslib-core:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-core-2.1.0.aar\27e86d9401066ea31439d0597704449e\AndroidManifest.xml:24:5-26:41
+MERGED from [com.github.gabrielemariotti.cards:cardslib-core:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-core-2.1.0.aar\27e86d9401066ea31439d0597704449e\AndroidManifest.xml:24:5-26:41
+MERGED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\af09ce0c949fcccb33b3b4b6aa2d8363\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\af09ce0c949fcccb33b3b4b6aa2d8363\AndroidManifest.xml:21:5-23:62
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lolucosmin:PermissionsWrapper:version_1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\PermissionsWrapper-version_1.0.aar\ec45d796516a301981fd240246e1c9a7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lolucosmin:PermissionsWrapper:version_1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\PermissionsWrapper-version_1.0.aar\ec45d796516a301981fd240246e1c9a7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\25f7be811eac652f50c47ba72a56be5e\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\25f7be811eac652f50c47ba72a56be5e\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta3] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta3.aar\3d7403f3d401a63a6d9c103b41a78163\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta3] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta3.aar\3d7403f3d401a63a6d9c103b41a78163\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64107bb2bc7f64c958167ad3111a4b44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64107bb2bc7f64c958167ad3111a4b44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\9f5c3b4886cf791c13611c1d6b74b92e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\9f5c3b4886cf791c13611c1d6b74b92e\AndroidManifest.xml:7:5-43
+MERGED from [com.thefinestartist:ytpa:1.2.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\ytpa-1.2.1.aar\69496bf9440f60e47ed895140892f121\AndroidManifest.xml:8:5-10:41
+MERGED from [com.thefinestartist:ytpa:1.2.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\ytpa-1.2.1.aar\69496bf9440f60e47ed895140892f121\AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dmytrodanylyk.android-process-button:library:1.0.4] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\library-1.0.4.aar\d29104870fac7f26cc78efa1e257d65d\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.dmytrodanylyk.android-process-button:library:1.0.4] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\library-1.0.4.aar\d29104870fac7f26cc78efa1e257d65d\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\5f33ae757228c46e9c037559adcca834\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\5f33ae757228c46e9c037559adcca834\AndroidManifest.xml:21:5-23:55
+MERGED from [com.etsy.android.grid:library:1.0.5] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\library-1.0.5.aar\7dcc670d29a801f4aee142cf3b8e8f4b\AndroidManifest.xml:4:5-43
+MERGED from [com.etsy.android.grid:library:1.0.5] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\library-1.0.5.aar\7dcc670d29a801f4aee142cf3b8e8f4b\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\7d8e97269b0cf3c87fd6a4623d7fbb33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\7d8e97269b0cf3c87fd6a4623d7fbb33\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.2.aar\cb1b591c31a5df8b73daa517109c0542\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.2.aar\cb1b591c31a5df8b73daa517109c0542\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.6.2.aar\b06ebb380d0159e4ccec4ceac0e0b7ad\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.6.2.aar\b06ebb380d0159e4ccec4ceac0e0b7ad\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-location:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.2.aar\5ae031ba064c9443884460cc4a9553bb\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.2.aar\5ae031ba064c9443884460cc4a9553bb\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\1f0f10375817aaf7ca4e9b35665e0bb0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\1f0f10375817aaf7ca4e9b35665e0bb0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.2.aar\a2d09ab5d435cccadc0aaa8c241f936f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.2.aar\a2d09ab5d435cccadc0aaa8c241f936f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-11.6.2.aar\647fef38c99bb5aabe4f0779f303a4b3\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-11.6.2.aar\647fef38c99bb5aabe4f0779f303a4b3\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.6.2.aar\9b2ee32531c432f832dca31a28537a68\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.6.2.aar\9b2ee32531c432f832dca31a28537a68\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\8eb0a7b94341f8228c4feb430314a588\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\8eb0a7b94341f8228c4feb430314a588\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\39e034185391c3882ab444a9544675ce\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\39e034185391c3882ab444a9544675ce\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f07d43508b3110e9ab15552d0dc53a7f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f07d43508b3110e9ab15552d0dc53a7f\AndroidManifest.xml:21:5-23:54
+MERGED from [de.cketti.mailto:email-intent-builder:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\email-intent-builder-1.0.0.aar\e60e6272f0233bd19a9cef41e3f831eb\AndroidManifest.xml:6:5-43
+MERGED from [de.cketti.mailto:email-intent-builder:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\email-intent-builder-1.0.0.aar\e60e6272f0233bd19a9cef41e3f831eb\AndroidManifest.xml:6:5-43
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\885deec86c425be724e2231885644e52\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\885deec86c425be724e2231885644e52\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a57ecb8855fb5b4fd813c59df4485fcf\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a57ecb8855fb5b4fd813c59df4485fcf\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ff19782fb1eca67f9f914b48dc6b0530\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ff19782fb1eca67f9f914b48dc6b0530\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ab0a2e1ed16960544733db83a377e449\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ab0a2e1ed16960544733db83a377e449\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\29ce65cce9ec2242e3bb2fe5fb709a02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\29ce65cce9ec2242e3bb2fe5fb709a02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\72426e427d6dc21ca93f2f15f9142cfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\72426e427d6dc21ca93f2f15f9142cfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e417994e0f00761b75e42ca30ba5e36f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e417994e0f00761b75e42ca30ba5e36f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\1d7987025595e2fef7ad9c4db193fbfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\1d7987025595e2fef7ad9c4db193fbfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\d07e172d795b85e4ad42ac38d13c07f2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\d07e172d795b85e4ad42ac38d13c07f2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.2.aar\2c2e1b43f4c73093ca8c7d053b60f125\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.2.aar\2c2e1b43f4c73093ca8c7d053b60f125\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.2.aar\71ea3eaa90fed605f469662840e93dc0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.2.aar\71ea3eaa90fed605f469662840e93dc0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-crash-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.6.2.aar\40bfd7194adf9a118d4a80c7699f25f7\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-crash-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.6.2.aar\40bfd7194adf9a118d4a80c7699f25f7\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.2.aar\4c19ab54f89f4cc8d77da6332e0a373f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.2.aar\4c19ab54f89f4cc8d77da6332e0a373f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.2.aar\165b4475a433968e352db3455a95ab55\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.2.aar\165b4475a433968e352db3455a95ab55\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\5c45c4a023ab11f230a12c96641d6ce9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\5c45c4a023ab11f230a12c96641d6ce9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\c279e2e8f3940debe1b4ec6b4283e524\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\c279e2e8f3940debe1b4ec6b4283e524\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.2.aar\6ae7f6e4bd6f0609333fa988b14761bd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.2.aar\6ae7f6e4bd6f0609333fa988b14761bd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\e001ae98c854c583e4bf7b68a5d56a42\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\e001ae98c854c583e4bf7b68a5d56a42\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.2.aar\880edb08b9be394d55a1c4918a01c988\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.2.aar\880edb08b9be394d55a1c4918a01c988\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.2.aar\d7375792dd81001a6a72c6a6666766fd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.2.aar\d7375792dd81001a6a72c6a6666766fd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.2.aar\39790701c7ccc37496ad71db9541a753\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.2.aar\39790701c7ccc37496ad71db9541a753\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.2.aar\eca1f4f0f9b9411a622faa9ba137093a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.2.aar\eca1f4f0f9b9411a622faa9ba137093a\AndroidManifest.xml:4:5-43
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:5:5-44
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:5:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\af09ce0c949fcccb33b3b4b6aa2d8363\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:5:5-44
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:5:15-41
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:8:22-71
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:11:22-68
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:12:22-68
+uses-permission#android.permission.INTERNET
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:13:5-67
+MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-crash:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.6.2.aar\b06ebb380d0159e4ccec4ceac0e0b7ad\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.6.2.aar\b06ebb380d0159e4ccec4ceac0e0b7ad\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:14:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:15:5-69
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:15:22-66
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:16:22-75
+uses-feature#android.hardware.camera
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:18:5-60
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:18:19-57
+uses-feature#android.hardware.camera.flash
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:19:19-63
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:24:5-70
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:24:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:27:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:28:5-80
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:11:5-80
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:28:22-77
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:29:5-85
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:29:22-82
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:30:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:31:5-69
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:31:22-66
+uses-permission#android.permission.READ_SMS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:32:5-67
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:32:22-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:33:22-77
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:34:5-67
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:34:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:35:5-79
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:12:5-79
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:35:22-76
+uses-permission#android.permission.READ_PROFILE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:37:5-71
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:37:22-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:45:5-79
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:45:22-76
+application
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:47:5-157:19
+MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:28:5-29:19
+MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:28:5-29:19
+MERGED from [com.github.gabrielemariotti.cards:cardslib-core:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-core-2.1.0.aar\27e86d9401066ea31439d0597704449e\AndroidManifest.xml:28:5-29:19
+MERGED from [com.github.gabrielemariotti.cards:cardslib-core:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-core-2.1.0.aar\27e86d9401066ea31439d0597704449e\AndroidManifest.xml:28:5-29:19
+MERGED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\af09ce0c949fcccb33b3b4b6aa2d8363\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\af09ce0c949fcccb33b3b4b6aa2d8363\AndroidManifest.xml:25:5-29:19
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:15:5-22:19
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:15:5-22:19
+MERGED from [com.github.lolucosmin:PermissionsWrapper:version_1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\PermissionsWrapper-version_1.0.aar\ec45d796516a301981fd240246e1c9a7\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.lolucosmin:PermissionsWrapper:version_1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\PermissionsWrapper-version_1.0.aar\ec45d796516a301981fd240246e1c9a7\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\25f7be811eac652f50c47ba72a56be5e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\25f7be811eac652f50c47ba72a56be5e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta3] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta3.aar\3d7403f3d401a63a6d9c103b41a78163\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta3] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta3.aar\3d7403f3d401a63a6d9c103b41a78163\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64107bb2bc7f64c958167ad3111a4b44\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64107bb2bc7f64c958167ad3111a4b44\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\9f5c3b4886cf791c13611c1d6b74b92e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\9f5c3b4886cf791c13611c1d6b74b92e\AndroidManifest.xml:9:5-20
+MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:13:5-17:19
+MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:13:5-17:19
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\5f33ae757228c46e9c037559adcca834\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\5f33ae757228c46e9c037559adcca834\AndroidManifest.xml:25:5-29:19
+MERGED from [com.etsy.android.grid:library:1.0.5] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\library-1.0.5.aar\7dcc670d29a801f4aee142cf3b8e8f4b\AndroidManifest.xml:6:5-19
+MERGED from [com.etsy.android.grid:library:1.0.5] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\library-1.0.5.aar\7dcc670d29a801f4aee142cf3b8e8f4b\AndroidManifest.xml:6:5-19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\7d8e97269b0cf3c87fd6a4623d7fbb33\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\7d8e97269b0cf3c87fd6a4623d7fbb33\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-auth:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.2.aar\cb1b591c31a5df8b73daa517109c0542\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.2.aar\cb1b591c31a5df8b73daa517109c0542\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-crash:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.6.2.aar\b06ebb380d0159e4ccec4ceac0e0b7ad\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.6.2.aar\b06ebb380d0159e4ccec4ceac0e0b7ad\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.2.aar\5ae031ba064c9443884460cc4a9553bb\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.2.aar\5ae031ba064c9443884460cc4a9553bb\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\1f0f10375817aaf7ca4e9b35665e0bb0\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\1f0f10375817aaf7ca4e9b35665e0bb0\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.2.aar\a2d09ab5d435cccadc0aaa8c241f936f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.2.aar\a2d09ab5d435cccadc0aaa8c241f936f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\8eb0a7b94341f8228c4feb430314a588\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\8eb0a7b94341f8228c4feb430314a588\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\39e034185391c3882ab444a9544675ce\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\39e034185391c3882ab444a9544675ce\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f07d43508b3110e9ab15552d0dc53a7f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f07d43508b3110e9ab15552d0dc53a7f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\885deec86c425be724e2231885644e52\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\885deec86c425be724e2231885644e52\AndroidManifest.xml:12:5-20
+MERGED from [org.tensorflow:tensorflow-lite:0.1.7] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.7.aar\ce50827099a58674491247c96e9200eb\AndroidManifest.xml:4:5-5:19
+MERGED from [org.tensorflow:tensorflow-lite:0.1.7] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.7.aar\ce50827099a58674491247c96e9200eb\AndroidManifest.xml:4:5-5:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a57ecb8855fb5b4fd813c59df4485fcf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a57ecb8855fb5b4fd813c59df4485fcf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ff19782fb1eca67f9f914b48dc6b0530\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ff19782fb1eca67f9f914b48dc6b0530\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ab0a2e1ed16960544733db83a377e449\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ab0a2e1ed16960544733db83a377e449\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\29ce65cce9ec2242e3bb2fe5fb709a02\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\29ce65cce9ec2242e3bb2fe5fb709a02\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\72426e427d6dc21ca93f2f15f9142cfe\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\72426e427d6dc21ca93f2f15f9142cfe\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e417994e0f00761b75e42ca30ba5e36f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e417994e0f00761b75e42ca30ba5e36f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\1d7987025595e2fef7ad9c4db193fbfe\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\1d7987025595e2fef7ad9c4db193fbfe\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\d07e172d795b85e4ad42ac38d13c07f2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\d07e172d795b85e4ad42ac38d13c07f2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.2.aar\2c2e1b43f4c73093ca8c7d053b60f125\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.2.aar\2c2e1b43f4c73093ca8c7d053b60f125\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.2.aar\71ea3eaa90fed605f469662840e93dc0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.2.aar\71ea3eaa90fed605f469662840e93dc0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.6.2.aar\40bfd7194adf9a118d4a80c7699f25f7\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.6.2.aar\40bfd7194adf9a118d4a80c7699f25f7\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.2.aar\4c19ab54f89f4cc8d77da6332e0a373f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.2.aar\4c19ab54f89f4cc8d77da6332e0a373f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.2.aar\165b4475a433968e352db3455a95ab55\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.2.aar\165b4475a433968e352db3455a95ab55\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\5c45c4a023ab11f230a12c96641d6ce9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\5c45c4a023ab11f230a12c96641d6ce9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\c279e2e8f3940debe1b4ec6b4283e524\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\c279e2e8f3940debe1b4ec6b4283e524\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.2.aar\6ae7f6e4bd6f0609333fa988b14761bd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.2.aar\6ae7f6e4bd6f0609333fa988b14761bd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\e001ae98c854c583e4bf7b68a5d56a42\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\e001ae98c854c583e4bf7b68a5d56a42\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.2.aar\880edb08b9be394d55a1c4918a01c988\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.6.2.aar\880edb08b9be394d55a1c4918a01c988\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.2.aar\d7375792dd81001a6a72c6a6666766fd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.6.2.aar\d7375792dd81001a6a72c6a6666766fd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.2.aar\39790701c7ccc37496ad71db9541a753\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.2.aar\39790701c7ccc37496ad71db9541a753\AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.2.aar\eca1f4f0f9b9411a622faa9ba137093a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.2.aar\eca1f4f0f9b9411a622faa9ba137093a\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:53:9-35
+	android:label
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:51:9-41
+	android:roundIcon
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:52:9-54
+	android:icon
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:50:9-47
+	android:allowBackup
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:49:9-35
+	android:theme
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:54:9-40
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:48:9-43
+activity#com.somia.fyp.UI.Activitys.LoginOrLogout
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:55:9-67:20
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:56:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER+android.speech.action.WEB_SEARCH
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:58:13-66:29
+	android:priority
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:58:28-57
+action#android.speech.action.WEB_SEARCH
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:59:17-75
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:59:25-72
+category#android.intent.category.DEFAULT
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:61:17-76
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:61:27-73
+action#android.intent.action.MAIN
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:63:17-69
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:63:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:65:17-77
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:65:27-74
+activity#com.somia.fyp.assistant.commands.Receivers.CallingActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:68:9-70:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:70:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:69:13-73
+activity#com.somia.fyp.assistant.commands.Receivers.SendSmsActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:71:9-73:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:72:13-73
+activity#com.somia.fyp.UI.Activitys.HandsetReceiverActivty
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:74:9-94:20
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:77:13-49
+	android:launchMode
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:76:13-48
+	android:showOnLockScreen
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:75:13-64
+intent-filter#android.intent.category.DEFAULT+android.speech.action.WEB_SEARCH
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:79:13-83:29
+	android:priority
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:79:28-57
+intent-filter#android.intent.category.DEFAULT+android.speech.action.VOICE_SEARCH_HANDS_FREE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:84:13-88:29
+	android:priority
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:84:28-57
+action#android.speech.action.VOICE_SEARCH_HANDS_FREE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:85:17-88
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:85:25-85
+intent-filter#android.intent.category.DEFAULT+com.sec.action.SVOICE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:89:13-93:29
+action#com.sec.action.SVOICE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:90:17-64
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:90:25-61
+activity#com.somia.fyp.assistant.commands.Receivers.SmsUnreadActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:95:9-97:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:96:13-75
+service#com.somia.fyp.utial.TTSService
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:99:9-53
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:99:18-50
+activity#com.thefinestartist.ytpa.YouTubePlayerActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:101:9-105:74
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:104:13-47
+	android:configChanges
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:103:13-74
+	android:theme
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:105:13-71
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:102:13-74
+meta-data#com.thefinestartist.ytpa.YouTubePlayerActivity.ApiKey
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:108:9-110:71
+	android:value
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:110:13-68
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:109:13-81
+activity#com.somia.fyp.UI.Activitys.ShowSimpleCommandsList
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:112:9-114:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:113:13-64
+activity#com.somia.fyp.UI.Activitys.singUpActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:115:9-118:69
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:117:13-49
+	android:theme
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:118:13-66
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:116:13-56
+activity#com.somia.fyp.UI.Activitys.LoginActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:119:9-122:69
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:121:13-49
+	android:theme
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:122:13-66
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:120:13-55
+activity#com.somia.fyp.UI.Activitys.MainActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:123:9-125:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:125:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:124:13-54
+activity#com.somia.fyp.assistant.commands.Receivers.Instructions
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:126:9-128:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:128:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:127:13-70
+service#com.somia.fyp.tensorflowv1.TTSService
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:129:9-60
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:129:18-57
+activity#com.somia.fyp.tensorflowv1.ReadyTTS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:131:9-59
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:131:19-56
+activity#com.somia.fyp.tensorflowv1.StopTTS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:132:9-58
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:132:19-55
+activity#com.somia.fyp.tensorflowv1.CameraActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:133:9-65
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:133:19-62
+service#com.somia.fyp.LocationSharing.MyLocationService
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:135:9-70
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:135:18-67
+meta-data#com.google.android.gms.version
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:137:9-139:69
+MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:14:9-16:69
+MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\39e034185391c3882ab444a9544675ce\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\39e034185391c3882ab444a9544675ce\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:139:13-66
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:138:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:150:9-152:71
+	android:value
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:152:13-68
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:151:13-58
+activity#com.somia.fyp.LocationSharing.MapsActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:154:9-156:68
+	android:label
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:156:13-56
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:155:13-57
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:13:13-86
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\af09ce0c949fcccb33b3b4b6aa2d8363\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\25f7be811eac652f50c47ba72a56be5e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\25f7be811eac652f50c47ba72a56be5e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64107bb2bc7f64c958167ad3111a4b44\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64107bb2bc7f64c958167ad3111a4b44\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\5f33ae757228c46e9c037559adcca834\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\5f33ae757228c46e9c037559adcca834\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\7d8e97269b0cf3c87fd6a4623d7fbb33\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\7d8e97269b0cf3c87fd6a4623d7fbb33\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f07d43508b3110e9ab15552d0dc53a7f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f07d43508b3110e9ab15552d0dc53a7f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a57ecb8855fb5b4fd813c59df4485fcf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a57ecb8855fb5b4fd813c59df4485fcf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ff19782fb1eca67f9f914b48dc6b0530\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ff19782fb1eca67f9f914b48dc6b0530\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ab0a2e1ed16960544733db83a377e449\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ab0a2e1ed16960544733db83a377e449\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\29ce65cce9ec2242e3bb2fe5fb709a02\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\29ce65cce9ec2242e3bb2fe5fb709a02\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\72426e427d6dc21ca93f2f15f9142cfe\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\72426e427d6dc21ca93f2f15f9142cfe\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e417994e0f00761b75e42ca30ba5e36f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e417994e0f00761b75e42ca30ba5e36f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\1d7987025595e2fef7ad9c4db193fbfe\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\1d7987025595e2fef7ad9c4db193fbfe\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\d07e172d795b85e4ad42ac38d13c07f2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\d07e172d795b85e4ad42ac38d13c07f2\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\af09ce0c949fcccb33b3b4b6aa2d8363\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\af09ce0c949fcccb33b3b4b6aa2d8363\AndroidManifest.xml:27:13-51
+uses-permission#android.permission.READ_LOGS
+ADDED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:13:22-65
+activity#com.webianks.easy_feedback.FeedbackActivity
+ADDED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:19:9-21:48
+	android:label
+		ADDED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:20:13-71
+activity#lolodev.permissionswrapper.RequestPermissionsActv
+ADDED from [com.github.lolucosmin:PermissionsWrapper:version_1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\PermissionsWrapper-version_1.0.aar\ec45d796516a301981fd240246e1c9a7\AndroidManifest.xml:12:9-14:60
+	android:theme
+		ADDED from [com.github.lolucosmin:PermissionsWrapper:version_1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\PermissionsWrapper-version_1.0.aar\ec45d796516a301981fd240246e1c9a7\AndroidManifest.xml:14:13-57
+	android:name
+		ADDED from [com.github.lolucosmin:PermissionsWrapper:version_1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\PermissionsWrapper-version_1.0.aar\ec45d796516a301981fd240246e1c9a7\AndroidManifest.xml:13:13-77
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\1f0f10375817aaf7ca4e9b35665e0bb0\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\1f0f10375817aaf7ca4e9b35665e0bb0\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\1f0f10375817aaf7ca4e9b35665e0bb0\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\1f0f10375817aaf7ca4e9b35665e0bb0\AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:17-71
+permission#com.somia.fyp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:27:22-76
+uses-permission#com.somia.fyp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:27:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:31:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:31:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:31:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:31:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:32:13-35:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.somia.fyp
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:32:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:33:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:34:27-58
+category#com.somia.fyp
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:34:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:40:9-44:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:40:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:40:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:41:13-43:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:41:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:42:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:42:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.2.aar\a41906a6ca3aee83b7b3db02bd328d29\AndroidManifest.xml:6:79-143
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:26:13-58

@@ -1,1 +1,1 @@
-include ':app', ':apptensorflow'
+include ':app'

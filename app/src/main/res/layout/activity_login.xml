@@ -8,10 +8,6 @@
     tools:context=".UI.Activitys.LoginActivity"
     android:background="#fff">
 
-
-
-
-
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
@@ -44,7 +40,7 @@
         >
 
 
-        <com.ameerhamza6733.okAmeer.UI.customfonts.MyTextView
+        <com.somia.fyp.UI.customfonts.MyTextView
             android:id="@+id/head"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,7 +70,7 @@
         >
 
 
-        <com.ameerhamza6733.okAmeer.UI.customfonts.MyEditText
+        <com.somia.fyp.UI.customfonts.MyEditText
             android:id="@+id/emailLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,7 +92,7 @@
             android:layout_marginBottom="10dp"
             android:background="#dad8d8"/>
 
-        <com.ameerhamza6733.okAmeer.UI.customfonts.MyEditText
+        <com.somia.fyp.UI.customfonts.MyEditText
             android:id="@+id/passwordLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -150,7 +146,7 @@
 
 
 
-    <com.ameerhamza6733.okAmeer.UI.customfonts.MyTextView
+    <com.somia.fyp.UI.customfonts.MyTextView
         android:id="@+id/acc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

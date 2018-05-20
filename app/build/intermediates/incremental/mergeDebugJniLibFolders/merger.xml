@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\urAmeer-master\app\src\main\jniLibs"><file name="armeabi-v7a/libpocketsphinx_jni.so" path="D:\urAmeer-master\app\src\main\jniLibs\armeabi-v7a\libpocketsphinx_jni.so"/></source></dataSet><dataSet config="debug"><source path="D:\urAmeer-master\app\src\debug\jniLibs"/></dataSet></merger>

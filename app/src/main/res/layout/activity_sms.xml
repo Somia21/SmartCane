@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
 
-        tools:context="com.ameerhamza6733.okAmeer.assistant.commands.Receivers.CallingActivity">
+        tools:context="com.somia.fyp.assistant.commands.Receivers.CallingActivity">
 
         <RelativeLayout
             android:layout_width="wrap_content"
