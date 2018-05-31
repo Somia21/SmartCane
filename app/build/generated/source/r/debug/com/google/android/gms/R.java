@@ -81,7 +81,7 @@ public final class R {
         public static final int center = 0x7f0f0047;
         public static final int crash_reporting_present = 0x7f0f0004;
         public static final int dark = 0x7f0f006d;
-        public static final int email = 0x7f0f00b9;
+        public static final int email = 0x7f0f00b8;
         public static final int hybrid = 0x7f0f005c;
         public static final int icon_only = 0x7f0f006a;
         public static final int light = 0x7f0f006e;

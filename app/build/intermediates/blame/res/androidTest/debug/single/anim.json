@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fab_slide_out_to_right.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\885deec86c425be724e2231885644e52\\res\\anim\\fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\tooltip_enter.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fab_scale_down.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\885deec86c425be724e2231885644e52\\res\\anim\\fab_scale_down.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\tooltip_exit.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fab_scale_up.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\885deec86c425be724e2231885644e52\\res\\anim\\fab_scale_up.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fab_slide_out_to_left.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\885deec86c425be724e2231885644e52\\res\\anim\\fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fab_slide_in_from_right.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\885deec86c425be724e2231885644e52\\res\\anim\\fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fab_slide_in_from_left.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\885deec86c425be724e2231885644e52\\res\\anim\\fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\anim\\abc_slide_out_top.xml"
+    }
+]

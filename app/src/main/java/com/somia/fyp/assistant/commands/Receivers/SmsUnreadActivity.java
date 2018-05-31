@@ -15,6 +15,7 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Toast;
 
@@ -47,8 +48,9 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
     private Handler mTextToSpeechHandler;
 
     private VoiceRecgonizationFragment newIntance;
-    private String[] mUrduPositiveWords = {"جی ہاں","ہاں", "جی", "پڑھو","سناو" ,"سناؤ"};
-    private String[] mRomanUrdoPositiveWords = {"ji haan","ha","yas",};
+    private String[] mUrduPositiveWords = {"read","yes","please read","yas"};
+           // {"جی ہاں","ہاں", "جی", "پڑھو","سناو" ,"سناؤ"};
+   // private String[] mRomanUrdoPositiveWords = {"ji haan","ha","yas",};
     private boolean userWantToReadorNot = false;
     private ArrayList<SmsMmsMessage> unread;
     private ArrayList<Card> cards;
@@ -82,14 +84,27 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
             }
         };
 
-        FloatingActionButton febRetry = (FloatingActionButton) findViewById(R.id.febRetry);
-        febRetry.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showVoiceRegoniztionFragment();
-            }
-        });
+//        FloatingActionButton febRetry = (FloatingActionButton) findViewById(R.id.febRetry);
+//        febRetry.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                showVoiceRegoniztionFragment();
+//            }
+//        });
     }
+
+    @Override
+    public boolean dispatchKeyEvent(KeyEvent event) {
+        if (event.getKeyCode() == KeyEvent.KEYCODE_VOLUME_UP) {
+            if (event.getAction() == KeyEvent.ACTION_DOWN){
+                super.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN,KeyEvent.KEYCODE_DPAD_UP));
+                super.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_UP,KeyEvent.KEYCODE_DPAD_UP));
+                showVoiceRegoniztionFragment();
+                return true;
+            }}
+        return super.dispatchKeyEvent(event);
+    };
+
 
     private void getUnreadSMSandUpdateUI() {
         unread = SMSUtils.getUnreadMessages(this);
@@ -157,7 +172,7 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
                     if (!isFinishing()) {
 
                         FragmentTransaction transactionFragment = getSupportFragmentManager().beginTransaction();
-                        newIntance = VoiceRecgonizationFragment.newInstance("ur-PK", false, false);
+                        newIntance = VoiceRecgonizationFragment.newInstance("en-IN", false, false);
                         newIntance.setStyle(1, R.style.AppTheme);
                         transactionFragment.add(android.R.id.content, newIntance).addToBackStack(null).commitAllowingStateLoss();
 
@@ -269,7 +284,7 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
     private void speckThisMessage() throws Exception {
 
         if (unread.size() > 1)
-            intiTextToSpeech("en-IN", unread.get(0).getMessageBody() + "next message aaya hai" + unread.get(1).getContactName() + "se aaya hai aap sunna chahte hai ya ni");
+            intiTextToSpeech("en-IN", unread.get(0).getMessageBody() + "next message" + unread.get(1).getContactName() + "se aaya hai aap sunana chaahate hain ya nahin");
         else
             intiTextToSpeech("en-IN", unread.get(0).getMessageBody());
         unread.remove(0);
@@ -279,7 +294,7 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
 
     private void moveToNextMessage() throws Exception {
         if (unread.size() > 0) {
-            intiTextToSpeech("en-IN", "next message aaya hai" + unread.get(0).getContactName() + "se aaya hai aap sunna chahte hai ya ni");
+            intiTextToSpeech("en-IN", "aagla message" + unread.get(0).getContactName() + "se aaya hai aap sunana chaahate hain ya nahin");
             unread.remove(0);
 
         }

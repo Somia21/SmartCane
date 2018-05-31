@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\image.png",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\mipmap-xhdpi\\image.png"
+    },
+    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher_round.png",
         "source": "D:\\urAmeer-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },

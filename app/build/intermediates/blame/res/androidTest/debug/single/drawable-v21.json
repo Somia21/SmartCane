@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\card_selector.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable-v21\\card_selector.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\card_foreground_selector.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable-v21\\card_foreground_selector.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\card_menu_button_expand_material.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable-v21\\card_menu_button_expand_material.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\d07e172d795b85e4ad42ac38d13c07f2\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\card_foreground_kitkat_selector.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable-v21\\card_foreground_kitkat_selector.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\card_menu_button_expand.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable-v21\\card_menu_button_expand.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\card_kitkat_selector.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable-v21\\card_kitkat_selector.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\card_menu_button_overflow_material.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable-v21\\card_menu_button_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\card_menu_button_expand_material_animator.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable-v21\\card_menu_button_expand_material_animator.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

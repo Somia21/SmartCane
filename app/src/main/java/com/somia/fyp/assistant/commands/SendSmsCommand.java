@@ -25,6 +25,7 @@ public class SendSmsCommand implements Command{
     public String getDefaultPhrase() {
         return "send message,please send message";
     }
+
     @Override
     public String getTtsPhrase(Context context) {
         return null;

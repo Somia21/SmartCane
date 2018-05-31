@@ -4,6 +4,10 @@
         "source": "D:\\urAmeer-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\image.png",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\mipmap-xxhdpi\\image.png"
+    },
+    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "D:\\urAmeer-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }

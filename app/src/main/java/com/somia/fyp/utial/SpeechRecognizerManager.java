@@ -168,7 +168,7 @@ public class SpeechRecognizerManager {
             String text = hypothesis.getHypstr();
             if (text.equalsIgnoreCase(OK_AMEER)) {
                 onmagicWordListener.OnMagicWordDeceted(text);
-                Toast.makeText(mContext, "You said: "+text, Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, "Testing", Toast.LENGTH_SHORT).show();
 
             }
         }

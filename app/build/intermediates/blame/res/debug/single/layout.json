@@ -4,16 +4,12 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\a57ecb8855fb5b4fd813c59df4485fcf\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sing_up_with_phone_number.xml",
-        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\activity_sing_up_with_phone_number.xml"
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -28,6 +24,10 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instructions.xml",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\activity_instructions.xml"
+    },
+    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\layout\\design_layout_snackbar.xml"
     },
@@ -38,6 +38,10 @@
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signin_blinduser.xml",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\activity_signin_blinduser.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\native_base_thumbnail_layout.xml",
@@ -64,10 +68,6 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\layout\\card_base_layout.xml"
     },
     {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_show_available_command_list.xml",
-        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\fragment_show_available_command_list.xml"
-    },
-    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\a57ecb8855fb5b4fd813c59df4485fcf\\res\\layout\\notification_template_media_custom.xml"
     },
@@ -92,6 +92,14 @@
         "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\activity_login_or_logout.xml"
     },
     {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signin_familymember.xml",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\activity_signin_familymember.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\family_or_blinduser.xml",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\family_or_blinduser.xml"
+    },
+    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
@@ -108,12 +116,12 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inner_base_header.xml",
-        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\layout\\inner_base_header.xml"
-    },
-    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_card_thumbnail_layout.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\layout\\list_card_thumbnail_layout.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inner_base_header.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\layout\\inner_base_header.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
@@ -124,8 +132,8 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\a57ecb8855fb5b4fd813c59df4485fcf\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_requst_command.xml",
-        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\dialog_requst_command.xml"
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sing_up_phone_number.xml",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\activity_sing_up_phone_number.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -136,10 +144,6 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\easy-feedback-1.0.2.aar\\b9dd0c0da89f87650034fdcfea63c8bd\\res\\layout\\feedback_layout.xml"
     },
     {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\instructions.xml",
-        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\instructions.xml"
-    },
-    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
@@ -148,12 +152,12 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\layout\\list_card_undo_material_message.xml"
     },
     {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_camera.xml",
-        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\activity_camera.xml"
-    },
-    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\native_inner_base_main_cardwithlist.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\layout\\native_inner_base_main_cardwithlist.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_camera.xml",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\activity_camera.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\native_base_header_layout.xml",
@@ -220,12 +224,12 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\layout\\base_shadow_layout.xml"
     },
     {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\a57ecb8855fb5b4fd813c59df4485fcf\\res\\layout\\notification_media_action.xml"
-    },
-    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\native_card_thumbnail_layout.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\layout\\native_card_thumbnail_layout.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\a57ecb8855fb5b4fd813c59df4485fcf\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_thumbnail_layout.xml",
@@ -308,16 +312,16 @@
         "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\fragment_camera2_basic.xml"
     },
     {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\a57ecb8855fb5b4fd813c59df4485fcf\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\a57ecb8855fb5b4fd813c59df4485fcf\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -422,10 +426,6 @@
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\a57ecb8855fb5b4fd813c59df4485fcf\\res\\layout\\notification_template_big_media_custom.xml"
-    },
-    {
-        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_commands_list.xml",
-        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\layout\\activity_show_commands_list.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",

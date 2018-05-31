@@ -36,14 +36,14 @@ public class singUpActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sing_up_with_phone_number);
+        setContentView(R.layout.activity_sing_up_phone_number);
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         // updateUI(currentUser);
         signinhere = (TextView) findViewById(R.id.signinhere);
         userName = (EditText) findViewById(R.id.username);
         Email = (EditText) findViewById(R.id.email);
-      phone=findViewById(R.id.addPhoneNumber);
+        phone=findViewById(R.id.addPhoneNumber);
         password = (EditText) findViewById(R.id.password);
         msignUp = (com.dd.processbutton.iml.ActionProcessButton) findViewById(R.id.signup1);
 
@@ -115,7 +115,7 @@ public class singUpActivity extends Activity {
     private void updateUI(FirebaseUser user) {
 
         if(user!=null){
-            Toast.makeText(this,"Your account hass been created",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Your account has been created",Toast.LENGTH_LONG).show();
             Intent i = new Intent(singUpActivity.this, LoginActivity.class);
             i.putExtra(LoginActivity.ExtraEmail,user.getEmail());
             i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

@@ -27,6 +27,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.telephony.SmsManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -57,9 +59,9 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
 
     public static final String EXTRA_RECIPIENT_NAME = "EXTRA_RECIPIENT_NAME";
     public static final String[] positiveWords = {"ji haan", "ha", "yas", "bhej do", "send kar do", "kar do"};
-    public static final String[] negativeWords = {"nahi send karna", "nahi", "no", "cancel kar do"};
+   public static final String[] negativeWords = {"nahi send karna", "nahi", "no", "cancel kar do","cancel"};
     private static final int PICK_CONTACT_REQUEST = 14;
-    private static final String[] changeITwords = {"phir se likho", "dubara se likho", "dubara  likho", "change kar do", "badal"};
+    private static final String[] changeITwords = {"phir se likho", "dubara se likho","dubara  likho", "change kar do", "badal"};
     private static String EXTRA_SMS_OR_WHATS_APP;
     protected TextView mSedingSmsIn;
     private boolean FlagGetSmsBody = false;
@@ -68,15 +70,12 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
     private HashMap<String, String> mHashMapContacts = new HashMap<>();
     private CountDownTimer countDownTimer;
     private boolean isRecipientNumberFound = false;
-    private boolean isNativeUrdu=false;
+    //private boolean isNativeUrdu=false;
 
 
     private EditText mSmsBody;
     private Spinner callpickerSpinner;
-    private ImageView smsOk;
-    private ImageView smsCancle;
     private FloatingActionButton mFebRetry;
-    private Switch mSwitchTurnOnNativeUrdu;
     private VoiceRecgonizationFragment newIntance;
     private BroadcastReceiver broadcastReceiver;
     private TextToSpeech textToSpeech;
@@ -91,53 +90,12 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
 
         setUPUI();
 
-        mFebRetry.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(mSwitchTurnOnNativeUrdu.getVisibility() ==View.VISIBLE){
-                    SwitchBetweenLanguages(mSwitchTurnOnNativeUrdu.isChecked());
-                }else
-                showVoiceRegonizerDiloge("en-IN");
-            }
-        });
-        smsOk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Toast.makeText(SendSmsActivity.this,"آپکا میسج بھیجا جا رہا ہے",Toast.LENGTH_SHORT).show();
-                    SendSmsActivity.this.sendItNow(mHashMapContacts.get(SendSmsActivity.this.callpickerSpinner.getSelectedItem().toString()), mSmsBody.getText().toString());
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-
-            }
-        });
-
-        smsCancle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (countDownTimer != null) {
-                    SendSmsActivity.this.countDownTimer.cancel();
-
-                }
-                Toast.makeText(SendSmsActivity.this,"Message canceled",Toast.LENGTH_SHORT).show();
-                finish();
-            }
-        });
-        mSwitchTurnOnNativeUrdu.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                SwitchBetweenLanguages(isChecked);
-            }
-
-        });
         callpickerSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (!parent.getItemAtPosition(position).toString().equalsIgnoreCase("Contact"))
 
-                    intiTextToSpeech("hi", getResources().getString(R.string.Message_kay_ha));
+                    intiTextToSpeech("hi", getResources().getString(R.string.Message_kay_ha));// What is message
 
             }
 
@@ -163,34 +121,45 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
                 Log.d("extraname ", "name = " + getIntent().getStringExtra(EXTRA_RECIPIENT_NAME));
                 new myContentNameFinder(getIntent().getStringExtra(EXTRA_RECIPIENT_NAME)).execute();
             } else {
-                intiTextToSpeech("hi", getResources().getString(R.string.Kis_Ko_message_likha_na));
+                intiTextToSpeech("hi", getResources().getString(R.string.Kis_Ko_message_likha_na));//To whom you want to send message
             }
         } else if (getIntent().getStringExtra(EXTRA_RECIPIENT_NAME) != null)
             new myContentNameFinder(getIntent().getStringExtra(EXTRA_RECIPIENT_NAME)).execute();
         else
-            intiTextToSpeech("hi", getResources().getString(R.string.Kis_Ko_message_likha_na));
+            intiTextToSpeech("hi", getResources().getString(R.string.Kis_Ko_message_likha_na));//to whom you want to write message
 
 
     }
+    @Override
+    public boolean dispatchKeyEvent(KeyEvent event) {
+        if (event.getKeyCode() == KeyEvent.KEYCODE_VOLUME_UP) {
+            if (event.getAction() == KeyEvent.ACTION_DOWN){
+                super.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN,KeyEvent.KEYCODE_DPAD_UP));
+                super.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_UP,KeyEvent.KEYCODE_DPAD_UP));
+                showVoiceRegonizerDiloge("en-IN");
+                return true;
+            }}
+        if (event.getKeyCode() == KeyEvent.KEYCODE_VOLUME_DOWN) {
+            if (event.getAction() == KeyEvent.ACTION_DOWN){
 
-    private void SwitchBetweenLanguages(boolean isChecked) {
-        if (isChecked) {
-            mSmsBody.setText("");
-            showVoiceRegonizerDiloge("en-IN");
-            FlagGetSmsBody=true;
-            isNativeUrdu=true;
+                super.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN,KeyEvent.KEYCODE_DPAD_DOWN));
+                super.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_UP,KeyEvent.KEYCODE_DPAD_DOWN));
+                try {
+                    Toast.makeText(SendSmsActivity.this,"آپکا میسج بھیجا جا رہا ہے",Toast.LENGTH_SHORT).show();
+                    intiTextToSpeech("hi", getResources().getString(R.string.apka_message_bhaija_ja_raha_hai));
+                    SendSmsActivity.this.sendItNow(mHashMapContacts.get(SendSmsActivity.this.callpickerSpinner.getSelectedItem().toString()), mSmsBody.getText().toString());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                return true;
+            }}
+        return super.dispatchKeyEvent(event);
+    };
 
-        }else {
-            mSmsBody.setText("");
-            showVoiceRegonizerDiloge("en-IN");
-            FlagGetSmsBody=true;
-            isNativeUrdu=false;
-        }
-    }
 
     private void setUPUI() {
         callpickerSpinner = (Spinner) findViewById(R.id.caling_spinner);
-        mSwitchTurnOnNativeUrdu = (Switch) findViewById(R.id.switch_turn_on_native_urdu);
+       // mSwitchTurnOnNativeUrdu = (Switch) findViewById(R.id.switch_turn_on_native_urdu);
         senderNameList = new ArrayList<>();
         senderNameList.add("Contact");
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, senderNameList);
@@ -198,9 +167,7 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
         callpickerSpinner.setAdapter(adapter);
         mSedingSmsIn = (TextView) findViewById(R.id.making_call_in);
         mSmsBody = (EditText) findViewById(R.id.smsBodayEdittext);
-        mFebRetry = (FloatingActionButton) findViewById(R.id.febRetry);
-        smsOk = (ImageView) findViewById(R.id.caling_yas);
-        smsCancle = (ImageView) findViewById(R.id.caling_cancle);
+      //  mFebRetry = (FloatingActionButton) findViewById(R.id.febRetry);
 
     }
     //show voice regonizer input dialog to use
@@ -279,8 +246,8 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
                 try {
                     if (EXTRA_SMS_OR_WHATS_APP.equals("sms"))
                         SendSmsActivity.this.sendItNow(mHashMapContacts.get(SendSmsActivity.this.callpickerSpinner.getSelectedItem().toString()), mSmsBody.getText().toString());
-                    else
-                        sendWhatsAppNow(mHashMapContacts.get(SendSmsActivity.this.callpickerSpinner.getSelectedItem().toString()), smsBody);
+//                    else
+//                        sendWhatsAppNow(mHashMapContacts.get(SendSmsActivity.this.callpickerSpinner.getSelectedItem().toString()), smsBody);
                 } catch (Exception e) {
 
                 }
@@ -302,14 +269,15 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
         else if (FlagGetSmsBody) { // after geting sms body ask user to where he/she want to send this sms or not?
             voiceRecgonizerDismiss();
             FlagGetSmsBody = false;
-            isNativeUrdu=false;
+            //isNativeUrdu=false;
 
-            mSwitchTurnOnNativeUrdu.setVisibility(View.INVISIBLE);
+           // mSwitchTurnOnNativeUrdu.setVisibility(View.INVISIBLE);
             intiTextToSpeech("hi", getResources().getString(R.string.send_kar_do_ya_badal_do));
             mSmsBody.setText(Queary);
 
 
-        } else {
+        }
+        else {
             voiceRecgonizerDismiss();
             for (String postiveWord : positiveWords)
                 if (Queary.toLowerCase().contains(postiveWord.toLowerCase()))
@@ -320,14 +288,13 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
             for (String changeTtWord : changeITwords)
                 if (Queary.toLowerCase().contains(changeTtWord.toLowerCase())) {
                     FlagGetSmsBody = true;
-                    mSwitchTurnOnNativeUrdu.setVisibility(View.VISIBLE);
+                    //mSwitchTurnOnNativeUrdu.setVisibility(View.VISIBLE);
                     intiTextToSpeech("hi", getResources().getString(R.string.Message_kay_ha));
                     mSmsBody.setText("");
 
                 }
 
         }
-
 
     }
 
@@ -339,20 +306,15 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
                 @Override
                 public void onStart(String utteranceId) {
 
-
                 }
 
                 @Override
                 public void onDone(String utteranceId) {
 
-
-                    if(mSwitchTurnOnNativeUrdu.getVisibility() == View.VISIBLE){
-                        showVoiceRegonizerDiloge("ur-PK");
-                    }else
+//                    if(mSwitchTurnOnNativeUrdu.getVisibility() == View.VISIBLE){
+//                        showVoiceRegonizerDiloge("ur-PK");
+//                    }else
                     showVoiceRegonizerDiloge("en-IN");
-
-
-
 
                 }
 
@@ -422,7 +384,6 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
         LocalBroadcastManager.getInstance(this).unregisterReceiver(broadcastReceiver);
         super.onStop();
     }
-
 
 
     /**
@@ -682,7 +643,7 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
                             while (pCur.moveToNext()) {
                                 String phoneNo = pCur.getString(pCur.getColumnIndex(
                                         ContactsContract.CommonDataKinds.Phone.NUMBER));
-                                mHashMapContacts.put(name, phoneNo);// put all  contacts in hash map so latter we just give founded name from mNameListFounded and get number
+                                mHashMapContacts.put(name, phoneNo);// put all  contacts in hash map so letter we just give founded name from mNameListFounded and get number
 
 
                             }
@@ -704,7 +665,7 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
                 voiceRecgonizerDismiss();
                 if (isRecipientNumberFound) {
                     voiceRecgonizerDismiss();
-                    mSwitchTurnOnNativeUrdu.setVisibility(View.VISIBLE);
+                    //mSwitchTurnOnNativeUrdu.setVisibility(View.VISIBLE);
                     updateSpinner();// update the UI and notify to use about Recipients number found
                     if (!(mNameListFounded.size() > 1))
                         intiTextToSpeech("hi", getResources().getString(R.string.Message_kay_ha));

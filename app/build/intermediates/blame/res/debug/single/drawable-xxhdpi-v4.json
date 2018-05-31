@@ -256,6 +256,10 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mainscreen.png",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\drawable-xxhdpi\\mainscreen.png"
+    },
+    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\design_ic_visibility_off.png",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
     },

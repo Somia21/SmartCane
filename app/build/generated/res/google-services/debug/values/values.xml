@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">299150363449-nalgpfjpguu7vuf9nijj3j34s94rfh97.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://lcoationshare.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">299150363449</string>
-    <string name="google_api_key" translatable="false">AIzaSyCrw7xX6XpTfm6y3nzAwo-Z9_6OAJOyLOI</string>
-    <string name="google_app_id" translatable="false">1:299150363449:android:e9f6e711ea602bdc</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCrw7xX6XpTfm6y3nzAwo-Z9_6OAJOyLOI</string>
-    <string name="google_storage_bucket" translatable="false">lcoationshare.appspot.com</string>
-    <string name="project_id" translatable="false">lcoationshare</string>
+    <string name="default_web_client_id" translatable="false">236160414571-io3s534o2fe0q5r37t00qoua8m23kii3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://finallocation-fc025.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">236160414571</string>
+    <string name="google_api_key" translatable="false">AIzaSyDJp134pQD9iDQdYf8J9wW5Fz_pTvRF4R0</string>
+    <string name="google_app_id" translatable="false">1:236160414571:android:668500177e7ae353</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDJp134pQD9iDQdYf8J9wW5Fz_pTvRF4R0</string>
+    <string name="google_storage_bucket" translatable="false">finallocation-fc025.appspot.com</string>
+    <string name="project_id" translatable="false">finallocation-fc025</string>
 </resources>

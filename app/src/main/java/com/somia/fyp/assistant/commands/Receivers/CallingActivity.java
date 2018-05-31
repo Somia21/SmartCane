@@ -43,8 +43,6 @@ public class CallingActivity extends AppCompatActivity implements INoNeedCommand
     private static final int PICK_CONTACT_REQUEST = 1;
     private VoiceRecgonizationFragment newIntance;
     protected Spinner callpickerSpinner;
-    private ImageView CallOk;
-    private ImageView CallCancel;
     private boolean blockContectInternt = false;
     private ArrayList<String> spinnerList;
     private ArrayAdapter<String> adapter;
@@ -78,40 +76,6 @@ public class CallingActivity extends AppCompatActivity implements INoNeedCommand
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         callpickerSpinner.setAdapter(adapter);
         mMakingCallingIn = (TextView) findViewById(R.id.making_call_in);
-
-
-//        FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.febRetry);
-//        floatingActionButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                showVoiceRegonizerDiloge("en-IN");
-//            }
-//        });
-
-
-
-//        CallOk = (ImageView) findViewById(R.id.caling_yas);
-//        CallOk.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                CallingActivity.this.makeCallNow(CallingActivity.this.callpickerSpinner.getSelectedItem().toString());
-//
-//            }
-//        });
-//        CallCancel = (ImageView) findViewById(R.id.caling_cancle);
-//        CallCancel.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (countDownTimer != null) {
-//                    CallingActivity.this.countDownTimer.cancel();
-//                    CallingActivity.this.mMakingCallingIn.setText("Call canceled");
-//                }
-//            }
-//        });
-
-
     }
     @Override
     public boolean dispatchKeyEvent(KeyEvent event) {
@@ -131,10 +95,10 @@ public class CallingActivity extends AppCompatActivity implements INoNeedCommand
                 super.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_UP,KeyEvent.KEYCODE_DPAD_DOWN));
                 if (countDownTimer != null) {
                     CallingActivity.this.countDownTimer.cancel();
-                    CallingActivity.this.mMakingCallingIn.setText("Call canceled");
+                    CallingActivity.this.mMakingCallingIn.setText("Call cancelled");
                     try {
                         MyTextToSpeech.intiTextToSpeech(CallingActivity.this, "hi",
-                                "कॉल रद्द कर दिया गया है");
+                                "कॉल रद्द कर दिया गया है");//call cancelled
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -192,8 +156,6 @@ public class CallingActivity extends AppCompatActivity implements INoNeedCommand
         if (newIntance != null)
             newIntance.dismiss();
         new myRecipientCallingNumberFinder(Queary).execute();
-
-
     }
 
     @Override
@@ -278,7 +240,7 @@ public class CallingActivity extends AppCompatActivity implements INoNeedCommand
                         String name = cur.getString(cur.getColumnIndex(
                                 ContactsContract.Contacts.DISPLAY_NAME));
                         Log.d("callingActivty", "Name from phone Book " + name);
-                        MyTextToSpeech.intiTextToSpeech(CallingActivity.this, "en-IN", "Contact is "+name);
+                        //MyTextToSpeech.intiTextToSpeech(CallingActivity.this, "en-IN", "Contact is "+name);
                         if (Query.toLowerCase().contains(name.toLowerCase())) {
                             Log.d("callingActivty", "requiredName found" + name);
                             mNameListFounded.add(name);

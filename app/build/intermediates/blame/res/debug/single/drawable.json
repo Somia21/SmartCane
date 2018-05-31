@@ -240,12 +240,20 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\af09ce0c949fcccb33b3b4b6aa2d8363\\res\\drawable\\design_fab_background.xml"
     },
     {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image.png",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\drawable\\image.png"
+    },
+    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rect_progress.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\library-1.0.4.aar\\d29104870fac7f26cc78efa1e257d65d\\res\\drawable\\rect_progress.xml"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mic_black_24dp.xml",
         "source": "D:\\urAmeer-master\\app\\src\\main\\res\\drawable\\ic_mic_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainscreen.png",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\drawable\\mainscreen.png"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
@@ -318,6 +326,10 @@
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activated_background_kitkat_card.xml",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable\\activated_background_kitkat_card.xml"
+    },
+    {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smartcaneanother.png",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\drawable\\smartcaneanother.png"
     },
     {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",

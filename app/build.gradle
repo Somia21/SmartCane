@@ -9,7 +9,7 @@ android {
     buildToolsVersion "26.0.2"
     defaultConfig {
 
-        applicationId "com.somia.fyp"
+        applicationId "com.somia.fyp.NewLocationSharing"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 15

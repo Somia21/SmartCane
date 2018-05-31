@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Smart Cane</string>
+
+    <string name="Kis_Ko_message_likha_na">किस को मैसेज लिखना है</string>
+    <string name="Message_kay_ha"> मैसेज किया है</string>
+    <string name="Aap_ka_Message_Send_Kiya_ja_raha_ha">आपका मैसेज सेंड किया जा रहा है</string>
+    <string name="Sorry_App_Kiss_Ko_Sms_Send_Karna_Chaatay_ha">माफ कीजिए आप किस को मैसेज सेंड करना चाहते</string>
+    <string name="Volume_Zayada_ke_Ja_rahi_ha">आवाज ज्यादा की जा रही है</string>
+    <string name="Volume_kam_kiya_ja_raha_ha">वॉल्यूम कम किया जा रहा है</string>
+    <string name="WIFI_ON_Kea_Ja_Raha_Ha">WiFi ऑन किया जा रहा है</string>
+    <string name="Wifi_Of_Kea_Ja_Raha_Ha">वाईफाई बंद किया जा रहा है</string>
+    <string name="Sorry_App_Kasy_Call_karna_Chaatay_Ha">माफ कीजिए आप किसे कॉल करना चाहते हैं</string>
+    <string name="apka_message_bhaija_ja_raha_hai">apka message bhaija ja raha hai</string>
+    <string name="Kis_Ko_message_likha_na_en">Kisko message likhna hai</string>
+    <string name="Aur_Message_kay_ha_en">aur message kya likhna hai</string>
+    <string name="Aap_ka_Message_Send_Kiya_ja_raha_ha_en">aap ka message send kiya ja raha hai</string>
+    <string name="Sorry_App_Kiss_Ko_Sms_Send_Karna_Chaatay_ha_en">sorry aap Kis Ko message likhna Chahte Hain</string>
+    <string name="Volume_Zayada_ke_Ja_rahi_ha_en">volume Zyada Kiya ja raha hai</string>
+
+    <string name="Dobaara_say_koshish_keejie_muja_aapakee_ki_samajh_nahi_aaee">दोबारा से कोशिश कीजिए मुझे आपकी बात की समझ नहीं आई</string>
+
+    <string name="Draeeme_harabaanee_apana_akaunt_kholie_usake_baad_hee_aap_ek_nae_kamaand_kee_darakhvaast_kar_sakate_hain">ड्राई मेहरबानी अपना अकाउंट खोलिए उसके बाद ही आप एक नए कमांड की दरख्वास्त कर सकते हैं</string>
+    <string name="send_kar_do_ya_badal_do">सेंड कर दो या बदल दो</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_phone_auth">Phone Number Authentication</string>
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+    <string-array name="command_title">
+        <item>لائٹ چلانے کے لئے </item>
+        <item>لائٹ بند کرنے کے لئے </item>
+        <item>گانا لگانے کے لئے</item>
+        <item>اگلا گانا لگانے کے لئے</item>
+        <item>پچھلا گانالگانے کے لئے</item>
+        <item>گانا بند کرنے کے لئے</item>
+        <item>یوٹیوب سے گانا لگانے کے لئے</item>
+        <item>کال/فون کرنے کے لئے</item>
+        <item>میسج لکھنے کے لیے</item>
+        <item>وائی فائی ان کرنے کے لئے</item>
+        <item>بلوٹوت ان کرنے کے لئے</item>
+        <item>ای میل بھیجنے کرنے کے لئے</item>
+        <item>ایس ایم ایس سننے کے لئے</item>
+        <item>Facebook par post karne ke liye</item>
+        <item>Alarm set karne ke liye</item>
+        <item>mobile silent karne ke liye</item>
+        <item>WhatsApp message likhne ke liye</item>
+        <item>volume Zyada karo</item>
+        <item>Volume kam karne ke liye</item>
+        <item>Wi-Fi band karne ke liye</item>
+        <item>Wi-Fi on karne ke liye</item>
+    </string-array>
+    <string-array name="help_tts_phrses">
+        <item>message likhne ke liye kaho message likho</item>
+        <item>Call karne ke liye Kaho call karo</item>
+    </string-array>
+    <string-array name="command_dir">
+        <item>کہو لائٹ آن کرو,فلیش لائٹ آن کرو </item>
+        <item>کہو فلیش لائٹ بند کر,لائٹ بند کرو </item>
+        <item>کہو گانا لگاؤ </item>
+        <item>کہو اگلا گانا لگاؤ</item>
+        <item>پچھلا گانا لگاؤ</item>
+        <item>کہو گانا بند کرو</item>
+        <item>کہو یوٹیوب سے گانا لگاؤ </item>
+        <item>کہو کال کرو</item>
+        <item>کہو میسج لکھیں اور پھر نام بولو</item>
+        <item> کہو وائی فائی آن کرو</item>
+        <item>کہو بلوٹوت آن کرو</item>
+        <item>ای میل لکھیں</item>
+        <item>کہو میسج پڑھو </item>
+
+        <item>silent lagao,silent karo</item>
+        <item>volume Zyada karo, Awaz Jyada karo,volume Uncha karo, Awaz Unchi karo</item>
+        <item>Volume kam karo,Awaz kam karo</item>
+        <item>Wi-Fi band karo,WiFi off karo</item>
+        <item>Wi-Fi on karo,Wi-Fi chalao</item>
+
+
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_voting">Voting</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

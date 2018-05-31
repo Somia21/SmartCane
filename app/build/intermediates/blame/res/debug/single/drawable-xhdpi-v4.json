@@ -288,6 +288,10 @@
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\cardslib-core-2.1.0.aar\\27e86d9401066ea31439d0597704449e\\res\\drawable-xhdpi\\ic_menu_expand_card_dark_normal.png"
     },
     {
+        "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mainscreen.png",
+        "source": "D:\\urAmeer-master\\app\\src\\main\\res\\drawable-xhdpi\\mainscreen.png"
+    },
+    {
         "merged": "D:\\urAmeer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\25f7be811eac652f50c47ba72a56be5e\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },

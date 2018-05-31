@@ -3,8 +3,8 @@ package com.somia.fyp.assistant.commands;
 import android.content.Context;
 import android.content.Intent;
 
-import com.somia.fyp.LocationSharing.MapsActivity;
-import com.somia.fyp.LocationSharing.MyLocationService;
+import com.somia.fyp.NewLocationSharing.MapsActivity;
+import com.somia.fyp.NewLocationSharing.MyLocationService;
 import com.somia.fyp.assistant.Command;
 import com.somia.fyp.assistant.CommandModel;
 

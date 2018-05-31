@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
 MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:19:1-31:12
 MERGED from [com.github.gabrielemariotti.cards:cardslib-core:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-core-2.1.0.aar\27e86d9401066ea31439d0597704449e\AndroidManifest.xml:19:1-31:12
 MERGED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:2:1-19:12
@@ -60,20 +60,20 @@ MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] C:\Users\Som
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.2.aar\39790701c7ccc37496ad71db9541a753\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.2.aar\eca1f4f0f9b9411a622faa9ba137093a\AndroidManifest.xml:2:1-6:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
 	package
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-159:12
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:11-69
@@ -255,80 +255,88 @@ uses-permission#com.android.alarm.permission.SET_ALARM
 ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:16:5-78
 	android:name
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:16:22-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:18:5-79
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:12:5-79
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:20:5-98
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:20:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:21:22-78
 uses-feature#android.hardware.camera
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:18:5-60
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:23:5-60
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:18:19-57
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:23:19-57
 uses-feature#android.hardware.camera.flash
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:19:5-66
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:24:5-66
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:19:19-63
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:24:19-63
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:24:5-70
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:29:5-70
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:24:19-67
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:29:19-67
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:26:5-81
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:31:5-81
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:26:22-78
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:31:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:27:5-75
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:32:5-75
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:27:22-72
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:32:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:28:5-80
-MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:11:5-80
-MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:11:5-80
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:28:22-77
-uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:29:5-85
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:29:22-82
-uses-permission#android.permission.READ_CONTACTS
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:30:5-72
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:30:22-69
-uses-permission#android.permission.CALL_PHONE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:31:5-69
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:31:22-66
-uses-permission#android.permission.READ_SMS
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:32:5-67
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:32:22-64
-uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
 ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:33:5-80
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:11:5-80
+MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:11:5-80
 	android:name
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:33:22-77
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:34:5-85
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:34:22-82
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:35:5-72
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:35:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:36:5-69
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:36:22-66
+uses-permission#android.permission.READ_SMS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:37:5-67
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:37:22-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:38:5-80
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:38:22-77
 uses-permission#android.permission.SEND_SMS
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:34:5-67
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:39:5-67
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:34:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:35:5-79
-MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:12:5-79
-MERGED from [com.webianks.library:easy-feedback:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easy-feedback-1.0.2.aar\b9dd0c0da89f87650034fdcfea63c8bd\AndroidManifest.xml:12:5-79
-MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-maps:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.2.aar\5f60d38d8949e5bcf342aa7cfe16b561\AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.6.2.aar\d4ea30eda5f28d442ed220f6f02b7da3\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.6.2.aar\7725350b94371935e62fd06c63bb8a60\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:19:5-78
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:35:22-76
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:39:22-64
 uses-permission#android.permission.READ_PROFILE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:37:5-71
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:42:5-71
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:37:22-68
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:45:5-79
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:45:22-76
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:42:22-68
 application
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:47:5-157:19
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:52:5-165:19
 MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:28:5-29:19
 MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:28:5-29:19
 MERGED from [com.github.gabrielemariotti.cards:cardslib-core:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-core-2.1.0.aar\27e86d9401066ea31439d0597704449e\AndroidManifest.xml:28:5-29:19
@@ -432,187 +440,193 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches
 MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.2.aar\eca1f4f0f9b9411a622faa9ba137093a\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.2.aar\eca1f4f0f9b9411a622faa9ba137093a\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:53:9-35
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:58:9-35
 	android:label
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:51:9-41
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:56:9-41
 	android:roundIcon
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:52:9-54
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:57:9-54
 	android:icon
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:50:9-47
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:55:9-39
 	android:allowBackup
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:49:9-35
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:54:9-35
 	android:theme
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:54:9-40
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:59:9-40
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:48:9-43
-activity#com.somia.fyp.UI.Activitys.LoginOrLogout
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:55:9-67:20
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:53:9-43
+activity#com.somia.fyp.UI.Activitys.FamilyorBlindUser
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:60:9-72:20
 	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:57:13-49
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:62:13-49
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:56:13-55
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:61:13-59
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER+android.speech.action.WEB_SEARCH
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:58:13-66:29
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:63:13-71:29
 	android:priority
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:58:28-57
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:63:28-57
 action#android.speech.action.WEB_SEARCH
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:59:17-75
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:64:17-75
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:59:25-72
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:64:25-72
 category#android.intent.category.DEFAULT
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:61:17-76
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:66:17-76
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:61:27-73
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:66:27-73
 action#android.intent.action.MAIN
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:63:17-69
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:68:17-69
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:63:25-66
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:68:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:65:17-77
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:70:17-77
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:65:27-74
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:70:27-74
 activity#com.somia.fyp.assistant.commands.Receivers.CallingActivity
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:68:9-70:52
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:73:9-75:52
 	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:70:13-49
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:75:13-49
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:69:13-73
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:74:13-73
 activity#com.somia.fyp.assistant.commands.Receivers.SendSmsActivity
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:71:9-73:52
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:76:9-78:52
 	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:73:13-49
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:78:13-49
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:72:13-73
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:77:13-73
+activity#com.somia.fyp.UI.Activitys.SignInBlindUser
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:80:13-57
+activity#com.somia.fyp.UI.Activitys.SignInFamily
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:82:9-84:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:83:13-54
 activity#com.somia.fyp.UI.Activitys.HandsetReceiverActivty
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:74:9-94:20
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:85:9-105:20
 	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:77:13-49
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:88:13-49
 	android:launchMode
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:76:13-48
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:87:13-48
 	android:showOnLockScreen
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:78:13-44
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:89:13-44
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:75:13-64
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:86:13-64
 intent-filter#android.intent.category.DEFAULT+android.speech.action.WEB_SEARCH
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:79:13-83:29
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:90:13-94:29
 	android:priority
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:79:28-57
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:90:28-57
 intent-filter#android.intent.category.DEFAULT+android.speech.action.VOICE_SEARCH_HANDS_FREE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:84:13-88:29
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:95:13-99:29
 	android:priority
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:84:28-57
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:95:28-57
 action#android.speech.action.VOICE_SEARCH_HANDS_FREE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:85:17-88
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:96:17-88
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:85:25-85
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:96:25-85
 intent-filter#android.intent.category.DEFAULT+com.sec.action.SVOICE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:89:13-93:29
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:100:13-104:29
 action#com.sec.action.SVOICE
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:90:17-64
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:101:17-64
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:90:25-61
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:101:25-61
 activity#com.somia.fyp.assistant.commands.Receivers.SmsUnreadActivity
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:95:9-97:52
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:106:9-108:52
 	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:97:13-49
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:108:13-49
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:96:13-75
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:107:13-75
 service#com.somia.fyp.utial.TTSService
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:99:9-53
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:110:9-53
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:99:18-50
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:110:18-50
 activity#com.thefinestartist.ytpa.YouTubePlayerActivity
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:101:9-105:74
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:112:9-116:74
 	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:104:13-47
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:115:13-47
 	android:configChanges
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:103:13-74
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:114:13-74
 	android:theme
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:105:13-71
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:116:13-71
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:102:13-74
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:113:13-74
 meta-data#com.thefinestartist.ytpa.YouTubePlayerActivity.ApiKey
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:108:9-110:71
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:119:9-121:71
 	android:value
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:110:13-68
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:121:13-68
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:109:13-81
-activity#com.somia.fyp.UI.Activitys.ShowSimpleCommandsList
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:112:9-114:52
-	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:114:13-49
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:113:13-64
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:120:13-81
 activity#com.somia.fyp.UI.Activitys.singUpActivity
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:115:9-118:69
-	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:117:13-49
-	android:theme
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:118:13-66
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:116:13-56
-activity#com.somia.fyp.UI.Activitys.LoginActivity
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:119:9-122:69
-	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:121:13-49
-	android:theme
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:122:13-66
-	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:120:13-55
-activity#com.somia.fyp.UI.Activitys.MainActivity
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:123:9-125:52
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:123:9-126:69
 	android:screenOrientation
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:125:13-49
+	android:theme
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:126:13-66
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:124:13-54
-activity#com.somia.fyp.assistant.commands.Receivers.Instructions
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:126:9-128:52
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:124:13-56
+activity#com.somia.fyp.UI.Activitys.LoginActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:127:9-130:69
 	android:screenOrientation
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:128:13-49
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:129:13-49
+	android:theme
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:130:13-66
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:127:13-70
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:128:13-55
+activity#com.somia.fyp.UI.Activitys.MainActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:131:9-133:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:132:13-54
+activity#com.somia.fyp.assistant.commands.Receivers.InstructionsActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:134:9-136:52
+	android:screenOrientation
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:135:13-78
 service#com.somia.fyp.tensorflowv1.TTSService
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:129:9-60
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:137:9-60
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:129:18-57
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:137:18-57
 activity#com.somia.fyp.tensorflowv1.ReadyTTS
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:131:9-59
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:139:9-59
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:131:19-56
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:139:19-56
 activity#com.somia.fyp.tensorflowv1.StopTTS
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:132:9-58
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:140:9-58
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:132:19-55
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:140:19-55
 activity#com.somia.fyp.tensorflowv1.CameraActivity
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:133:9-65
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:141:9-65
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:133:19-62
-service#com.somia.fyp.LocationSharing.MyLocationService
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:135:9-70
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:141:19-62
+service#com.somia.fyp.NewLocationSharing.MyLocationService
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:143:9-73
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:135:18-67
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:143:18-70
 meta-data#com.google.android.gms.version
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:137:9-139:69
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:145:9-147:69
 MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:14:9-16:69
 MERGED from [com.firebaseui:firebase-ui-database:2.0.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.0.1.aar\aaea76bc3b02bd1a01c22f95cc5ceaf9\AndroidManifest.xml:14:9-16:69
 MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\39e034185391c3882ab444a9544675ce\AndroidManifest.xml:20:9-121
 MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\39e034185391c3882ab444a9544675ce\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:139:13-66
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:147:13-66
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:138:13-58
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:146:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:150:9-152:71
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:158:9-160:71
 	android:value
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:152:13-68
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:160:13-68
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:151:13-58
-activity#com.somia.fyp.LocationSharing.MapsActivity
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:154:9-156:68
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:159:13-58
+activity#com.somia.fyp.NewLocationSharing.MapsActivity
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:162:9-164:68
 	android:label
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:156:13-56
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:164:13-56
 	android:name
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:155:13-57
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:163:13-60
 activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
 ADDED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:12:9-16:66
 	android:label
@@ -749,7 +763,7 @@ ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\cach
 		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:72-107
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:17-71
-permission#com.somia.fyp.permission.C2D_MESSAGE
+permission#com.somia.fyp.NewLocationSharing.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:5-109
 	android:protectionLevel
 		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:25:72-107
@@ -759,7 +773,7 @@ uses-permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:27:5-78
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:27:22-76
-uses-permission#com.somia.fyp.permission.C2D_MESSAGE
+uses-permission#com.somia.fyp.NewLocationSharing.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:27:5-78
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:27:22-76
@@ -773,7 +787,7 @@ ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\cach
 		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:31:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:32:13-35:29
-intent-filter#com.google.android.c2dm.intent.RECEIVE+com.somia.fyp
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.somia.fyp.NewLocationSharing
 ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:32:13-35:29
 action#com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:33:17-80
@@ -783,7 +797,7 @@ category#${applicationId}
 ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:34:17-60
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:34:27-58
-category#com.somia.fyp
+category#com.somia.fyp.NewLocationSharing
 ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:34:17-60
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.6.2.aar\5b2a6e021af1a3aabf516734d454e178\AndroidManifest.xml:34:27-58

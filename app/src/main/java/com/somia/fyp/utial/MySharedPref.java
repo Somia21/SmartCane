@@ -10,9 +10,11 @@ import com.google.gson.Gson;
  */
 
 public class MySharedPref {
-    public static final String SHARD_PREF_AUDIO_BOOK=" com.ameerhamza6733.okAmeer.MySharedPref";
+    public static final String SHARD_PREF_AUDIO_BOOK="com.somia.fyp.MySharedPref";
+   // com.ameerhamza6733.okAmeer.MySharedPref
+    public static void saveObjectToSharedPreference(Context context, String preferenceFileName, String serializedObjectKey,
+                                                    Object object) {
 
-    public static void saveObjectToSharedPreference(Context context, String preferenceFileName, String serializedObjectKey, Object object) {
         SharedPreferences sharedPreferences = context.getSharedPreferences(preferenceFileName, 0);
         SharedPreferences.Editor sharedPreferencesEditor = sharedPreferences.edit();
         final Gson gson = new Gson();
@@ -21,7 +23,8 @@ public class MySharedPref {
         sharedPreferencesEditor.apply();
     }
 
-    public static String getSavedObjectFromPreference(Context context, String preferenceFileName, String preferenceKey, Class<String> classType) {
+    public static String getSavedObjectFromPreference(Context context, String preferenceFileName,
+                                                      String preferenceKey, Class<String> classType) {
         SharedPreferences sharedPreferences = context.getSharedPreferences(preferenceFileName, 0);
         if (sharedPreferences.contains(preferenceKey)) {
             final Gson gson = new Gson();

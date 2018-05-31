@@ -1,6 +1,5 @@
 package com.somia.fyp.assistant.commands.Receivers;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
@@ -24,7 +23,7 @@ public class InstructionsActivity extends AppCompatActivity implements TextToSpe
    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.instructions);
+        setContentView(R.layout.activity_instructions);
 
         tts = new TextToSpeech(this, this);
         txtText = (TextView) findViewById(R.id.instructions);
@@ -56,7 +55,7 @@ speakOut();
             }
 
         } else {
-            Log.e("TTS", "Initilization Failed!");
+            Log.e("TTS", "Initialization Failed!");
         }
 
     }

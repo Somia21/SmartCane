@@ -4729,13 +4729,13 @@ containing a value of this type.
         public static final int activated_foreground_card=0x7f020055;
         public static final int activated_foreground_kitkat_card=0x7f020056;
         public static final int avd_hide_password=0x7f020057;
-        public static final int avd_hide_password_1=0x7f0200c6;
-        public static final int avd_hide_password_2=0x7f0200c7;
-        public static final int avd_hide_password_3=0x7f0200c8;
+        public static final int avd_hide_password_1=0x7f0200c9;
+        public static final int avd_hide_password_2=0x7f0200ca;
+        public static final int avd_hide_password_3=0x7f0200cb;
         public static final int avd_show_password=0x7f020058;
-        public static final int avd_show_password_1=0x7f0200c9;
-        public static final int avd_show_password_2=0x7f0200ca;
-        public static final int avd_show_password_3=0x7f0200cb;
+        public static final int avd_show_password_1=0x7f0200cc;
+        public static final int avd_show_password_2=0x7f0200cd;
+        public static final int avd_show_password_3=0x7f0200ce;
         public static final int blindimage=0x7f020059;
         public static final int caller_id_mic=0x7f02005a;
         public static final int card_background=0x7f02005b;
@@ -4814,37 +4814,40 @@ containing a value of this type.
         public static final int ic_more_vert_grey600_36dp=0x7f0200a4;
         public static final int ic_stat_name=0x7f0200a5;
         public static final int ic_undobar_undo=0x7f0200a6;
-        public static final int img=0x7f0200a7;
-        public static final int man2=0x7f0200a8;
-        public static final int native_card_selector=0x7f0200a9;
-        public static final int navigation_empty_icon=0x7f0200aa;
-        public static final int notification_action_background=0x7f0200ab;
-        public static final int notification_bg=0x7f0200ac;
-        public static final int notification_bg_low=0x7f0200ad;
-        public static final int notification_bg_low_normal=0x7f0200ae;
-        public static final int notification_bg_low_pressed=0x7f0200af;
-        public static final int notification_bg_normal=0x7f0200b0;
-        public static final int notification_bg_normal_pressed=0x7f0200b1;
-        public static final int notification_icon_background=0x7f0200b2;
-        public static final int notification_template_icon_bg=0x7f0200c4;
-        public static final int notification_template_icon_low_bg=0x7f0200c5;
-        public static final int notification_tile_bg=0x7f0200b3;
-        public static final int notify_panel_notification_icon_bg=0x7f0200b4;
-        public static final int pressed_background_card=0x7f0200b5;
-        public static final int pressed_background_kitkat_card=0x7f0200b6;
-        public static final int rect_complete=0x7f0200b7;
-        public static final int rect_error=0x7f0200b8;
-        public static final int rect_normal=0x7f0200b9;
-        public static final int rect_pressed=0x7f0200ba;
-        public static final int rect_progress=0x7f0200bb;
-        public static final int signinbg=0x7f0200bc;
-        public static final int signupimage=0x7f0200bd;
-        public static final int tooltip_frame_dark=0x7f0200be;
-        public static final int tooltip_frame_light=0x7f0200bf;
-        public static final int undobar=0x7f0200c0;
-        public static final int undobar_button_focused=0x7f0200c1;
-        public static final int undobar_button_pressed=0x7f0200c2;
-        public static final int undobar_divider=0x7f0200c3;
+        public static final int image=0x7f0200a7;
+        public static final int img=0x7f0200a8;
+        public static final int mainscreen=0x7f0200a9;
+        public static final int man2=0x7f0200aa;
+        public static final int native_card_selector=0x7f0200ab;
+        public static final int navigation_empty_icon=0x7f0200ac;
+        public static final int notification_action_background=0x7f0200ad;
+        public static final int notification_bg=0x7f0200ae;
+        public static final int notification_bg_low=0x7f0200af;
+        public static final int notification_bg_low_normal=0x7f0200b0;
+        public static final int notification_bg_low_pressed=0x7f0200b1;
+        public static final int notification_bg_normal=0x7f0200b2;
+        public static final int notification_bg_normal_pressed=0x7f0200b3;
+        public static final int notification_icon_background=0x7f0200b4;
+        public static final int notification_template_icon_bg=0x7f0200c7;
+        public static final int notification_template_icon_low_bg=0x7f0200c8;
+        public static final int notification_tile_bg=0x7f0200b5;
+        public static final int notify_panel_notification_icon_bg=0x7f0200b6;
+        public static final int pressed_background_card=0x7f0200b7;
+        public static final int pressed_background_kitkat_card=0x7f0200b8;
+        public static final int rect_complete=0x7f0200b9;
+        public static final int rect_error=0x7f0200ba;
+        public static final int rect_normal=0x7f0200bb;
+        public static final int rect_pressed=0x7f0200bc;
+        public static final int rect_progress=0x7f0200bd;
+        public static final int signinbg=0x7f0200be;
+        public static final int signupimage=0x7f0200bf;
+        public static final int smartcaneanother=0x7f0200c0;
+        public static final int tooltip_frame_dark=0x7f0200c1;
+        public static final int tooltip_frame_light=0x7f0200c2;
+        public static final int undobar=0x7f0200c3;
+        public static final int undobar_button_focused=0x7f0200c4;
+        public static final int undobar_button_pressed=0x7f0200c5;
+        public static final int undobar_divider=0x7f0200c6;
     }
     public static final class id {
         public static final int ALT=0x7f0f005f;
@@ -4853,9 +4856,9 @@ containing a value of this type.
         public static final int META=0x7f0f0062;
         public static final int SHIFT=0x7f0f0063;
         public static final int SYM=0x7f0f0064;
-        public static final int Signup=0x7f0f00af;
-        public static final int acc=0x7f0f00a8;
-        public static final int action0=0x7f0f0100;
+        public static final int Signup=0x7f0f00b0;
+        public static final int acc=0x7f0f00a9;
+        public static final int action0=0x7f0f00f9;
         public static final int action_bar=0x7f0f0093;
         public static final int action_bar_activity_content=0x7f0f0000;
         public static final int action_bar_container=0x7f0f0092;
@@ -4863,20 +4866,22 @@ containing a value of this type.
         public static final int action_bar_spinner=0x7f0f0001;
         public static final int action_bar_subtitle=0x7f0f0072;
         public static final int action_bar_title=0x7f0f0071;
-        public static final int action_container=0x7f0f00fd;
+        public static final int action_container=0x7f0f00f6;
         public static final int action_context_bar=0x7f0f0094;
-        public static final int action_divider=0x7f0f0104;
-        public static final int action_image=0x7f0f00fe;
+        public static final int action_divider=0x7f0f00fd;
+        public static final int action_image=0x7f0f00f7;
         public static final int action_menu_divider=0x7f0f0002;
         public static final int action_menu_presenter=0x7f0f0003;
         public static final int action_mode_bar=0x7f0f0090;
         public static final int action_mode_bar_stub=0x7f0f008f;
         public static final int action_mode_close_button=0x7f0f0073;
-        public static final int action_text=0x7f0f00ff;
-        public static final int actions=0x7f0f010c;
+        public static final int action_text=0x7f0f00f8;
+        public static final int actions=0x7f0f0105;
         public static final int activity_chooser_view_content=0x7f0f0074;
         public static final int add=0x7f0f0043;
-        public static final int addPhoneNumber=0x7f0f00bb;
+        public static final int addFamilyPhoneNumber=0x7f0f00b3;
+        public static final int addPhoneNumber=0x7f0f00ba;
+        public static final int addYourPhoneNumber=0x7f0f00b5;
         public static final int adjust_height=0x7f0f005a;
         public static final int adjust_width=0x7f0f005b;
         public static final int alertTitle=0x7f0f0087;
@@ -4886,157 +4891,148 @@ containing a value of this type.
         public static final int auto=0x7f0f0046;
         public static final int basic=0x7f0f002d;
         public static final int beginning=0x7f0f0059;
+        public static final int blinduser=0x7f0f00e3;
         public static final int blocking=0x7f0f0056;
         public static final int bottom=0x7f0f001e;
         public static final int buttonPanel=0x7f0f007a;
-        public static final int caling_cancle=0x7f0f00be;
         public static final int caling_spinner=0x7f0f00a4;
-        public static final int caling_yas=0x7f0f00c0;
-        public static final int cancel_action=0x7f0f0101;
+        public static final int cancel_action=0x7f0f00fa;
         public static final int cardView=0x7f0f00a2;
-        public static final int card_base_empty_cardwithlist_text=0x7f0f00cd;
-        public static final int card_children_simple_title=0x7f0f00c9;
-        public static final int card_content_expand_layout=0x7f0f00d3;
-        public static final int card_expand_inner_simple_title=0x7f0f00f2;
-        public static final int card_header_button_expand=0x7f0f00c7;
-        public static final int card_header_button_frame=0x7f0f00c5;
-        public static final int card_header_button_other=0x7f0f00c8;
-        public static final int card_header_button_overflow=0x7f0f00c6;
-        public static final int card_header_inner_frame=0x7f0f00c4;
-        public static final int card_header_inner_simple_title=0x7f0f00f3;
-        public static final int card_header_layout=0x7f0f00d2;
-        public static final int card_inner_base_empty_cardwithlist=0x7f0f00f6;
-        public static final int card_inner_base_main_cardwithlist=0x7f0f00f5;
-        public static final int card_inner_base_progressbar_cardwithlist=0x7f0f00f7;
-        public static final int card_main_content_layout=0x7f0f00cf;
-        public static final int card_main_inner_simple_title=0x7f0f00f4;
-        public static final int card_main_layout=0x7f0f00d1;
-        public static final int card_overlap=0x7f0f00d4;
-        public static final int card_section_simple_title=0x7f0f00ca;
-        public static final int card_shadow_layout=0x7f0f00d0;
-        public static final int card_shadow_view=0x7f0f00cb;
-        public static final int card_thumb_and_content_layout=0x7f0f00d5;
-        public static final int card_thumbnail_image=0x7f0f00cc;
-        public static final int card_thumbnail_layout=0x7f0f00d6;
+        public static final int card_base_empty_cardwithlist_text=0x7f0f00c8;
+        public static final int card_children_simple_title=0x7f0f00c4;
+        public static final int card_content_expand_layout=0x7f0f00ce;
+        public static final int card_expand_inner_simple_title=0x7f0f00ec;
+        public static final int card_header_button_expand=0x7f0f00c2;
+        public static final int card_header_button_frame=0x7f0f00c0;
+        public static final int card_header_button_other=0x7f0f00c3;
+        public static final int card_header_button_overflow=0x7f0f00c1;
+        public static final int card_header_inner_frame=0x7f0f00bf;
+        public static final int card_header_inner_simple_title=0x7f0f00ed;
+        public static final int card_header_layout=0x7f0f00cd;
+        public static final int card_inner_base_empty_cardwithlist=0x7f0f00f0;
+        public static final int card_inner_base_main_cardwithlist=0x7f0f00ef;
+        public static final int card_inner_base_progressbar_cardwithlist=0x7f0f00f1;
+        public static final int card_main_content_layout=0x7f0f00ca;
+        public static final int card_main_inner_simple_title=0x7f0f00ee;
+        public static final int card_main_layout=0x7f0f00cc;
+        public static final int card_overlap=0x7f0f00cf;
+        public static final int card_section_simple_title=0x7f0f00c5;
+        public static final int card_shadow_layout=0x7f0f00cb;
+        public static final int card_shadow_view=0x7f0f00c6;
+        public static final int card_thumb_and_content_layout=0x7f0f00d0;
+        public static final int card_thumbnail_image=0x7f0f00c7;
+        public static final int card_thumbnail_layout=0x7f0f00d1;
         public static final int center=0x7f0f0047;
         public static final int center_horizontal=0x7f0f0048;
         public static final int center_vertical=0x7f0f0049;
         public static final int chains=0x7f0f002e;
         public static final int checkbox=0x7f0f008a;
-        public static final int chronometer=0x7f0f0109;
+        public static final int chronometer=0x7f0f0102;
         public static final int clip_horizontal=0x7f0f004d;
         public static final int clip_vertical=0x7f0f004e;
         public static final int collapseActionView=0x7f0f0066;
         public static final int container=0x7f0f00a5;
         public static final int contentPanel=0x7f0f007d;
-        public static final int control=0x7f0f00f0;
-        public static final int coordinator=0x7f0f00dc;
+        public static final int control=0x7f0f00eb;
+        public static final int coordinator=0x7f0f00d7;
         public static final int crash_reporting_present=0x7f0f0004;
-        public static final int create=0x7f0f00ad;
+        public static final int create=0x7f0f00ae;
         public static final int custom=0x7f0f0084;
         public static final int customPanel=0x7f0f0083;
         public static final int dark=0x7f0f006d;
         public static final int decor_content_parent=0x7f0f0091;
         public static final int default_activity_button=0x7f0f0077;
-        public static final int design_bottom_sheet=0x7f0f00de;
-        public static final int design_menu_item_action_area=0x7f0f00e5;
-        public static final int design_menu_item_action_area_stub=0x7f0f00e4;
-        public static final int design_menu_item_text=0x7f0f00e3;
-        public static final int design_navigation_view=0x7f0f00e2;
+        public static final int design_bottom_sheet=0x7f0f00d9;
+        public static final int design_menu_item_action_area=0x7f0f00e0;
+        public static final int design_menu_item_action_area_stub=0x7f0f00df;
+        public static final int design_menu_item_text=0x7f0f00de;
+        public static final int design_navigation_view=0x7f0f00dd;
         public static final int disableHome=0x7f0f0033;
         public static final int down=0x7f0f0054;
-        public static final int editText=0x7f0f00e9;
+        public static final int editText=0x7f0f00e4;
         public static final int edit_query=0x7f0f0095;
-        public static final int edit_text_requst_command_activation_lines=0x7f0f00e8;
-        public static final int edit_text_requst_command_name=0x7f0f00e7;
-        public static final int email=0x7f0f00b9;
-        public static final int emailLogin=0x7f0f00aa;
+        public static final int email=0x7f0f00b8;
+        public static final int emailLogin=0x7f0f00ab;
         public static final int end=0x7f0f001f;
-        public static final int end_padder=0x7f0f010f;
+        public static final int end_padder=0x7f0f0108;
         public static final int enterAlways=0x7f0f0039;
         public static final int enterAlwaysCollapsed=0x7f0f003a;
         public static final int exitUntilCollapsed=0x7f0f003b;
         public static final int expand_activities_button=0x7f0f0075;
         public static final int expanded_menu=0x7f0f0089;
-        public static final int fab_feedback=0x7f0f00b3;
-        public static final int fab_help=0x7f0f00b2;
         public static final int fab_label=0x7f0f0005;
-        public static final int fab_request_new_command=0x7f0f00b4;
-        public static final int febRetry=0x7f0f00c2;
+        public static final int family=0x7f0f00e2;
         public static final int fill=0x7f0f004f;
         public static final int fill_horizontal=0x7f0f0050;
         public static final int fill_vertical=0x7f0f004a;
         public static final int fixed=0x7f0f006f;
         public static final int forever=0x7f0f0057;
-        public static final int fragment_container=0x7f0f00b7;
         public static final int ghost_view=0x7f0f0006;
         public static final int gone=0x7f0f0024;
-        public static final int head=0x7f0f00a7;
+        public static final int head=0x7f0f00a8;
         public static final int home=0x7f0f0007;
         public static final int homeAsUp=0x7f0f0034;
         public static final int hybrid=0x7f0f005c;
         public static final int icon=0x7f0f0079;
-        public static final int icon_group=0x7f0f010d;
+        public static final int icon_group=0x7f0f0106;
         public static final int icon_only=0x7f0f006a;
         public static final int ifRoom=0x7f0f0067;
         public static final int image=0x7f0f0076;
-        public static final int imageView=0x7f0f00b0;
-        public static final int info=0x7f0f010a;
-        public static final int info_legal=0x7f0f00ed;
-        public static final int instructions=0x7f0f00f8;
+        public static final int imageView=0x7f0f00b1;
+        public static final int info=0x7f0f0103;
+        public static final int info_legal=0x7f0f00e8;
+        public static final int instructions=0x7f0f00a6;
         public static final int invisible=0x7f0f0025;
         public static final int italic=0x7f0f0058;
         public static final int item_touch_helper_previous_elevation=0x7f0f0008;
-        public static final int largeLabel=0x7f0f00db;
+        public static final int largeLabel=0x7f0f00d6;
         public static final int left=0x7f0f0020;
         public static final int light=0x7f0f006e;
         public static final int line1=0x7f0f0009;
         public static final int line3=0x7f0f000a;
-        public static final int linear=0x7f0f00a9;
+        public static final int linear=0x7f0f00aa;
         public static final int listMode=0x7f0f0030;
-        public static final int list_cardId=0x7f0f00f9;
-        public static final int list_card_undobar=0x7f0f00fa;
-        public static final int list_card_undobar_button=0x7f0f00fc;
-        public static final int list_card_undobar_message=0x7f0f00fb;
+        public static final int list_cardId=0x7f0f00f2;
+        public static final int list_card_undobar=0x7f0f00f3;
+        public static final int list_card_undobar_button=0x7f0f00f5;
+        public static final int list_card_undobar_message=0x7f0f00f4;
         public static final int list_item=0x7f0f0078;
-        public static final int loginOrLogout=0x7f0f0116;
-        public static final int logo=0x7f0f00a6;
+        public static final int loginOrLogout=0x7f0f010f;
+        public static final int logo=0x7f0f00a7;
         public static final int making_call_in=0x7f0f00a3;
-        public static final int map=0x7f0f00b6;
+        public static final int map=0x7f0f00b2;
         public static final int marquee=0x7f0f0052;
-        public static final int masked=0x7f0f0115;
-        public static final int media_actions=0x7f0f0103;
-        public static final int menu_yellow=0x7f0f00b1;
-        public static final int message=0x7f0f0110;
+        public static final int masked=0x7f0f010e;
+        public static final int media_actions=0x7f0f00fc;
+        public static final int message=0x7f0f0109;
         public static final int middle=0x7f0f0053;
         public static final int mini=0x7f0f0051;
         public static final int multiply=0x7f0f003e;
-        public static final int myList=0x7f0f00c3;
-        public static final int my_help_list=0x7f0f00f1;
-        public static final int navigation_header_container=0x7f0f00e1;
+        public static final int myList=0x7f0f00be;
+        public static final int navigation_header_container=0x7f0f00dc;
         public static final int never=0x7f0f0068;
         public static final int none=0x7f0f002f;
         public static final int normal=0x7f0f0031;
-        public static final int notification_background=0x7f0f010b;
-        public static final int notification_main_column=0x7f0f0106;
-        public static final int notification_main_column_container=0x7f0f0105;
+        public static final int notification_background=0x7f0f0104;
+        public static final int notification_main_column=0x7f0f00ff;
+        public static final int notification_main_column_container=0x7f0f00fe;
         public static final int packed=0x7f0f002a;
         public static final int parallax=0x7f0f004b;
         public static final int parent=0x7f0f0026;
         public static final int parentPanel=0x7f0f007c;
         public static final int parent_matrix=0x7f0f000b;
-        public static final int password=0x7f0f00ba;
-        public static final int passwordLogin=0x7f0f00ab;
+        public static final int password=0x7f0f00b9;
+        public static final int passwordLogin=0x7f0f00ac;
         public static final int percent=0x7f0f0027;
         public static final int pin=0x7f0f004c;
-        public static final int pressed=0x7f0f0112;
+        public static final int pressed=0x7f0f010b;
         public static final int progress_circular=0x7f0f000c;
         public static final int progress_horizontal=0x7f0f000d;
         public static final int radio=0x7f0f008c;
-        public static final int recognition_view=0x7f0f0111;
+        public static final int recognition_view=0x7f0f010a;
         public static final int right=0x7f0f0021;
-        public static final int right_icon=0x7f0f010e;
-        public static final int right_side=0x7f0f0107;
+        public static final int right_icon=0x7f0f0107;
+        public static final int right_side=0x7f0f0100;
         public static final int satellite=0x7f0f005d;
         public static final int save_image_matrix=0x7f0f000e;
         public static final int save_non_transition_alpha=0x7f0f000f;
@@ -5057,23 +5053,25 @@ containing a value of this type.
         public static final int search_plate=0x7f0f009b;
         public static final int search_src_text=0x7f0f009c;
         public static final int search_voice_btn=0x7f0f00a0;
-        public static final int selectContainer=0x7f0f00ec;
-        public static final int selectImage=0x7f0f00ea;
+        public static final int selectContainer=0x7f0f00e7;
+        public static final int selectImage=0x7f0f00e5;
         public static final int select_dialog_listview=0x7f0f00a1;
-        public static final int selected=0x7f0f0113;
-        public static final int selectedImageView=0x7f0f00eb;
+        public static final int selected=0x7f0f010c;
+        public static final int selectedImageView=0x7f0f00e6;
         public static final int shortcut=0x7f0f008b;
         public static final int showCustom=0x7f0f0035;
         public static final int showHome=0x7f0f0036;
         public static final int showTitle=0x7f0f0037;
-        public static final int signin=0x7f0f00ae;
-        public static final int signin1=0x7f0f00ac;
-        public static final int signinhere=0x7f0f00bd;
-        public static final int signup1=0x7f0f00bc;
-        public static final int smallLabel=0x7f0f00da;
-        public static final int smsBodayEdittext=0x7f0f00bf;
-        public static final int snackbar_action=0x7f0f00e0;
-        public static final int snackbar_text=0x7f0f00df;
+        public static final int signin=0x7f0f00af;
+        public static final int signin1=0x7f0f00ad;
+        public static final int signinhere=0x7f0f00bc;
+        public static final int signup1=0x7f0f00bb;
+        public static final int signupblinduser=0x7f0f00b4;
+        public static final int signupfamilyuser=0x7f0f00b6;
+        public static final int smallLabel=0x7f0f00d5;
+        public static final int smsBodayEdittext=0x7f0f00bd;
+        public static final int snackbar_action=0x7f0f00db;
+        public static final int snackbar_text=0x7f0f00da;
         public static final int snap=0x7f0f003d;
         public static final int spacer=0x7f0f007b;
         public static final int split_action_bar=0x7f0f0011;
@@ -5084,44 +5082,42 @@ containing a value of this type.
         public static final int src_over=0x7f0f0042;
         public static final int standard=0x7f0f006b;
         public static final int start=0x7f0f0022;
-        public static final int status_bar_latest_event_content=0x7f0f0102;
+        public static final int status_bar_latest_event_content=0x7f0f00fb;
         public static final int submenuarrow=0x7f0f008d;
-        public static final int submitSuggestion=0x7f0f00ee;
+        public static final int submitSuggestion=0x7f0f00e9;
         public static final int submit_area=0x7f0f009e;
-        public static final int switch_turn_on_native_urdu=0x7f0f00c1;
         public static final int tabMode=0x7f0f0032;
         public static final int terrain=0x7f0f005e;
         public static final int text=0x7f0f0012;
         public static final int text2=0x7f0f0013;
         public static final int textSpacerNoButtons=0x7f0f0081;
         public static final int textSpacerNoTitle=0x7f0f0080;
-        public static final int textView2=0x7f0f00b5;
-        public static final int text_input_password_toggle=0x7f0f00e6;
+        public static final int text_input_password_toggle=0x7f0f00e1;
         public static final int textinput_counter=0x7f0f0014;
         public static final int textinput_error=0x7f0f0015;
-        public static final int texture=0x7f0f00ef;
-        public static final int time=0x7f0f0108;
+        public static final int texture=0x7f0f00ea;
+        public static final int time=0x7f0f0101;
         public static final int title=0x7f0f0016;
         public static final int titleDividerNoCustom=0x7f0f0088;
         public static final int title_template=0x7f0f0086;
-        public static final int toggleButton=0x7f0f00ce;
+        public static final int toggleButton=0x7f0f00c9;
         public static final int top=0x7f0f0023;
         public static final int topPanel=0x7f0f0085;
-        public static final int touch_outside=0x7f0f00dd;
+        public static final int touch_outside=0x7f0f00d8;
         public static final int transition_current_scene=0x7f0f0017;
         public static final int transition_layout_save=0x7f0f0018;
         public static final int transition_position=0x7f0f0019;
         public static final int transition_scene_layoutid_cache=0x7f0f001a;
         public static final int transition_transform=0x7f0f001b;
-        public static final int undobar=0x7f0f00d7;
-        public static final int undobar_button=0x7f0f00d9;
-        public static final int undobar_message=0x7f0f00d8;
+        public static final int undobar=0x7f0f00d2;
+        public static final int undobar_button=0x7f0f00d4;
+        public static final int undobar_message=0x7f0f00d3;
         public static final int uniform=0x7f0f0044;
         public static final int up=0x7f0f001c;
         public static final int useLogo=0x7f0f0038;
-        public static final int username=0x7f0f00b8;
+        public static final int username=0x7f0f00b7;
         public static final int view_offset_helper=0x7f0f001d;
-        public static final int visible=0x7f0f0114;
+        public static final int visible=0x7f0f010d;
         public static final int wide=0x7f0f006c;
         public static final int withText=0x7f0f0069;
         public static final int wrap=0x7f0f0029;
@@ -5172,56 +5168,56 @@ containing a value of this type.
         public static final int abc_select_dialog_material=0x7f04001a;
         public static final int activity_calling=0x7f04001b;
         public static final int activity_camera=0x7f04001c;
-        public static final int activity_login=0x7f04001d;
-        public static final int activity_login_or_logout=0x7f04001e;
-        public static final int activity_main=0x7f04001f;
-        public static final int activity_maps=0x7f040020;
-        public static final int activity_share_with=0x7f040021;
-        public static final int activity_show_commands_list=0x7f040022;
-        public static final int activity_sing_up_with_phone_number=0x7f040023;
-        public static final int activity_sms=0x7f040024;
-        public static final int activity_sms_unread=0x7f040025;
-        public static final int activity_stop_tts=0x7f040026;
-        public static final int activity_stop_tts2=0x7f040027;
-        public static final int activity_track_location=0x7f040028;
-        public static final int base_header_layout=0x7f040029;
-        public static final int base_list_expandable_children_layout=0x7f04002a;
-        public static final int base_section_layout=0x7f04002b;
-        public static final int base_shadow_layout=0x7f04002c;
-        public static final int base_thumbnail_layout=0x7f04002d;
-        public static final int base_withlist_empty=0x7f04002e;
-        public static final int base_withlist_progress=0x7f04002f;
-        public static final int calling_activty=0x7f040030;
-        public static final int card_base_layout=0x7f040031;
-        public static final int card_layout=0x7f040032;
-        public static final int card_overlay_layout=0x7f040033;
-        public static final int card_thumbnail_layout=0x7f040034;
-        public static final int card_thumbnail_overlay_layout=0x7f040035;
-        public static final int card_undo_layout=0x7f040036;
-        public static final int design_bottom_navigation_item=0x7f040037;
-        public static final int design_bottom_sheet_dialog=0x7f040038;
-        public static final int design_layout_snackbar=0x7f040039;
-        public static final int design_layout_snackbar_include=0x7f04003a;
-        public static final int design_layout_tab_icon=0x7f04003b;
-        public static final int design_layout_tab_text=0x7f04003c;
-        public static final int design_menu_item_action_area=0x7f04003d;
-        public static final int design_navigation_item=0x7f04003e;
-        public static final int design_navigation_item_header=0x7f04003f;
-        public static final int design_navigation_item_separator=0x7f040040;
-        public static final int design_navigation_item_subheader=0x7f040041;
-        public static final int design_navigation_menu=0x7f040042;
-        public static final int design_navigation_menu_item=0x7f040043;
-        public static final int design_text_input_password_icon=0x7f040044;
-        public static final int dialog_requst_command=0x7f040045;
-        public static final int feedback_layout=0x7f040046;
-        public static final int fragment_camera2_basic=0x7f040047;
-        public static final int fragment_camra2_layout=0x7f040048;
-        public static final int fragment_show_available_command_list=0x7f040049;
-        public static final int inner_base_expand=0x7f04004a;
-        public static final int inner_base_header=0x7f04004b;
-        public static final int inner_base_main=0x7f04004c;
-        public static final int inner_base_main_cardwithlist=0x7f04004d;
-        public static final int activity_instructions =0x7f04004e;
+        public static final int activity_instructions=0x7f04001d;
+        public static final int activity_login=0x7f04001e;
+        public static final int activity_login_or_logout=0x7f04001f;
+        public static final int activity_main=0x7f040020;
+        public static final int activity_maps=0x7f040021;
+        public static final int activity_share_with=0x7f040022;
+        public static final int activity_signin_blinduser=0x7f040023;
+        public static final int activity_signin_familymember=0x7f040024;
+        public static final int activity_sing_up_phone_number=0x7f040025;
+        public static final int activity_sms=0x7f040026;
+        public static final int activity_sms_unread=0x7f040027;
+        public static final int activity_stop_tts=0x7f040028;
+        public static final int activity_stop_tts2=0x7f040029;
+        public static final int activity_track_location=0x7f04002a;
+        public static final int base_header_layout=0x7f04002b;
+        public static final int base_list_expandable_children_layout=0x7f04002c;
+        public static final int base_section_layout=0x7f04002d;
+        public static final int base_shadow_layout=0x7f04002e;
+        public static final int base_thumbnail_layout=0x7f04002f;
+        public static final int base_withlist_empty=0x7f040030;
+        public static final int base_withlist_progress=0x7f040031;
+        public static final int calling_activty=0x7f040032;
+        public static final int card_base_layout=0x7f040033;
+        public static final int card_layout=0x7f040034;
+        public static final int card_overlay_layout=0x7f040035;
+        public static final int card_thumbnail_layout=0x7f040036;
+        public static final int card_thumbnail_overlay_layout=0x7f040037;
+        public static final int card_undo_layout=0x7f040038;
+        public static final int design_bottom_navigation_item=0x7f040039;
+        public static final int design_bottom_sheet_dialog=0x7f04003a;
+        public static final int design_layout_snackbar=0x7f04003b;
+        public static final int design_layout_snackbar_include=0x7f04003c;
+        public static final int design_layout_tab_icon=0x7f04003d;
+        public static final int design_layout_tab_text=0x7f04003e;
+        public static final int design_menu_item_action_area=0x7f04003f;
+        public static final int design_navigation_item=0x7f040040;
+        public static final int design_navigation_item_header=0x7f040041;
+        public static final int design_navigation_item_separator=0x7f040042;
+        public static final int design_navigation_item_subheader=0x7f040043;
+        public static final int design_navigation_menu=0x7f040044;
+        public static final int design_navigation_menu_item=0x7f040045;
+        public static final int design_text_input_password_icon=0x7f040046;
+        public static final int family_or_blinduser=0x7f040047;
+        public static final int feedback_layout=0x7f040048;
+        public static final int fragment_camera2_basic=0x7f040049;
+        public static final int fragment_camra2_layout=0x7f04004a;
+        public static final int inner_base_expand=0x7f04004b;
+        public static final int inner_base_header=0x7f04004c;
+        public static final int inner_base_main=0x7f04004d;
+        public static final int inner_base_main_cardwithlist=0x7f04004e;
         public static final int list_card_layout=0x7f04004f;
         public static final int list_card_thumbnail_layout=0x7f040050;
         public static final int list_card_undo_material_message=0x7f040051;
@@ -5267,44 +5263,30 @@ containing a value of this type.
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
         public static final int ic_launcher_round=0x7f030001;
+        public static final int image=0x7f030002;
     }
     public static final class plurals {
         public static final int card_selected_items=0x7f080000;
         public static final int list_card_undo_items=0x7f080001;
     }
     public static final class string {
-        public static final int Aap_Ka__Gaana_Lagaaya_Ja_Raha_Ha=0x7f07004d;
-        public static final int Aap_Ka__Gaana_Lagaaya_Ja_Raha_Ha_en=0x7f07004e;
-        public static final int Aap_ka_Gaana_band_Kea_Ja_Raha_ha=0x7f07004f;
-        public static final int Aap_ka_Gaana_band_Kea_Ja_Raha_ha_en=0x7f070050;
-        public static final int Aap_ka_Message_Send_Kiya_ja_raha_ha=0x7f070051;
-        public static final int Aap_ka_Message_Send_Kiya_ja_raha_ha_en=0x7f070052;
-        public static final int Aap_ki_Email_send_ki_ja_Rahi_ha=0x7f070053;
-        public static final int Aap_kiss_ko_whats_app_messge_send_karna_chaahate_hain=0x7f070054;
-        public static final int Agala_Gaana_Lagaaya_Ja_Raha_Ha=0x7f070055;
-        public static final int Agala_Gaana_Lagaaya_Ja_Raha_Ha_en=0x7f070056;
-        public static final int App_kiss_ko_Email_send_karna_chaaty_ha=0x7f070057;
-        public static final int Aur_Email_kaya_ha=0x7f070058;
-        public static final int Aur_Message_kay_ha_en=0x7f070059;
-        public static final int Dobaara_say_koshish_keejie_muja_aapakee_ki_samajh_nahi_aaee=0x7f07005a;
-        public static final int Draeeme_harabaanee_apana_akaunt_kholie_usake_baad_hee_aap_ek_nae_kamaand_kee_darakhvaast_kar_sakate_hain=0x7f07005b;
-        public static final int Kis_Ko_message_likha_na=0x7f07005c;
-        public static final int Kis_Ko_message_likha_na_en=0x7f07005d;
-        public static final int Maff_keejie_mija_is_naam_say_koee_email_nahie_mila=0x7f07005e;
-        public static final int Message_kay_ha=0x7f07005f;
+        public static final int Aap_ka_Message_Send_Kiya_ja_raha_ha=0x7f07004d;
+        public static final int Aap_ka_Message_Send_Kiya_ja_raha_ha_en=0x7f07004e;
+        public static final int Aur_Message_kay_ha_en=0x7f07004f;
+        public static final int Dobaara_say_koshish_keejie_muja_aapakee_ki_samajh_nahi_aaee=0x7f070050;
+        public static final int Draeeme_harabaanee_apana_akaunt_kholie_usake_baad_hee_aap_ek_nae_kamaand_kee_darakhvaast_kar_sakate_hain=0x7f070051;
+        public static final int Kis_Ko_message_likha_na=0x7f070052;
+        public static final int Kis_Ko_message_likha_na_en=0x7f070053;
+        public static final int Message_kay_ha=0x7f070054;
         public static final int Ok=0x7f070026;
-        public static final int Previois_Song_lagya_ja_Raha=0x7f070060;
-        public static final int Previois_Song_lagya_ja_Raha_en=0x7f070061;
-        public static final int Silent_Phone_Kar_Dea_Gaya_Ha=0x7f070062;
-        public static final int Sorry_App_Kasy_Call_karna_Chaatay_Ha=0x7f070063;
-        public static final int Sorry_App_Kiss_Ko_Sms_Send_Karna_Chaatay_ha=0x7f070064;
-        public static final int Sorry_App_Kiss_Ko_Sms_Send_Karna_Chaatay_ha_en=0x7f070065;
-        public static final int Volume_Zayada_ke_Ja_rahi_ha=0x7f070066;
-        public static final int Volume_Zayada_ke_Ja_rahi_ha_en=0x7f070067;
-        public static final int Volume_kam_kiya_ja_raha_ha=0x7f070068;
-        public static final int WIFI_ON_Kea_Ja_Raha_Ha=0x7f070069;
-        public static final int Wifi_Of_Kea_Ja_Raha_Ha=0x7f07006a;
-        public static final int aap_phesabuk_par_kya_post_karana_chaahate_hain=0x7f07006b;
+        public static final int Sorry_App_Kasy_Call_karna_Chaatay_Ha=0x7f070055;
+        public static final int Sorry_App_Kiss_Ko_Sms_Send_Karna_Chaatay_ha=0x7f070056;
+        public static final int Sorry_App_Kiss_Ko_Sms_Send_Karna_Chaatay_ha_en=0x7f070057;
+        public static final int Volume_Zayada_ke_Ja_rahi_ha=0x7f070058;
+        public static final int Volume_Zayada_ke_Ja_rahi_ha_en=0x7f070059;
+        public static final int Volume_kam_kiya_ja_raha_ha=0x7f07005a;
+        public static final int WIFI_ON_Kea_Ja_Raha_Ha=0x7f07005b;
+        public static final int Wifi_Of_Kea_Ja_Raha_Ha=0x7f07005c;
         public static final int abc_action_bar_home_description=0x7f070000;
         public static final int abc_action_bar_home_description_format=0x7f070001;
         public static final int abc_action_bar_home_subtitle_description_format=0x7f070002;
@@ -5315,18 +5297,18 @@ containing a value of this type.
         public static final int abc_activitychooserview_choose_application=0x7f070007;
         public static final int abc_capital_off=0x7f070008;
         public static final int abc_capital_on=0x7f070009;
-        public static final int abc_font_family_body_1_material=0x7f07006c;
-        public static final int abc_font_family_body_2_material=0x7f07006d;
-        public static final int abc_font_family_button_material=0x7f07006e;
-        public static final int abc_font_family_caption_material=0x7f07006f;
-        public static final int abc_font_family_display_1_material=0x7f070070;
-        public static final int abc_font_family_display_2_material=0x7f070071;
-        public static final int abc_font_family_display_3_material=0x7f070072;
-        public static final int abc_font_family_display_4_material=0x7f070073;
-        public static final int abc_font_family_headline_material=0x7f070074;
-        public static final int abc_font_family_menu_material=0x7f070075;
-        public static final int abc_font_family_subhead_material=0x7f070076;
-        public static final int abc_font_family_title_material=0x7f070077;
+        public static final int abc_font_family_body_1_material=0x7f07005d;
+        public static final int abc_font_family_body_2_material=0x7f07005e;
+        public static final int abc_font_family_button_material=0x7f07005f;
+        public static final int abc_font_family_caption_material=0x7f070060;
+        public static final int abc_font_family_display_1_material=0x7f070061;
+        public static final int abc_font_family_display_2_material=0x7f070062;
+        public static final int abc_font_family_display_3_material=0x7f070063;
+        public static final int abc_font_family_display_4_material=0x7f070064;
+        public static final int abc_font_family_headline_material=0x7f070065;
+        public static final int abc_font_family_menu_material=0x7f070066;
+        public static final int abc_font_family_subhead_material=0x7f070067;
+        public static final int abc_font_family_title_material=0x7f070068;
         public static final int abc_search_hint=0x7f07000a;
         public static final int abc_searchview_description_clear=0x7f07000b;
         public static final int abc_searchview_description_query=0x7f07000c;
@@ -5336,23 +5318,22 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f070010;
         public static final int abc_shareactionprovider_share_with_application=0x7f070011;
         public static final int abc_toolbar_collapse_description=0x7f070012;
-        public static final int action_sign_in=0x7f070078;
-        public static final int action_sign_in_short=0x7f070079;
-        public static final int app_name=0x7f07007a;
-        public static final int appbar_scrolling_view_behavior=0x7f07007b;
-        public static final int blootooth_band_kiya_ja_raha_hai=0x7f07007c;
-        public static final int blootooth_on_kiya_ja_raha_hai=0x7f07007d;
-        public static final int bottom_sheet_behavior=0x7f07007e;
+        public static final int action_sign_in=0x7f070069;
+        public static final int action_sign_in_short=0x7f07006a;
+        public static final int apka_message_bhaija_ja_raha_hai=0x7f07006b;
+        public static final int app_name=0x7f07006c;
+        public static final int appbar_scrolling_view_behavior=0x7f07006d;
+        public static final int bottom_sheet_behavior=0x7f07006e;
         public static final int cancel=0x7f070027;
-        public static final int card_empty_cardwithlist_text=0x7f07007f;
+        public static final int card_empty_cardwithlist_text=0x7f07006f;
         public static final int card_font_fontFamily_expand=0x7f070047;
         public static final int card_font_fontFamily_header=0x7f070048;
         public static final int card_font_fontFamily_main_content=0x7f070049;
         public static final int card_native_font_fontFamily_expand=0x7f07004a;
         public static final int card_native_font_fontFamily_header=0x7f07004b;
         public static final int card_native_font_fontFamily_main_content=0x7f07004c;
-        public static final int card_progressbar_cardwithlist_text=0x7f070080;
-        public static final int character_counter_pattern=0x7f070081;
+        public static final int card_progressbar_cardwithlist_text=0x7f070070;
+        public static final int character_counter_pattern=0x7f070071;
         public static final int click_again=0x7f070028;
         public static final int common_google_play_services_enable_button=0x7f070013;
         public static final int common_google_play_services_enable_text=0x7f070014;
@@ -5371,52 +5352,51 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f070021;
         public static final int common_signin_button_text=0x7f070022;
         public static final int common_signin_button_text_long=0x7f070023;
-        public static final int default_web_client_id=0x7f070082;
-        public static final int define_processbutton=0x7f070083;
-        public static final int desc_phone_auth=0x7f070084;
+        public static final int default_web_client_id=0x7f070072;
+        public static final int define_processbutton=0x7f070073;
+        public static final int desc_phone_auth=0x7f070074;
         public static final int enabled=0x7f070039;
-        public static final int error_field_required=0x7f070085;
-        public static final int error_incorrect_password=0x7f070086;
-        public static final int error_invalid_email=0x7f070087;
-        public static final int error_invalid_password=0x7f070088;
+        public static final int error_field_required=0x7f070075;
+        public static final int error_incorrect_password=0x7f070076;
+        public static final int error_invalid_email=0x7f070077;
+        public static final int error_invalid_password=0x7f070078;
         public static final int feedback=0x7f070029;
         public static final int feedback_mail_subject=0x7f07002a;
-        public static final int file_name_device_info=0x7f070089;
-        public static final int file_name_device_log=0x7f07008a;
-        public static final int firebase_database_url=0x7f07008b;
-        public static final int font_fontFamily_medium=0x7f07008c;
-        public static final int font_fontFamily_regular=0x7f07008d;
-        public static final int from=0x7f07008e;
-        public static final int gcm_defaultSenderId=0x7f07008f;
-        public static final int google_api_key=0x7f070090;
-        public static final int google_app_id=0x7f070091;
-        public static final int google_crash_reporting_api_key=0x7f070092;
-        public static final int google_maps_key=0x7f070093;
-        public static final int google_storage_bucket=0x7f070094;
-        public static final int hello_blank_fragment=0x7f070095;
+        public static final int file_name_device_info=0x7f070079;
+        public static final int file_name_device_log=0x7f07007a;
+        public static final int firebase_database_url=0x7f07007b;
+        public static final int font_fontFamily_medium=0x7f07007c;
+        public static final int font_fontFamily_regular=0x7f07007d;
+        public static final int from=0x7f07007e;
+        public static final int gcm_defaultSenderId=0x7f07007f;
+        public static final int google_api_key=0x7f070080;
+        public static final int google_app_id=0x7f070081;
+        public static final int google_crash_reporting_api_key=0x7f070082;
+        public static final int google_maps_key=0x7f070083;
+        public static final int google_storage_bucket=0x7f070084;
+        public static final int hello_blank_fragment=0x7f070085;
         public static final int info_fedback_legal_and=0x7f07002b;
         public static final int info_fedback_legal_log_data=0x7f07002c;
         public static final int info_fedback_legal_start=0x7f07002d;
         public static final int info_fedback_legal_system_info=0x7f07002e;
         public static final int info_fedback_legal_will_be_sent=0x7f07002f;
-        public static final int kis_Time_Pay_set_Karna_ha_en=0x7f070096;
-        public static final int label_phone_auth=0x7f070097;
-        public static final int library_processbutton_author=0x7f070098;
-        public static final int library_processbutton_authorWebsite=0x7f070099;
-        public static final int library_processbutton_isOpenSource=0x7f07009a;
-        public static final int library_processbutton_libraryDescription=0x7f07009b;
-        public static final int library_processbutton_libraryName=0x7f07009c;
-        public static final int library_processbutton_libraryVersion=0x7f07009d;
-        public static final int library_processbutton_libraryWebsite=0x7f07009e;
-        public static final int library_processbutton_licenseId=0x7f07009f;
-        public static final int library_processbutton_repositoryLink=0x7f0700a0;
+        public static final int label_phone_auth=0x7f070086;
+        public static final int library_processbutton_author=0x7f070087;
+        public static final int library_processbutton_authorWebsite=0x7f070088;
+        public static final int library_processbutton_isOpenSource=0x7f070089;
+        public static final int library_processbutton_libraryDescription=0x7f07008a;
+        public static final int library_processbutton_libraryName=0x7f07008b;
+        public static final int library_processbutton_libraryVersion=0x7f07008c;
+        public static final int library_processbutton_libraryWebsite=0x7f07008d;
+        public static final int library_processbutton_licenseId=0x7f07008e;
+        public static final int library_processbutton_repositoryLink=0x7f07008f;
         public static final int list_card_undo_title=0x7f07003a;
         public static final int ok=0x7f070030;
-        public static final int password_toggle_content_description=0x7f0700a1;
-        public static final int path_password_eye=0x7f0700a2;
-        public static final int path_password_eye_mask_strike_through=0x7f0700a3;
-        public static final int path_password_eye_mask_visible=0x7f0700a4;
-        public static final int path_password_strike_through=0x7f0700a5;
+        public static final int password_toggle_content_description=0x7f070090;
+        public static final int path_password_eye=0x7f070091;
+        public static final int path_password_eye_mask_strike_through=0x7f070092;
+        public static final int path_password_eye_mask_visible=0x7f070093;
+        public static final int path_password_strike_through=0x7f070094;
         public static final int permission_android_permission_ACCESS_COARSE_LOCATION=0x7f07003b;
         public static final int permission_android_permission_ACCESS_FINE_LOCATION=0x7f07003c;
         public static final int permission_android_permission_CAMERA=0x7f07003d;
@@ -5428,26 +5408,26 @@ containing a value of this type.
         public static final int permission_android_permission_WRITE_EXTERNAL_STORAGE=0x7f070043;
         public static final int permission_default_message=0x7f070044;
         public static final int permission_go_settings_title=0x7f070045;
-        public static final int permission_rationale=0x7f0700a6;
+        public static final int permission_rationale=0x7f070095;
         public static final int please_write=0x7f070031;
-        public static final int project_id=0x7f0700a7;
-        public static final int prompt_email=0x7f0700a8;
-        public static final int prompt_password=0x7f0700a9;
-        public static final int rationale_ask_again=0x7f0700aa;
+        public static final int project_id=0x7f070096;
+        public static final int prompt_email=0x7f070097;
+        public static final int prompt_password=0x7f070098;
+        public static final int rationale_ask_again=0x7f070099;
         public static final int search_menu_title=0x7f070024;
         public static final int select_image=0x7f070032;
         public static final int select_picture_title=0x7f070033;
         public static final int send_feedback=0x7f070034;
         public static final int send_feedback_two=0x7f070035;
-        public static final int send_kar_do_ya_badal_do=0x7f0700ab;
+        public static final int send_kar_do_ya_badal_do=0x7f07009a;
         public static final int settings=0x7f070046;
         public static final int space=0x7f070036;
         public static final int status_bar_notification_info_overflow=0x7f070025;
         public static final int system_info=0x7f070037;
-        public static final int title_activity_login=0x7f0700ac;
-        public static final int title_activity_maps=0x7f0700ad;
-        public static final int title_activity_voting=0x7f0700ae;
-        public static final int title_settings_dialog=0x7f0700af;
+        public static final int title_activity_login=0x7f07009b;
+        public static final int title_activity_maps=0x7f07009c;
+        public static final int title_activity_voting=0x7f07009d;
+        public static final int title_settings_dialog=0x7f07009e;
         public static final int your_input=0x7f070038;
     }
     public static final class style {
@@ -5861,6 +5841,8 @@ containing a value of this type.
         public static final int Widget_Design_Snackbar=0x7f0a01a5;
         public static final int Widget_Design_TabLayout=0x7f0a0001;
         public static final int Widget_Design_TextInputLayout=0x7f0a01a6;
+        /**  this style should be empty 
+         */
         public static final int card=0x7f0a002c;
         public static final int card_base_simple_title=0x7f0a002d;
         public static final int card_content_outer_layout=0x7f0a01a7;
@@ -5878,6 +5860,8 @@ containing a value of this type.
         public static final int card_main_layout_kitkat=0x7f0a01ae;
         public static final int card_main_layout_foreground=0x7f0a01af;
         public static final int card_main_layout_foreground_kitkat=0x7f0a01b0;
+        /**  this style should be empty 
+         */
         public static final int card_native=0x7f0a01b1;
         public static final int card_native_base_simple_title=0x7f0a0030;
         public static final int card_native_card_thumbnail_image=0x7f0a01b2;
@@ -5935,35 +5919,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.somia.fyp:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.somia.fyp:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.somia.fyp:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.somia.fyp:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.somia.fyp:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.somia.fyp:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.somia.fyp:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.somia.fyp:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.somia.fyp:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.somia.fyp:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.somia.fyp:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.somia.fyp:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.somia.fyp:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.somia.fyp:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.somia.fyp:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.somia.fyp:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.somia.fyp:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.somia.fyp:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.somia.fyp:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.somia.fyp:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.somia.fyp:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.somia.fyp:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.somia.fyp:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.somia.fyp:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.somia.fyp:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.somia.fyp:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.somia.fyp:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.somia.fyp:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.somia.fyp:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.somia.fyp.NewLocationSharing:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.somia.fyp.NewLocationSharing:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.somia.fyp.NewLocationSharing:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.somia.fyp.NewLocationSharing:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.somia.fyp.NewLocationSharing:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.somia.fyp.NewLocationSharing:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.somia.fyp.NewLocationSharing:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.somia.fyp.NewLocationSharing:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.somia.fyp.NewLocationSharing:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.somia.fyp.NewLocationSharing:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.somia.fyp.NewLocationSharing:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.somia.fyp.NewLocationSharing:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.somia.fyp.NewLocationSharing:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.somia.fyp.NewLocationSharing:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.somia.fyp.NewLocationSharing:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.somia.fyp.NewLocationSharing:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.somia.fyp.NewLocationSharing:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.somia.fyp.NewLocationSharing:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.somia.fyp.NewLocationSharing:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.somia.fyp.NewLocationSharing:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.somia.fyp.NewLocationSharing:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.somia.fyp.NewLocationSharing:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.somia.fyp.NewLocationSharing:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.somia.fyp.NewLocationSharing:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.somia.fyp.NewLocationSharing:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.somia.fyp.NewLocationSharing:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.somia.fyp.NewLocationSharing:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.somia.fyp.NewLocationSharing:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.somia.fyp.NewLocationSharing:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -6006,17 +5990,17 @@ containing a value of this type.
             0x7f0100a0
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#background}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:background
+          @attr name com.somia.fyp.NewLocationSharing:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6024,11 +6008,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:backgroundSplit
+          @attr name com.somia.fyp.NewLocationSharing:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6036,11 +6020,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:backgroundStacked
+          @attr name com.somia.fyp.NewLocationSharing:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6052,11 +6036,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetEnd
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6068,11 +6052,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetEndWithActions
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6084,11 +6068,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetLeft
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6100,11 +6084,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetRight
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6116,11 +6100,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetStart
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6132,21 +6116,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetStartWithNavigation
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:customNavigationLayout
+          @attr name com.somia.fyp.NewLocationSharing:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6164,21 +6148,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:displayOptions
+          @attr name com.somia.fyp.NewLocationSharing:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:divider
+          @attr name com.somia.fyp.NewLocationSharing:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6190,11 +6174,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:elevation
+          @attr name com.somia.fyp.NewLocationSharing:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#height}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6206,11 +6190,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:height
+          @attr name com.somia.fyp.NewLocationSharing:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6220,51 +6204,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:hideOnContentScroll
+          @attr name com.somia.fyp.NewLocationSharing:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:homeAsUpIndicator
+          @attr name com.somia.fyp.NewLocationSharing:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:homeLayout
+          @attr name com.somia.fyp.NewLocationSharing:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:icon
+          @attr name com.somia.fyp.NewLocationSharing:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:indeterminateProgressStyle
+          @attr name com.somia.fyp.NewLocationSharing:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6276,21 +6260,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:itemPadding
+          @attr name com.somia.fyp.NewLocationSharing:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:logo
+          @attr name com.somia.fyp.NewLocationSharing:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6304,21 +6288,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:navigationMode
+          @attr name com.somia.fyp.NewLocationSharing:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:popupTheme
+          @attr name com.somia.fyp.NewLocationSharing:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6330,21 +6314,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:progressBarPadding
+          @attr name com.somia.fyp.NewLocationSharing:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:progressBarStyle
+          @attr name com.somia.fyp.NewLocationSharing:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6354,21 +6338,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:subtitle
+          @attr name com.somia.fyp.NewLocationSharing:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:subtitleTextStyle
+          @attr name com.somia.fyp.NewLocationSharing:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#title}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -6378,17 +6362,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:title
+          @attr name com.somia.fyp.NewLocationSharing:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:titleTextStyle
+          @attr name com.somia.fyp.NewLocationSharing:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -6440,12 +6424,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.somia.fyp:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.somia.fyp:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.somia.fyp:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.somia.fyp:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.somia.fyp:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.somia.fyp:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.somia.fyp.NewLocationSharing:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.somia.fyp.NewLocationSharing:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.somia.fyp.NewLocationSharing:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.somia.fyp.NewLocationSharing:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.somia.fyp.NewLocationSharing:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.somia.fyp.NewLocationSharing:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -6459,17 +6443,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010046, 0x7f010056
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#background}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:background
+          @attr name com.somia.fyp.NewLocationSharing:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -6477,21 +6461,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:backgroundSplit
+          @attr name com.somia.fyp.NewLocationSharing:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:closeItemLayout
+          @attr name com.somia.fyp.NewLocationSharing:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#height}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -6503,27 +6487,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:height
+          @attr name com.somia.fyp.NewLocationSharing:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:subtitleTextStyle
+          @attr name com.somia.fyp.NewLocationSharing:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:titleTextStyle
+          @attr name com.somia.fyp.NewLocationSharing:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -6532,8 +6516,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.somia.fyp:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.somia.fyp:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.somia.fyp.NewLocationSharing:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.somia.fyp.NewLocationSharing:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -6542,17 +6526,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010057, 0x7f010058
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:expandActivityOverflowButtonDrawable
+          @attr name com.somia.fyp.NewLocationSharing:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -6562,7 +6546,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:initialActivityCount
+          @attr name com.somia.fyp.NewLocationSharing:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -6572,12 +6556,12 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.somia.fyp:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.somia.fyp:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.somia.fyp:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.somia.fyp:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_showTitle com.somia.fyp:showTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.somia.fyp:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.somia.fyp.NewLocationSharing:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.somia.fyp.NewLocationSharing:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.somia.fyp.NewLocationSharing:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.somia.fyp.NewLocationSharing:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_showTitle com.somia.fyp.NewLocationSharing:showTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.somia.fyp.NewLocationSharing:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -6598,47 +6582,47 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:buttonPanelSideLayout
+          @attr name com.somia.fyp.NewLocationSharing:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:listItemLayout
+          @attr name com.somia.fyp.NewLocationSharing:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:listLayout
+          @attr name com.somia.fyp.NewLocationSharing:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:multiChoiceItemLayout
+          @attr name com.somia.fyp.NewLocationSharing:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#showTitle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#showTitle}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -6648,17 +6632,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:showTitle
+          @attr name com.somia.fyp.NewLocationSharing:showTitle
         */
         public static final int AlertDialog_showTitle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:singleChoiceItemLayout
+          @attr name com.somia.fyp.NewLocationSharing:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -6670,8 +6654,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
            <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation com.somia.fyp:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded com.somia.fyp:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation com.somia.fyp.NewLocationSharing:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded com.somia.fyp.NewLocationSharing:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_android_keyboardNavigationCluster
@@ -6702,7 +6686,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_touchscreenBlocksFocus = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -6714,11 +6698,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:elevation
+          @attr name com.somia.fyp.NewLocationSharing:elevation
         */
         public static final int AppBarLayout_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -6728,7 +6712,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:expanded
+          @attr name com.somia.fyp.NewLocationSharing:expanded
         */
         public static final int AppBarLayout_expanded = 4;
         /** Attributes that can be used with a AppBarLayoutStates.
@@ -6737,8 +6721,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.somia.fyp:state_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.somia.fyp:state_collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.somia.fyp.NewLocationSharing:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.somia.fyp.NewLocationSharing:state_collapsible}</code></td><td></td></tr>
            </table>
            @see #AppBarLayoutStates_state_collapsed
            @see #AppBarLayoutStates_state_collapsible
@@ -6747,7 +6731,7 @@ containing a value of this type.
             0x7f010060, 0x7f010061
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#state_collapsed}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#state_collapsed}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -6757,11 +6741,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:state_collapsed
+          @attr name com.somia.fyp.NewLocationSharing:state_collapsed
         */
         public static final int AppBarLayoutStates_state_collapsed = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#state_collapsible}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#state_collapsible}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -6771,7 +6755,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:state_collapsible
+          @attr name com.somia.fyp.NewLocationSharing:state_collapsible
         */
         public static final int AppBarLayoutStates_state_collapsible = 1;
         /** Attributes that can be used with a AppBarLayout_Layout.
@@ -6780,8 +6764,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.somia.fyp:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.somia.fyp:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.somia.fyp.NewLocationSharing:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.somia.fyp.NewLocationSharing:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_Layout_layout_scrollFlags
            @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -6790,7 +6774,7 @@ containing a value of this type.
             0x7f010062, 0x7f010063
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
@@ -6806,17 +6790,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_scrollFlags
+          @attr name com.somia.fyp.NewLocationSharing:layout_scrollFlags
         */
         public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:layout_scrollInterpolator
+          @attr name com.somia.fyp.NewLocationSharing:layout_scrollInterpolator
         */
         public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -6826,9 +6810,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat com.somia.fyp:srcCompat}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tint com.somia.fyp:tint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tintMode com.somia.fyp:tintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.somia.fyp.NewLocationSharing:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tint com.somia.fyp.NewLocationSharing:tint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tintMode com.somia.fyp.NewLocationSharing:tintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -6845,17 +6829,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:srcCompat
+          @attr name com.somia.fyp.NewLocationSharing:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tint}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -6866,11 +6850,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tint
+          @attr name com.somia.fyp.NewLocationSharing:tint
         */
         public static final int AppCompatImageView_tint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tintMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tintMode}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -6886,7 +6870,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:tintMode
+          @attr name com.somia.fyp.NewLocationSharing:tintMode
         */
         public static final int AppCompatImageView_tintMode = 3;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -6896,9 +6880,9 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.somia.fyp:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.somia.fyp:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.somia.fyp:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.somia.fyp.NewLocationSharing:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.somia.fyp.NewLocationSharing:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.somia.fyp.NewLocationSharing:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -6915,17 +6899,17 @@ containing a value of this type.
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:tickMark
+          @attr name com.somia.fyp.NewLocationSharing:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -6936,11 +6920,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tickMarkTint
+          @attr name com.somia.fyp.NewLocationSharing:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -6957,7 +6941,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:tickMarkTintMode
+          @attr name com.somia.fyp.NewLocationSharing:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -7035,13 +7019,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.somia.fyp:autoSizeMaxTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.somia.fyp:autoSizeMinTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.somia.fyp:autoSizePresetSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.somia.fyp:autoSizeStepGranularity}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.somia.fyp:autoSizeTextType}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_fontFamily com.somia.fyp:fontFamily}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.somia.fyp:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.somia.fyp.NewLocationSharing:autoSizeMaxTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.somia.fyp.NewLocationSharing:autoSizeMinTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.somia.fyp.NewLocationSharing:autoSizePresetSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.somia.fyp.NewLocationSharing:autoSizeStepGranularity}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.somia.fyp.NewLocationSharing:autoSizeTextType}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_fontFamily com.somia.fyp.NewLocationSharing:fontFamily}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.somia.fyp.NewLocationSharing:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_autoSizeMaxTextSize
@@ -7063,7 +7047,7 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#autoSizeMaxTextSize}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#autoSizeMaxTextSize}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -7075,11 +7059,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:autoSizeMaxTextSize
+          @attr name com.somia.fyp.NewLocationSharing:autoSizeMaxTextSize
         */
         public static final int AppCompatTextView_autoSizeMaxTextSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#autoSizeMinTextSize}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#autoSizeMinTextSize}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -7091,21 +7075,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:autoSizeMinTextSize
+          @attr name com.somia.fyp.NewLocationSharing:autoSizeMinTextSize
         */
         public static final int AppCompatTextView_autoSizeMinTextSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#autoSizePresetSizes}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#autoSizePresetSizes}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:autoSizePresetSizes
+          @attr name com.somia.fyp.NewLocationSharing:autoSizePresetSizes
         */
         public static final int AppCompatTextView_autoSizePresetSizes = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#autoSizeStepGranularity}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#autoSizeStepGranularity}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -7117,11 +7101,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:autoSizeStepGranularity
+          @attr name com.somia.fyp.NewLocationSharing:autoSizeStepGranularity
         */
         public static final int AppCompatTextView_autoSizeStepGranularity = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#autoSizeTextType}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#autoSizeTextType}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -7134,11 +7118,11 @@ containing a value of this type.
 <tr><td><code>none</code></td><td>0</td><td></td></tr>
 <tr><td><code>uniform</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:autoSizeTextType
+          @attr name com.somia.fyp.NewLocationSharing:autoSizeTextType
         */
         public static final int AppCompatTextView_autoSizeTextType = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontFamily}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontFamily}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -7148,18 +7132,18 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fontFamily
+          @attr name com.somia.fyp.NewLocationSharing:fontFamily
         */
         public static final int AppCompatTextView_fontFamily = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.somia.fyp:textAllCaps
+          @attr name com.somia.fyp.NewLocationSharing:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -7168,125 +7152,125 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.somia.fyp:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.somia.fyp:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.somia.fyp:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.somia.fyp:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.somia.fyp:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.somia.fyp:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.somia.fyp:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.somia.fyp:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.somia.fyp:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.somia.fyp:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.somia.fyp:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.somia.fyp:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.somia.fyp:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.somia.fyp:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.somia.fyp:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.somia.fyp:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.somia.fyp:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.somia.fyp:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.somia.fyp:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.somia.fyp:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.somia.fyp:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.somia.fyp:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.somia.fyp:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.somia.fyp:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.somia.fyp:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.somia.fyp:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.somia.fyp:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.somia.fyp:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.somia.fyp:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.somia.fyp:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.somia.fyp:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.somia.fyp:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.somia.fyp:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.somia.fyp:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.somia.fyp:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.somia.fyp.NewLocationSharing:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.somia.fyp.NewLocationSharing:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.somia.fyp.NewLocationSharing:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.somia.fyp.NewLocationSharing:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.somia.fyp.NewLocationSharing:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.somia.fyp.NewLocationSharing:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.somia.fyp.NewLocationSharing:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.somia.fyp.NewLocationSharing:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.somia.fyp.NewLocationSharing:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.somia.fyp.NewLocationSharing:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.somia.fyp.NewLocationSharing:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.somia.fyp.NewLocationSharing:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.somia.fyp.NewLocationSharing:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.somia.fyp.NewLocationSharing:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.somia.fyp.NewLocationSharing:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.somia.fyp.NewLocationSharing:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.somia.fyp.NewLocationSharing:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.somia.fyp.NewLocationSharing:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.somia.fyp.NewLocationSharing:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.somia.fyp.NewLocationSharing:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.somia.fyp.NewLocationSharing:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.somia.fyp.NewLocationSharing:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.somia.fyp.NewLocationSharing:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.somia.fyp.NewLocationSharing:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.somia.fyp.NewLocationSharing:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.somia.fyp.NewLocationSharing:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.somia.fyp.NewLocationSharing:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.somia.fyp.NewLocationSharing:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.somia.fyp.NewLocationSharing:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.somia.fyp.NewLocationSharing:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.somia.fyp.NewLocationSharing:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.somia.fyp.NewLocationSharing:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.somia.fyp.NewLocationSharing:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.somia.fyp.NewLocationSharing:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.somia.fyp.NewLocationSharing:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.somia.fyp:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.somia.fyp:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.somia.fyp:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.somia.fyp:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.somia.fyp:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.somia.fyp:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.somia.fyp:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.somia.fyp:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.somia.fyp:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.somia.fyp:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.somia.fyp:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent com.somia.fyp:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.somia.fyp:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.somia.fyp:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.somia.fyp:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.somia.fyp:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.somia.fyp:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorError com.somia.fyp:colorError}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.somia.fyp:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.somia.fyp:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.somia.fyp:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground com.somia.fyp:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.somia.fyp:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.somia.fyp:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.somia.fyp:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.somia.fyp:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.somia.fyp:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.somia.fyp:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.somia.fyp:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor com.somia.fyp:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.somia.fyp:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.somia.fyp:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.somia.fyp:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.somia.fyp:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.somia.fyp:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.somia.fyp:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.somia.fyp:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.somia.fyp:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.somia.fyp:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.somia.fyp:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.somia.fyp:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.somia.fyp:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground com.somia.fyp:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.somia.fyp:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.somia.fyp:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.somia.fyp:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.somia.fyp:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.somia.fyp:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.somia.fyp:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.somia.fyp:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.somia.fyp:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.somia.fyp:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.somia.fyp:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.somia.fyp:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.somia.fyp:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.somia.fyp:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.somia.fyp:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle com.somia.fyp:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.somia.fyp:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.somia.fyp:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.somia.fyp:textAppearanceListItemSecondary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.somia.fyp:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.somia.fyp:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.somia.fyp:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.somia.fyp:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.somia.fyp:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.somia.fyp:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.somia.fyp:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.somia.fyp:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.somia.fyp:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.somia.fyp:tooltipForegroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.somia.fyp:tooltipFrameBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.somia.fyp:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.somia.fyp:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.somia.fyp:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.somia.fyp:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.somia.fyp:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.somia.fyp:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.somia.fyp:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.somia.fyp:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.somia.fyp:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.somia.fyp:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.somia.fyp.NewLocationSharing:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.somia.fyp.NewLocationSharing:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.somia.fyp.NewLocationSharing:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.somia.fyp.NewLocationSharing:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.somia.fyp.NewLocationSharing:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.somia.fyp.NewLocationSharing:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.somia.fyp.NewLocationSharing:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.somia.fyp.NewLocationSharing:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.somia.fyp.NewLocationSharing:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.somia.fyp.NewLocationSharing:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.somia.fyp.NewLocationSharing:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.somia.fyp.NewLocationSharing:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.somia.fyp.NewLocationSharing:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.somia.fyp.NewLocationSharing:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.somia.fyp.NewLocationSharing:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.somia.fyp.NewLocationSharing:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.somia.fyp.NewLocationSharing:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorError com.somia.fyp.NewLocationSharing:colorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.somia.fyp.NewLocationSharing:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.somia.fyp.NewLocationSharing:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.somia.fyp.NewLocationSharing:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.somia.fyp.NewLocationSharing:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.somia.fyp.NewLocationSharing:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.somia.fyp.NewLocationSharing:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.somia.fyp.NewLocationSharing:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.somia.fyp.NewLocationSharing:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.somia.fyp.NewLocationSharing:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.somia.fyp.NewLocationSharing:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.somia.fyp.NewLocationSharing:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.somia.fyp.NewLocationSharing:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.somia.fyp.NewLocationSharing:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.somia.fyp.NewLocationSharing:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.somia.fyp.NewLocationSharing:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.somia.fyp.NewLocationSharing:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.somia.fyp.NewLocationSharing:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.somia.fyp.NewLocationSharing:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.somia.fyp.NewLocationSharing:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.somia.fyp.NewLocationSharing:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.somia.fyp.NewLocationSharing:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.somia.fyp.NewLocationSharing:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.somia.fyp.NewLocationSharing:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.somia.fyp.NewLocationSharing:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.somia.fyp.NewLocationSharing:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.somia.fyp.NewLocationSharing:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.somia.fyp.NewLocationSharing:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.somia.fyp.NewLocationSharing:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.somia.fyp.NewLocationSharing:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.somia.fyp.NewLocationSharing:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.somia.fyp.NewLocationSharing:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.somia.fyp.NewLocationSharing:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.somia.fyp.NewLocationSharing:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.somia.fyp.NewLocationSharing:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.somia.fyp.NewLocationSharing:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.somia.fyp.NewLocationSharing:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.somia.fyp.NewLocationSharing:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.somia.fyp.NewLocationSharing:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.somia.fyp.NewLocationSharing:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.somia.fyp.NewLocationSharing:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.somia.fyp.NewLocationSharing:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.somia.fyp.NewLocationSharing:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.somia.fyp.NewLocationSharing:textAppearanceListItemSecondary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.somia.fyp.NewLocationSharing:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.somia.fyp.NewLocationSharing:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.somia.fyp.NewLocationSharing:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.somia.fyp.NewLocationSharing:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.somia.fyp.NewLocationSharing:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.somia.fyp.NewLocationSharing:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.somia.fyp.NewLocationSharing:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.somia.fyp.NewLocationSharing:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.somia.fyp.NewLocationSharing:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.somia.fyp.NewLocationSharing:tooltipForegroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.somia.fyp.NewLocationSharing:tooltipFrameBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.somia.fyp.NewLocationSharing:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.somia.fyp.NewLocationSharing:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.somia.fyp.NewLocationSharing:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.somia.fyp.NewLocationSharing:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.somia.fyp.NewLocationSharing:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.somia.fyp.NewLocationSharing:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.somia.fyp.NewLocationSharing:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.somia.fyp.NewLocationSharing:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.somia.fyp.NewLocationSharing:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.somia.fyp.NewLocationSharing:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -7441,37 +7425,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100e3, 0x7f0100e4, 0x7f0100e5
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarDivider
+          @attr name com.somia.fyp.NewLocationSharing:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarItemBackground
+          @attr name com.somia.fyp.NewLocationSharing:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarPopupTheme
+          @attr name com.somia.fyp.NewLocationSharing:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7491,111 +7475,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:actionBarSize
+          @attr name com.somia.fyp.NewLocationSharing:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarSplitStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarTabBarStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarTabStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarTabTextStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarTheme
+          @attr name com.somia.fyp.NewLocationSharing:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionBarWidgetTheme
+          @attr name com.somia.fyp.NewLocationSharing:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionDropDownStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionMenuTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7603,181 +7587,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:actionMenuTextColor
+          @attr name com.somia.fyp.NewLocationSharing:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeBackground
+          @attr name com.somia.fyp.NewLocationSharing:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeCloseButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeCloseDrawable
+          @attr name com.somia.fyp.NewLocationSharing:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeCopyDrawable
+          @attr name com.somia.fyp.NewLocationSharing:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeCutDrawable
+          @attr name com.somia.fyp.NewLocationSharing:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeFindDrawable
+          @attr name com.somia.fyp.NewLocationSharing:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModePasteDrawable
+          @attr name com.somia.fyp.NewLocationSharing:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModePopupWindowStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeSelectAllDrawable
+          @attr name com.somia.fyp.NewLocationSharing:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeShareDrawable
+          @attr name com.somia.fyp.NewLocationSharing:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeSplitBackground
+          @attr name com.somia.fyp.NewLocationSharing:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionModeWebSearchDrawable
+          @attr name com.somia.fyp.NewLocationSharing:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionOverflowButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionOverflowMenuStyle
+          @attr name com.somia.fyp.NewLocationSharing:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:activityChooserViewStyle
+          @attr name com.somia.fyp.NewLocationSharing:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:alertDialogButtonGroupStyle
+          @attr name com.somia.fyp.NewLocationSharing:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7787,27 +7771,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:alertDialogCenterButtons
+          @attr name com.somia.fyp.NewLocationSharing:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 96;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:alertDialogStyle
+          @attr name com.somia.fyp.NewLocationSharing:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:alertDialogTheme
+          @attr name com.somia.fyp.NewLocationSharing:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 97;
         /**
@@ -7823,117 +7807,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:autoCompleteTextViewStyle
+          @attr name com.somia.fyp.NewLocationSharing:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:borderlessButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:buttonBarButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:buttonBarNegativeButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:buttonBarNeutralButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:buttonBarPositiveButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:buttonBarStyle
+          @attr name com.somia.fyp.NewLocationSharing:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:buttonStyle
+          @attr name com.somia.fyp.NewLocationSharing:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:buttonStyleSmall
+          @attr name com.somia.fyp.NewLocationSharing:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 104;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:checkboxStyle
+          @attr name com.somia.fyp.NewLocationSharing:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:checkedTextViewStyle
+          @attr name com.somia.fyp.NewLocationSharing:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7944,11 +7928,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:colorAccent
+          @attr name com.somia.fyp.NewLocationSharing:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 86;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7959,11 +7943,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:colorBackgroundFloating
+          @attr name com.somia.fyp.NewLocationSharing:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 93;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7974,11 +7958,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:colorButtonNormal
+          @attr name com.somia.fyp.NewLocationSharing:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7989,11 +7973,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:colorControlActivated
+          @attr name com.somia.fyp.NewLocationSharing:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 88;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8004,11 +7988,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:colorControlHighlight
+          @attr name com.somia.fyp.NewLocationSharing:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 89;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8019,11 +8003,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:colorControlNormal
+          @attr name com.somia.fyp.NewLocationSharing:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 87;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorError}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorError}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8031,11 +8015,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:colorError
+          @attr name com.somia.fyp.NewLocationSharing:colorError
         */
         public static final int AppCompatTheme_colorError = 118;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8046,11 +8030,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:colorPrimary
+          @attr name com.somia.fyp.NewLocationSharing:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 84;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8061,11 +8045,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:colorPrimaryDark
+          @attr name com.somia.fyp.NewLocationSharing:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 85;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8076,21 +8060,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:colorSwitchThumbNormal
+          @attr name com.somia.fyp.NewLocationSharing:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 91;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:controlBackground
+          @attr name com.somia.fyp.NewLocationSharing:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 92;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8102,51 +8086,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:dialogPreferredPadding
+          @attr name com.somia.fyp.NewLocationSharing:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:dialogTheme
+          @attr name com.somia.fyp.NewLocationSharing:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:dividerHorizontal
+          @attr name com.somia.fyp.NewLocationSharing:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:dividerVertical
+          @attr name com.somia.fyp.NewLocationSharing:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:dropDownListViewStyle
+          @attr name com.somia.fyp.NewLocationSharing:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8158,21 +8142,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:dropdownListPreferredItemHeight
+          @attr name com.somia.fyp.NewLocationSharing:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:editTextBackground
+          @attr name com.somia.fyp.NewLocationSharing:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8180,81 +8164,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:editTextColor
+          @attr name com.somia.fyp.NewLocationSharing:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:editTextStyle
+          @attr name com.somia.fyp.NewLocationSharing:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:homeAsUpIndicator
+          @attr name com.somia.fyp.NewLocationSharing:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:imageButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:listChoiceBackgroundIndicator
+          @attr name com.somia.fyp.NewLocationSharing:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 83;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:listDividerAlertDialog
+          @attr name com.somia.fyp.NewLocationSharing:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:listMenuViewStyle
+          @attr name com.somia.fyp.NewLocationSharing:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 115;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:listPopupWindowStyle
+          @attr name com.somia.fyp.NewLocationSharing:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8266,11 +8250,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:listPreferredItemHeight
+          @attr name com.somia.fyp.NewLocationSharing:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8282,11 +8266,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:listPreferredItemHeightLarge
+          @attr name com.somia.fyp.NewLocationSharing:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8298,11 +8282,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:listPreferredItemHeightSmall
+          @attr name com.somia.fyp.NewLocationSharing:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8314,11 +8298,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:listPreferredItemPaddingLeft
+          @attr name com.somia.fyp.NewLocationSharing:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8330,31 +8314,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:listPreferredItemPaddingRight
+          @attr name com.somia.fyp.NewLocationSharing:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:panelBackground
+          @attr name com.somia.fyp.NewLocationSharing:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 80;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:panelMenuListTheme
+          @attr name com.somia.fyp.NewLocationSharing:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 82;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8366,221 +8350,221 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:panelMenuListWidth
+          @attr name com.somia.fyp.NewLocationSharing:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 81;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:popupMenuStyle
+          @attr name com.somia.fyp.NewLocationSharing:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:popupWindowStyle
+          @attr name com.somia.fyp.NewLocationSharing:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:radioButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:ratingBarStyle
+          @attr name com.somia.fyp.NewLocationSharing:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:ratingBarStyleIndicator
+          @attr name com.somia.fyp.NewLocationSharing:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 110;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:ratingBarStyleSmall
+          @attr name com.somia.fyp.NewLocationSharing:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 111;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:searchViewStyle
+          @attr name com.somia.fyp.NewLocationSharing:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:seekBarStyle
+          @attr name com.somia.fyp.NewLocationSharing:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:selectableItemBackground
+          @attr name com.somia.fyp.NewLocationSharing:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:selectableItemBackgroundBorderless
+          @attr name com.somia.fyp.NewLocationSharing:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:spinnerDropDownItemStyle
+          @attr name com.somia.fyp.NewLocationSharing:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:spinnerStyle
+          @attr name com.somia.fyp.NewLocationSharing:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:switchStyle
+          @attr name com.somia.fyp.NewLocationSharing:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:textAppearanceLargePopupMenu
+          @attr name com.somia.fyp.NewLocationSharing:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:textAppearanceListItem
+          @attr name com.somia.fyp.NewLocationSharing:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAppearanceListItemSecondary}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAppearanceListItemSecondary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:textAppearanceListItemSecondary
+          @attr name com.somia.fyp.NewLocationSharing:textAppearanceListItemSecondary
         */
         public static final int AppCompatTheme_textAppearanceListItemSecondary = 78;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:textAppearanceListItemSmall
+          @attr name com.somia.fyp.NewLocationSharing:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 79;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:textAppearancePopupMenuHeader
+          @attr name com.somia.fyp.NewLocationSharing:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:textAppearanceSearchResultSubtitle
+          @attr name com.somia.fyp.NewLocationSharing:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:textAppearanceSearchResultTitle
+          @attr name com.somia.fyp.NewLocationSharing:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:textAppearanceSmallPopupMenu
+          @attr name com.somia.fyp.NewLocationSharing:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8588,11 +8572,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:textColorAlertDialogListItem
+          @attr name com.somia.fyp.NewLocationSharing:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 98;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8600,31 +8584,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:textColorSearchUrl
+          @attr name com.somia.fyp.NewLocationSharing:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:toolbarNavigationButtonStyle
+          @attr name com.somia.fyp.NewLocationSharing:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:toolbarStyle
+          @attr name com.somia.fyp.NewLocationSharing:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tooltipForegroundColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tooltipForegroundColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8632,21 +8616,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:tooltipForegroundColor
+          @attr name com.somia.fyp.NewLocationSharing:tooltipForegroundColor
         */
         public static final int AppCompatTheme_tooltipForegroundColor = 117;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tooltipFrameBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tooltipFrameBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:tooltipFrameBackground
+          @attr name com.somia.fyp.NewLocationSharing:tooltipFrameBackground
         */
         public static final int AppCompatTheme_tooltipFrameBackground = 116;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8656,11 +8640,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowActionBar
+          @attr name com.somia.fyp.NewLocationSharing:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8670,11 +8654,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowActionBarOverlay
+          @attr name com.somia.fyp.NewLocationSharing:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8684,11 +8668,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowActionModeOverlay
+          @attr name com.somia.fyp.NewLocationSharing:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8703,11 +8687,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowFixedHeightMajor
+          @attr name com.somia.fyp.NewLocationSharing:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8722,11 +8706,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowFixedHeightMinor
+          @attr name com.somia.fyp.NewLocationSharing:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8741,11 +8725,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowFixedWidthMajor
+          @attr name com.somia.fyp.NewLocationSharing:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8760,11 +8744,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowFixedWidthMinor
+          @attr name com.somia.fyp.NewLocationSharing:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8779,11 +8763,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowMinWidthMajor
+          @attr name com.somia.fyp.NewLocationSharing:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8798,11 +8782,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowMinWidthMinor
+          @attr name com.somia.fyp.NewLocationSharing:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8812,7 +8796,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:windowNoTitle
+          @attr name com.somia.fyp.NewLocationSharing:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomNavigationView.
@@ -8821,11 +8805,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomNavigationView_elevation com.somia.fyp:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemBackground com.somia.fyp:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemIconTint com.somia.fyp:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemTextColor com.somia.fyp:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_menu com.somia.fyp:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_elevation com.somia.fyp.NewLocationSharing:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemBackground com.somia.fyp.NewLocationSharing:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemIconTint com.somia.fyp.NewLocationSharing:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextColor com.somia.fyp.NewLocationSharing:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_menu com.somia.fyp.NewLocationSharing:menu}</code></td><td></td></tr>
            </table>
            @see #BottomNavigationView_elevation
            @see #BottomNavigationView_itemBackground
@@ -8838,7 +8822,7 @@ containing a value of this type.
             0x7f010196
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#elevation}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -8850,21 +8834,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:elevation
+          @attr name com.somia.fyp.NewLocationSharing:elevation
         */
         public static final int BottomNavigationView_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#itemBackground}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:itemBackground
+          @attr name com.somia.fyp.NewLocationSharing:itemBackground
         */
         public static final int BottomNavigationView_itemBackground = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#itemIconTint}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -8875,11 +8859,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:itemIconTint
+          @attr name com.somia.fyp.NewLocationSharing:itemIconTint
         */
         public static final int BottomNavigationView_itemIconTint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#itemTextColor}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -8890,17 +8874,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:itemTextColor
+          @attr name com.somia.fyp.NewLocationSharing:itemTextColor
         */
         public static final int BottomNavigationView_itemTextColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:menu
+          @attr name com.somia.fyp.NewLocationSharing:menu
         */
         public static final int BottomNavigationView_menu = 1;
         /** Attributes that can be used with a BottomSheetBehavior_Layout.
@@ -8909,9 +8893,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.somia.fyp:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.somia.fyp:behavior_peekHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.somia.fyp:behavior_skipCollapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.somia.fyp.NewLocationSharing:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.somia.fyp.NewLocationSharing:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.somia.fyp.NewLocationSharing:behavior_skipCollapsed}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Layout_behavior_hideable
            @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -8921,7 +8905,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100e6, 0x7f0100e7, 0x7f0100e8
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -8931,11 +8915,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:behavior_hideable
+          @attr name com.somia.fyp.NewLocationSharing:behavior_hideable
         */
         public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -8955,11 +8939,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:behavior_peekHeight
+          @attr name com.somia.fyp.NewLocationSharing:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#behavior_skipCollapsed}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#behavior_skipCollapsed}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -8969,7 +8953,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:behavior_skipCollapsed
+          @attr name com.somia.fyp.NewLocationSharing:behavior_skipCollapsed
         */
         public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -8978,7 +8962,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.somia.fyp:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.somia.fyp.NewLocationSharing:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -8986,7 +8970,7 @@ containing a value of this type.
             0x7f0100e9
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -8996,7 +8980,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:allowStacking
+          @attr name com.somia.fyp.NewLocationSharing:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
@@ -9007,17 +8991,17 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor com.somia.fyp:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius com.somia.fyp:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation com.somia.fyp:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation com.somia.fyp:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.somia.fyp:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding com.somia.fyp:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding com.somia.fyp:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom com.somia.fyp:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft com.somia.fyp:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight com.somia.fyp:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop com.somia.fyp:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor com.somia.fyp.NewLocationSharing:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius com.somia.fyp.NewLocationSharing:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation com.somia.fyp.NewLocationSharing:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation com.somia.fyp.NewLocationSharing:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.somia.fyp.NewLocationSharing:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding com.somia.fyp.NewLocationSharing:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding com.somia.fyp.NewLocationSharing:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom com.somia.fyp.NewLocationSharing:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft com.somia.fyp.NewLocationSharing:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight com.somia.fyp.NewLocationSharing:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop com.somia.fyp.NewLocationSharing:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_android_minHeight
            @see #CardView_android_minWidth
@@ -9052,7 +9036,7 @@ containing a value of this type.
         */
         public static final int CardView_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9063,11 +9047,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cardBackgroundColor
+          @attr name com.somia.fyp.NewLocationSharing:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9079,11 +9063,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cardCornerRadius
+          @attr name com.somia.fyp.NewLocationSharing:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9095,11 +9079,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cardElevation
+          @attr name com.somia.fyp.NewLocationSharing:cardElevation
         */
         public static final int CardView_cardElevation = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9111,11 +9095,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cardMaxElevation
+          @attr name com.somia.fyp.NewLocationSharing:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9125,11 +9109,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cardPreventCornerOverlap
+          @attr name com.somia.fyp.NewLocationSharing:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9139,11 +9123,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cardUseCompatPadding
+          @attr name com.somia.fyp.NewLocationSharing:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9155,11 +9139,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentPadding
+          @attr name com.somia.fyp.NewLocationSharing:contentPadding
         */
         public static final int CardView_contentPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9171,11 +9155,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentPaddingBottom
+          @attr name com.somia.fyp.NewLocationSharing:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9187,11 +9171,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentPaddingLeft
+          @attr name com.somia.fyp.NewLocationSharing:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9203,11 +9187,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentPaddingRight
+          @attr name com.somia.fyp.NewLocationSharing:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -9219,7 +9203,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentPaddingTop
+          @attr name com.somia.fyp.NewLocationSharing:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -9228,22 +9212,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.somia.fyp:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.somia.fyp:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.somia.fyp:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.somia.fyp:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.somia.fyp:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.somia.fyp:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.somia.fyp:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.somia.fyp:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.somia.fyp:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.somia.fyp:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.somia.fyp:scrimAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.somia.fyp:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.somia.fyp:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title com.somia.fyp:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.somia.fyp:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.somia.fyp:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.somia.fyp.NewLocationSharing:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.somia.fyp.NewLocationSharing:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.somia.fyp.NewLocationSharing:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.somia.fyp.NewLocationSharing:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.somia.fyp.NewLocationSharing:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.somia.fyp.NewLocationSharing:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.somia.fyp.NewLocationSharing:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.somia.fyp.NewLocationSharing:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.somia.fyp.NewLocationSharing:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.somia.fyp.NewLocationSharing:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.somia.fyp.NewLocationSharing:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.somia.fyp.NewLocationSharing:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.somia.fyp.NewLocationSharing:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title com.somia.fyp.NewLocationSharing:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.somia.fyp.NewLocationSharing:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.somia.fyp.NewLocationSharing:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -9269,7 +9253,7 @@ containing a value of this type.
             0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9290,21 +9274,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:collapsedTitleGravity
+          @attr name com.somia.fyp.NewLocationSharing:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:collapsedTitleTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9315,11 +9299,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentScrim
+          @attr name com.somia.fyp.NewLocationSharing:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9340,11 +9324,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:expandedTitleGravity
+          @attr name com.somia.fyp.NewLocationSharing:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9356,11 +9340,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:expandedTitleMargin
+          @attr name com.somia.fyp.NewLocationSharing:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9372,11 +9356,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:expandedTitleMarginBottom
+          @attr name com.somia.fyp.NewLocationSharing:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9388,11 +9372,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:expandedTitleMarginEnd
+          @attr name com.somia.fyp.NewLocationSharing:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9404,11 +9388,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:expandedTitleMarginStart
+          @attr name com.somia.fyp.NewLocationSharing:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9420,21 +9404,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:expandedTitleMarginTop
+          @attr name com.somia.fyp.NewLocationSharing:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:expandedTitleTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#scrimAnimationDuration}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#scrimAnimationDuration}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9444,11 +9428,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:scrimAnimationDuration
+          @attr name com.somia.fyp.NewLocationSharing:scrimAnimationDuration
         */
         public static final int CollapsingToolbarLayout_scrimAnimationDuration = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#scrimVisibleHeightTrigger}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#scrimVisibleHeightTrigger}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9460,11 +9444,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:scrimVisibleHeightTrigger
+          @attr name com.somia.fyp.NewLocationSharing:scrimVisibleHeightTrigger
         */
         public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9475,11 +9459,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:statusBarScrim
+          @attr name com.somia.fyp.NewLocationSharing:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#title}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9489,11 +9473,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:title
+          @attr name com.somia.fyp.NewLocationSharing:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -9503,17 +9487,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:titleEnabled
+          @attr name com.somia.fyp.NewLocationSharing:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:toolbarId
+          @attr name com.somia.fyp.NewLocationSharing:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
@@ -9522,8 +9506,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.somia.fyp:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.somia.fyp:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.somia.fyp.NewLocationSharing:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.somia.fyp.NewLocationSharing:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_Layout_layout_collapseMode
            @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -9532,7 +9516,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010104, 0x7f010105
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -9546,11 +9530,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_collapseMode
+          @attr name com.somia.fyp.NewLocationSharing:layout_collapseMode
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -9560,7 +9544,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_collapseParallaxMultiplier
+          @attr name com.somia.fyp.NewLocationSharing:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a ColorStateListItem.
@@ -9569,7 +9553,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha com.somia.fyp:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha com.somia.fyp.NewLocationSharing:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -9581,7 +9565,7 @@ containing a value of this type.
             0x010101a5, 0x0101031f, 0x7f010106
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#alpha}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -9591,7 +9575,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:alpha
+          @attr name com.somia.fyp.NewLocationSharing:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -9613,8 +9597,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.somia.fyp:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.somia.fyp:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.somia.fyp.NewLocationSharing:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.somia.fyp.NewLocationSharing:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -9630,7 +9614,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -9641,11 +9625,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:buttonTint
+          @attr name com.somia.fyp.NewLocationSharing:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -9661,7 +9645,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:buttonTintMode
+          @attr name com.somia.fyp.NewLocationSharing:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a ConstraintLayout_Layout.
@@ -9675,61 +9659,61 @@ containing a value of this type.
            <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.somia.fyp:barrierDirection}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.somia.fyp:chainUseRtl}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.somia.fyp:constraintSet}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.somia.fyp:constraint_referenced_ids}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.somia.fyp:layout_constrainedHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.somia.fyp:layout_constrainedWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.somia.fyp:layout_constraintBaseline_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.somia.fyp:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.somia.fyp:layout_constraintBottom_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.somia.fyp:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.somia.fyp:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.somia.fyp:layout_constraintCircle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.somia.fyp:layout_constraintCircleAngle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.somia.fyp:layout_constraintCircleRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.somia.fyp:layout_constraintDimensionRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.somia.fyp:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.somia.fyp:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.somia.fyp:layout_constraintGuide_begin}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.somia.fyp:layout_constraintGuide_end}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.somia.fyp:layout_constraintGuide_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.somia.fyp:layout_constraintHeight_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.somia.fyp:layout_constraintHeight_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.somia.fyp:layout_constraintHeight_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.somia.fyp:layout_constraintHeight_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.somia.fyp:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.somia.fyp:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.somia.fyp:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.somia.fyp:layout_constraintLeft_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.somia.fyp:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.somia.fyp:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.somia.fyp:layout_constraintRight_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.somia.fyp:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.somia.fyp:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.somia.fyp:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.somia.fyp:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.somia.fyp:layout_constraintTop_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.somia.fyp:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.somia.fyp:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.somia.fyp:layout_constraintVertical_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.somia.fyp:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.somia.fyp:layout_constraintVertical_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.somia.fyp:layout_constraintWidth_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.somia.fyp:layout_constraintWidth_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.somia.fyp:layout_constraintWidth_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.somia.fyp:layout_constraintWidth_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.somia.fyp:layout_editor_absoluteX}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.somia.fyp:layout_editor_absoluteY}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.somia.fyp:layout_goneMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.somia.fyp:layout_goneMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.somia.fyp:layout_goneMarginLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.somia.fyp:layout_goneMarginRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.somia.fyp:layout_goneMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.somia.fyp:layout_goneMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.somia.fyp:layout_optimizationLevel}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_title com.somia.fyp:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.somia.fyp.NewLocationSharing:barrierDirection}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.somia.fyp.NewLocationSharing:chainUseRtl}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.somia.fyp.NewLocationSharing:constraintSet}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.somia.fyp.NewLocationSharing:constraint_referenced_ids}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.somia.fyp.NewLocationSharing:layout_constrainedHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.somia.fyp.NewLocationSharing:layout_constrainedWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.somia.fyp.NewLocationSharing:layout_constraintBaseline_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.somia.fyp.NewLocationSharing:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.somia.fyp.NewLocationSharing:layout_constraintBottom_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.somia.fyp.NewLocationSharing:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.somia.fyp.NewLocationSharing:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.somia.fyp.NewLocationSharing:layout_constraintCircle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.somia.fyp.NewLocationSharing:layout_constraintCircleAngle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.somia.fyp.NewLocationSharing:layout_constraintCircleRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.somia.fyp.NewLocationSharing:layout_constraintDimensionRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.somia.fyp.NewLocationSharing:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.somia.fyp.NewLocationSharing:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.somia.fyp.NewLocationSharing:layout_constraintGuide_begin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.somia.fyp.NewLocationSharing:layout_constraintGuide_end}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.somia.fyp.NewLocationSharing:layout_constraintGuide_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.somia.fyp.NewLocationSharing:layout_constraintHeight_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.somia.fyp.NewLocationSharing:layout_constraintHeight_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.somia.fyp.NewLocationSharing:layout_constraintHeight_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.somia.fyp.NewLocationSharing:layout_constraintHeight_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.somia.fyp.NewLocationSharing:layout_constraintLeft_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.somia.fyp.NewLocationSharing:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.somia.fyp.NewLocationSharing:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.somia.fyp.NewLocationSharing:layout_constraintRight_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.somia.fyp.NewLocationSharing:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.somia.fyp.NewLocationSharing:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.somia.fyp.NewLocationSharing:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.somia.fyp.NewLocationSharing:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.somia.fyp.NewLocationSharing:layout_constraintTop_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.somia.fyp.NewLocationSharing:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.somia.fyp.NewLocationSharing:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.somia.fyp.NewLocationSharing:layout_constraintVertical_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.somia.fyp.NewLocationSharing:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.somia.fyp.NewLocationSharing:layout_constraintVertical_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.somia.fyp.NewLocationSharing:layout_constraintWidth_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.somia.fyp.NewLocationSharing:layout_constraintWidth_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.somia.fyp.NewLocationSharing:layout_constraintWidth_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.somia.fyp.NewLocationSharing:layout_constraintWidth_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.somia.fyp.NewLocationSharing:layout_editor_absoluteX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.somia.fyp.NewLocationSharing:layout_editor_absoluteY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.somia.fyp.NewLocationSharing:layout_goneMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.somia.fyp.NewLocationSharing:layout_goneMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.somia.fyp.NewLocationSharing:layout_goneMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.somia.fyp.NewLocationSharing:layout_goneMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.somia.fyp.NewLocationSharing:layout_goneMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.somia.fyp.NewLocationSharing:layout_goneMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.somia.fyp.NewLocationSharing:layout_optimizationLevel}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_title com.somia.fyp.NewLocationSharing:title}</code></td><td></td></tr>
            </table>
            @see #ConstraintLayout_Layout_android_maxHeight
            @see #ConstraintLayout_Layout_android_maxWidth
@@ -9840,7 +9824,7 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#barrierDirection}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#barrierDirection}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -9857,11 +9841,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>5</td><td></td></tr>
 <tr><td><code>end</code></td><td>6</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:barrierDirection
+          @attr name com.somia.fyp.NewLocationSharing:barrierDirection
         */
         public static final int ConstraintLayout_Layout_barrierDirection = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#chainUseRtl}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#chainUseRtl}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -9871,21 +9855,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:chainUseRtl
+          @attr name com.somia.fyp.NewLocationSharing:chainUseRtl
         */
         public static final int ConstraintLayout_Layout_chainUseRtl = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#constraintSet}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#constraintSet}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:constraintSet
+          @attr name com.somia.fyp.NewLocationSharing:constraintSet
         */
         public static final int ConstraintLayout_Layout_constraintSet = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#constraint_referenced_ids}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#constraint_referenced_ids}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -9895,11 +9879,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:constraint_referenced_ids
+          @attr name com.somia.fyp.NewLocationSharing:constraint_referenced_ids
         */
         public static final int ConstraintLayout_Layout_constraint_referenced_ids = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constrainedHeight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constrainedHeight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -9909,11 +9893,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constrainedHeight
+          @attr name com.somia.fyp.NewLocationSharing:layout_constrainedHeight
         */
         public static final int ConstraintLayout_Layout_layout_constrainedHeight = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constrainedWidth}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constrainedWidth}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -9923,11 +9907,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constrainedWidth
+          @attr name com.somia.fyp.NewLocationSharing:layout_constrainedWidth
         */
         public static final int ConstraintLayout_Layout_layout_constrainedWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBaseline_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -9937,11 +9921,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintBaseline_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBaseline_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBaseline_toBaselineOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -9955,11 +9939,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintBaseline_toBaselineOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBaseline_toBaselineOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBottom_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -9969,11 +9953,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintBottom_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBottom_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_creator = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBottom_toBottomOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -9987,11 +9971,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintBottom_toBottomOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBottom_toBottomOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBottom_toTopOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10005,21 +9989,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintBottom_toTopOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBottom_toTopOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintCircle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintCircle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:layout_constraintCircle
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintCircle
         */
         public static final int ConstraintLayout_Layout_layout_constraintCircle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintCircleAngle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintCircleAngle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10029,11 +10013,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintCircleAngle
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintCircleAngle
         */
         public static final int ConstraintLayout_Layout_layout_constraintCircleAngle = 17;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintCircleRadius}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintCircleRadius}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10045,11 +10029,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintCircleRadius
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintCircleRadius
         */
         public static final int ConstraintLayout_Layout_layout_constraintCircleRadius = 18;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintDimensionRatio}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10059,11 +10043,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintDimensionRatio
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintDimensionRatio
         */
         public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio = 19;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintEnd_toEndOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10077,11 +10061,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintEnd_toEndOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintEnd_toEndOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 20;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintEnd_toStartOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10095,11 +10079,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintEnd_toStartOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintEnd_toStartOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 21;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintGuide_begin}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10111,11 +10095,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintGuide_begin
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintGuide_begin
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_begin = 22;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintGuide_end}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10127,11 +10111,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintGuide_end
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintGuide_end
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_end = 23;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintGuide_percent}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10141,11 +10125,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintGuide_percent
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintGuide_percent
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_percent = 24;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHeight_default}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10159,11 +10143,11 @@ containing a value of this type.
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 <tr><td><code>percent</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintHeight_default
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHeight_default
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_default = 25;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHeight_max}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10183,11 +10167,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintHeight_max
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHeight_max
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_max = 26;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHeight_min}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10207,11 +10191,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintHeight_min
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHeight_min
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_min = 27;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHeight_percent}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHeight_percent}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10221,11 +10205,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintHeight_percent
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHeight_percent
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_percent = 28;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHorizontal_bias}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10235,11 +10219,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintHorizontal_bias
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_bias
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 29;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHorizontal_chainStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10253,11 +10237,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintHorizontal_chainStyle
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_chainStyle
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = 30;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHorizontal_weight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10267,11 +10251,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintHorizontal_weight
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_weight
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight = 31;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintLeft_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10281,11 +10265,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintLeft_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintLeft_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_creator = 32;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintLeft_toLeftOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10299,11 +10283,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintLeft_toLeftOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintLeft_toLeftOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 33;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintLeft_toRightOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10317,11 +10301,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintLeft_toRightOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintLeft_toRightOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 34;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintRight_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10331,11 +10315,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintRight_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintRight_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_creator = 35;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintRight_toLeftOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10349,11 +10333,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintRight_toLeftOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintRight_toLeftOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 36;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintRight_toRightOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10367,11 +10351,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintRight_toRightOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintRight_toRightOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 37;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintStart_toEndOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10385,11 +10369,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintStart_toEndOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintStart_toEndOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 38;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintStart_toStartOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10403,11 +10387,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintStart_toStartOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintStart_toStartOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 39;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintTop_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10417,11 +10401,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintTop_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintTop_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_creator = 40;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintTop_toBottomOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10435,11 +10419,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintTop_toBottomOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintTop_toBottomOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 41;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintTop_toTopOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10453,11 +10437,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintTop_toTopOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintTop_toTopOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 42;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintVertical_bias}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10467,11 +10451,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintVertical_bias
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintVertical_bias
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_bias = 43;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintVertical_chainStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10485,11 +10469,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintVertical_chainStyle
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintVertical_chainStyle
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintVertical_weight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10499,11 +10483,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintVertical_weight
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintVertical_weight
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_weight = 45;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintWidth_default}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10517,11 +10501,11 @@ containing a value of this type.
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 <tr><td><code>percent</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintWidth_default
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintWidth_default
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_default = 46;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintWidth_max}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10541,11 +10525,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintWidth_max
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintWidth_max
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_max = 47;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintWidth_min}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10565,11 +10549,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintWidth_min
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintWidth_min
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_min = 48;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintWidth_percent}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintWidth_percent}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10579,11 +10563,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintWidth_percent
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintWidth_percent
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_percent = 49;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_editor_absoluteX}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10595,11 +10579,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_editor_absoluteX
+          @attr name com.somia.fyp.NewLocationSharing:layout_editor_absoluteX
         */
         public static final int ConstraintLayout_Layout_layout_editor_absoluteX = 50;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_editor_absoluteY}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10611,11 +10595,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_editor_absoluteY
+          @attr name com.somia.fyp.NewLocationSharing:layout_editor_absoluteY
         */
         public static final int ConstraintLayout_Layout_layout_editor_absoluteY = 51;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginBottom}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10627,11 +10611,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginBottom
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginBottom
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginBottom = 52;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginEnd}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10643,11 +10627,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginEnd
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginEnd
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginEnd = 53;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginLeft}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10659,11 +10643,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginLeft
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginLeft
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginLeft = 54;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginRight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10675,11 +10659,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginRight
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginRight
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginRight = 55;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginStart}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10691,11 +10675,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginStart
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginStart
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginStart = 56;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10707,11 +10691,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginTop
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginTop
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginTop = 57;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_optimizationLevel}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_optimizationLevel}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10726,11 +10710,11 @@ containing a value of this type.
 <tr><td><code>basic</code></td><td>4</td><td></td></tr>
 <tr><td><code>chains</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_optimizationLevel
+          @attr name com.somia.fyp.NewLocationSharing:layout_optimizationLevel
         */
         public static final int ConstraintLayout_Layout_layout_optimizationLevel = 58;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#title}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#title}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -10740,7 +10724,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:title
+          @attr name com.somia.fyp.NewLocationSharing:title
         */
         public static final int ConstraintLayout_Layout_title = 59;
         /** Attributes that can be used with a ConstraintLayout_placeholder.
@@ -10749,8 +10733,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ConstraintLayout_placeholder_content com.somia.fyp:content}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.somia.fyp:emptyVisibility}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_placeholder_content com.somia.fyp.NewLocationSharing:content}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.somia.fyp.NewLocationSharing:emptyVisibility}</code></td><td></td></tr>
            </table>
            @see #ConstraintLayout_placeholder_content
            @see #ConstraintLayout_placeholder_emptyVisibility
@@ -10759,17 +10743,17 @@ containing a value of this type.
             0x7f010004, 0x7f010006
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#content}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#content}
           attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:content
+          @attr name com.somia.fyp.NewLocationSharing:content
         */
         public static final int ConstraintLayout_placeholder_content = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#emptyVisibility}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#emptyVisibility}
           attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
 
 
@@ -10782,7 +10766,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>gone</code></td><td>0</td><td></td></tr>
 <tr><td><code>invisible</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:emptyVisibility
+          @attr name com.somia.fyp.NewLocationSharing:emptyVisibility
         */
         public static final int ConstraintLayout_placeholder_emptyVisibility = 1;
         /** Attributes that can be used with a ConstraintSet.
@@ -10814,55 +10798,55 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #ConstraintSet_android_translationY android:translationY}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintSet_android_visibility android:visibility}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.somia.fyp:layout_constrainedHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.somia.fyp:layout_constrainedWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.somia.fyp:layout_constraintBaseline_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.somia.fyp:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.somia.fyp:layout_constraintBottom_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.somia.fyp:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.somia.fyp:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.somia.fyp:layout_constraintCircle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.somia.fyp:layout_constraintCircleAngle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.somia.fyp:layout_constraintCircleRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.somia.fyp:layout_constraintDimensionRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.somia.fyp:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.somia.fyp:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.somia.fyp:layout_constraintGuide_begin}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.somia.fyp:layout_constraintGuide_end}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.somia.fyp:layout_constraintGuide_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.somia.fyp:layout_constraintHeight_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.somia.fyp:layout_constraintHeight_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.somia.fyp:layout_constraintHeight_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.somia.fyp:layout_constraintHeight_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.somia.fyp:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.somia.fyp:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.somia.fyp:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.somia.fyp:layout_constraintLeft_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.somia.fyp:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.somia.fyp:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.somia.fyp:layout_constraintRight_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.somia.fyp:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.somia.fyp:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.somia.fyp:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.somia.fyp:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.somia.fyp:layout_constraintTop_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.somia.fyp:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.somia.fyp:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.somia.fyp:layout_constraintVertical_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.somia.fyp:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.somia.fyp:layout_constraintVertical_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.somia.fyp:layout_constraintWidth_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.somia.fyp:layout_constraintWidth_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.somia.fyp:layout_constraintWidth_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.somia.fyp:layout_constraintWidth_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.somia.fyp:layout_editor_absoluteX}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.somia.fyp:layout_editor_absoluteY}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.somia.fyp:layout_goneMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.somia.fyp:layout_goneMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.somia.fyp:layout_goneMarginLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.somia.fyp:layout_goneMarginRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.somia.fyp:layout_goneMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.somia.fyp:layout_goneMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.somia.fyp.NewLocationSharing:layout_constrainedHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.somia.fyp.NewLocationSharing:layout_constrainedWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.somia.fyp.NewLocationSharing:layout_constraintBaseline_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.somia.fyp.NewLocationSharing:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.somia.fyp.NewLocationSharing:layout_constraintBottom_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.somia.fyp.NewLocationSharing:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.somia.fyp.NewLocationSharing:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.somia.fyp.NewLocationSharing:layout_constraintCircle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.somia.fyp.NewLocationSharing:layout_constraintCircleAngle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.somia.fyp.NewLocationSharing:layout_constraintCircleRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.somia.fyp.NewLocationSharing:layout_constraintDimensionRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.somia.fyp.NewLocationSharing:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.somia.fyp.NewLocationSharing:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.somia.fyp.NewLocationSharing:layout_constraintGuide_begin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.somia.fyp.NewLocationSharing:layout_constraintGuide_end}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.somia.fyp.NewLocationSharing:layout_constraintGuide_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.somia.fyp.NewLocationSharing:layout_constraintHeight_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.somia.fyp.NewLocationSharing:layout_constraintHeight_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.somia.fyp.NewLocationSharing:layout_constraintHeight_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.somia.fyp.NewLocationSharing:layout_constraintHeight_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.somia.fyp.NewLocationSharing:layout_constraintLeft_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.somia.fyp.NewLocationSharing:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.somia.fyp.NewLocationSharing:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.somia.fyp.NewLocationSharing:layout_constraintRight_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.somia.fyp.NewLocationSharing:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.somia.fyp.NewLocationSharing:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.somia.fyp.NewLocationSharing:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.somia.fyp.NewLocationSharing:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.somia.fyp.NewLocationSharing:layout_constraintTop_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.somia.fyp.NewLocationSharing:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.somia.fyp.NewLocationSharing:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.somia.fyp.NewLocationSharing:layout_constraintVertical_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.somia.fyp.NewLocationSharing:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.somia.fyp.NewLocationSharing:layout_constraintVertical_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.somia.fyp.NewLocationSharing:layout_constraintWidth_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.somia.fyp.NewLocationSharing:layout_constraintWidth_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.somia.fyp.NewLocationSharing:layout_constraintWidth_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.somia.fyp.NewLocationSharing:layout_constraintWidth_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.somia.fyp.NewLocationSharing:layout_editor_absoluteX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.somia.fyp.NewLocationSharing:layout_editor_absoluteY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.somia.fyp.NewLocationSharing:layout_goneMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.somia.fyp.NewLocationSharing:layout_goneMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.somia.fyp.NewLocationSharing:layout_goneMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.somia.fyp.NewLocationSharing:layout_goneMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.somia.fyp.NewLocationSharing:layout_goneMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.somia.fyp.NewLocationSharing:layout_goneMarginTop}</code></td><td></td></tr>
            </table>
            @see #ConstraintSet_android_alpha
            @see #ConstraintSet_android_elevation
@@ -11096,7 +11080,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ConstraintSet_android_visibility = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constrainedHeight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constrainedHeight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11106,11 +11090,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constrainedHeight
+          @attr name com.somia.fyp.NewLocationSharing:layout_constrainedHeight
         */
         public static final int ConstraintSet_layout_constrainedHeight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constrainedWidth}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constrainedWidth}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11120,11 +11104,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constrainedWidth
+          @attr name com.somia.fyp.NewLocationSharing:layout_constrainedWidth
         */
         public static final int ConstraintSet_layout_constrainedWidth = 24;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBaseline_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11134,11 +11118,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintBaseline_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBaseline_creator
         */
         public static final int ConstraintSet_layout_constraintBaseline_creator = 25;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBaseline_toBaselineOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11152,11 +11136,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintBaseline_toBaselineOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBaseline_toBaselineOf
         */
         public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf = 26;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBottom_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11166,11 +11150,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintBottom_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBottom_creator
         */
         public static final int ConstraintSet_layout_constraintBottom_creator = 27;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBottom_toBottomOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11184,11 +11168,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintBottom_toBottomOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBottom_toBottomOf
         */
         public static final int ConstraintSet_layout_constraintBottom_toBottomOf = 28;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintBottom_toTopOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11202,21 +11186,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintBottom_toTopOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintBottom_toTopOf
         */
         public static final int ConstraintSet_layout_constraintBottom_toTopOf = 29;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintCircle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintCircle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:layout_constraintCircle
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintCircle
         */
         public static final int ConstraintSet_layout_constraintCircle = 30;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintCircleAngle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintCircleAngle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11226,11 +11210,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintCircleAngle
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintCircleAngle
         */
         public static final int ConstraintSet_layout_constraintCircleAngle = 31;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintCircleRadius}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintCircleRadius}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11242,11 +11226,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintCircleRadius
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintCircleRadius
         */
         public static final int ConstraintSet_layout_constraintCircleRadius = 32;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintDimensionRatio}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11256,11 +11240,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintDimensionRatio
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintDimensionRatio
         */
         public static final int ConstraintSet_layout_constraintDimensionRatio = 33;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintEnd_toEndOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11274,11 +11258,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintEnd_toEndOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintEnd_toEndOf
         */
         public static final int ConstraintSet_layout_constraintEnd_toEndOf = 34;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintEnd_toStartOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11292,11 +11276,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintEnd_toStartOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintEnd_toStartOf
         */
         public static final int ConstraintSet_layout_constraintEnd_toStartOf = 35;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintGuide_begin}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11308,11 +11292,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintGuide_begin
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintGuide_begin
         */
         public static final int ConstraintSet_layout_constraintGuide_begin = 36;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintGuide_end}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11324,11 +11308,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintGuide_end
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintGuide_end
         */
         public static final int ConstraintSet_layout_constraintGuide_end = 37;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintGuide_percent}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11338,11 +11322,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintGuide_percent
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintGuide_percent
         */
         public static final int ConstraintSet_layout_constraintGuide_percent = 38;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHeight_default}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11356,11 +11340,11 @@ containing a value of this type.
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 <tr><td><code>percent</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintHeight_default
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHeight_default
         */
         public static final int ConstraintSet_layout_constraintHeight_default = 39;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHeight_max}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11380,11 +11364,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintHeight_max
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHeight_max
         */
         public static final int ConstraintSet_layout_constraintHeight_max = 40;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHeight_min}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11404,11 +11388,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintHeight_min
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHeight_min
         */
         public static final int ConstraintSet_layout_constraintHeight_min = 41;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHeight_percent}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHeight_percent}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11418,11 +11402,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintHeight_percent
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHeight_percent
         */
         public static final int ConstraintSet_layout_constraintHeight_percent = 42;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHorizontal_bias}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11432,11 +11416,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintHorizontal_bias
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_bias
         */
         public static final int ConstraintSet_layout_constraintHorizontal_bias = 43;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHorizontal_chainStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11450,11 +11434,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintHorizontal_chainStyle
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_chainStyle
         */
         public static final int ConstraintSet_layout_constraintHorizontal_chainStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintHorizontal_weight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11464,11 +11448,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintHorizontal_weight
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintHorizontal_weight
         */
         public static final int ConstraintSet_layout_constraintHorizontal_weight = 45;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintLeft_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11478,11 +11462,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintLeft_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintLeft_creator
         */
         public static final int ConstraintSet_layout_constraintLeft_creator = 46;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintLeft_toLeftOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11496,11 +11480,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintLeft_toLeftOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintLeft_toLeftOf
         */
         public static final int ConstraintSet_layout_constraintLeft_toLeftOf = 47;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintLeft_toRightOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11514,11 +11498,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintLeft_toRightOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintLeft_toRightOf
         */
         public static final int ConstraintSet_layout_constraintLeft_toRightOf = 48;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintRight_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11528,11 +11512,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintRight_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintRight_creator
         */
         public static final int ConstraintSet_layout_constraintRight_creator = 49;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintRight_toLeftOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11546,11 +11530,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintRight_toLeftOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintRight_toLeftOf
         */
         public static final int ConstraintSet_layout_constraintRight_toLeftOf = 50;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintRight_toRightOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11564,11 +11548,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintRight_toRightOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintRight_toRightOf
         */
         public static final int ConstraintSet_layout_constraintRight_toRightOf = 51;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintStart_toEndOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11582,11 +11566,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintStart_toEndOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintStart_toEndOf
         */
         public static final int ConstraintSet_layout_constraintStart_toEndOf = 52;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintStart_toStartOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11600,11 +11584,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintStart_toStartOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintStart_toStartOf
         */
         public static final int ConstraintSet_layout_constraintStart_toStartOf = 53;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintTop_creator}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11614,11 +11598,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintTop_creator
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintTop_creator
         */
         public static final int ConstraintSet_layout_constraintTop_creator = 54;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintTop_toBottomOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11632,11 +11616,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintTop_toBottomOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintTop_toBottomOf
         */
         public static final int ConstraintSet_layout_constraintTop_toBottomOf = 55;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintTop_toTopOf}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11650,11 +11634,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintTop_toTopOf
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintTop_toTopOf
         */
         public static final int ConstraintSet_layout_constraintTop_toTopOf = 56;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintVertical_bias}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11664,11 +11648,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintVertical_bias
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintVertical_bias
         */
         public static final int ConstraintSet_layout_constraintVertical_bias = 57;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintVertical_chainStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11682,11 +11666,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintVertical_chainStyle
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintVertical_chainStyle
         */
         public static final int ConstraintSet_layout_constraintVertical_chainStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintVertical_weight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11696,11 +11680,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintVertical_weight
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintVertical_weight
         */
         public static final int ConstraintSet_layout_constraintVertical_weight = 59;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintWidth_default}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11714,11 +11698,11 @@ containing a value of this type.
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 <tr><td><code>percent</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintWidth_default
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintWidth_default
         */
         public static final int ConstraintSet_layout_constraintWidth_default = 60;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintWidth_max}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11738,11 +11722,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintWidth_max
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintWidth_max
         */
         public static final int ConstraintSet_layout_constraintWidth_max = 61;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintWidth_min}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11762,11 +11746,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_constraintWidth_min
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintWidth_min
         */
         public static final int ConstraintSet_layout_constraintWidth_min = 62;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_constraintWidth_percent}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_constraintWidth_percent}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11776,11 +11760,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_constraintWidth_percent
+          @attr name com.somia.fyp.NewLocationSharing:layout_constraintWidth_percent
         */
         public static final int ConstraintSet_layout_constraintWidth_percent = 63;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_editor_absoluteX}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11792,11 +11776,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_editor_absoluteX
+          @attr name com.somia.fyp.NewLocationSharing:layout_editor_absoluteX
         */
         public static final int ConstraintSet_layout_editor_absoluteX = 64;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_editor_absoluteY}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11808,11 +11792,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_editor_absoluteY
+          @attr name com.somia.fyp.NewLocationSharing:layout_editor_absoluteY
         */
         public static final int ConstraintSet_layout_editor_absoluteY = 65;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginBottom}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11824,11 +11808,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginBottom
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginBottom
         */
         public static final int ConstraintSet_layout_goneMarginBottom = 66;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginEnd}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11840,11 +11824,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginEnd
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginEnd
         */
         public static final int ConstraintSet_layout_goneMarginEnd = 67;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginLeft}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11856,11 +11840,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginLeft
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginLeft
         */
         public static final int ConstraintSet_layout_goneMarginLeft = 68;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginRight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11872,11 +11856,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginRight
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginRight
         */
         public static final int ConstraintSet_layout_goneMarginRight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginStart}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11888,11 +11872,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginStart
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginStart
         */
         public static final int ConstraintSet_layout_goneMarginStart = 70;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_goneMarginTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -11904,7 +11888,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_goneMarginTop
+          @attr name com.somia.fyp.NewLocationSharing:layout_goneMarginTop
         */
         public static final int ConstraintSet_layout_goneMarginTop = 71;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -11913,8 +11897,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines com.somia.fyp:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.somia.fyp:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.somia.fyp.NewLocationSharing:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.somia.fyp.NewLocationSharing:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -11923,23 +11907,23 @@ containing a value of this type.
             0x7f010109, 0x7f01010a
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:keylines
+          @attr name com.somia.fyp.NewLocationSharing:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:statusBarBackground
+          @attr name com.somia.fyp.NewLocationSharing:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
@@ -11949,12 +11933,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.somia.fyp:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.somia.fyp:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.somia.fyp:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.somia.fyp:layout_dodgeInsetEdges}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.somia.fyp:layout_insetEdge}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.somia.fyp:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.somia.fyp.NewLocationSharing:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.somia.fyp.NewLocationSharing:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.somia.fyp.NewLocationSharing:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.somia.fyp.NewLocationSharing:layout_dodgeInsetEdges}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.somia.fyp.NewLocationSharing:layout_insetEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.somia.fyp.NewLocationSharing:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -11975,17 +11959,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:layout_anchor
+          @attr name com.somia.fyp.NewLocationSharing:layout_anchor
         */
         public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -12010,11 +11994,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_anchorGravity
+          @attr name com.somia.fyp.NewLocationSharing:layout_anchorGravity
         */
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -12024,11 +12008,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_behavior
+          @attr name com.somia.fyp.NewLocationSharing:layout_behavior
         */
         public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_dodgeInsetEdges}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_dodgeInsetEdges}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -12047,11 +12031,11 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_dodgeInsetEdges
+          @attr name com.somia.fyp.NewLocationSharing:layout_dodgeInsetEdges
         */
         public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_insetEdge}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_insetEdge}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -12069,11 +12053,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:layout_insetEdge
+          @attr name com.somia.fyp.NewLocationSharing:layout_insetEdge
         */
         public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -12083,7 +12067,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layout_keyline
+          @attr name com.somia.fyp.NewLocationSharing:layout_keyline
         */
         public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -12092,9 +12076,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.somia.fyp:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.somia.fyp:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError com.somia.fyp:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.somia.fyp.NewLocationSharing:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.somia.fyp.NewLocationSharing:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError com.somia.fyp.NewLocationSharing:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -12104,27 +12088,27 @@ containing a value of this type.
             0x7f010111, 0x7f010112, 0x7f010113
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:bottomSheetDialogTheme
+          @attr name com.somia.fyp.NewLocationSharing:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:bottomSheetStyle
+          @attr name com.somia.fyp.NewLocationSharing:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -12132,7 +12116,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:textColorError
+          @attr name com.somia.fyp.NewLocationSharing:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -12141,14 +12125,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.somia.fyp:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.somia.fyp:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.somia.fyp:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.somia.fyp:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.somia.fyp:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.somia.fyp:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.somia.fyp:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.somia.fyp:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.somia.fyp.NewLocationSharing:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.somia.fyp.NewLocationSharing:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.somia.fyp.NewLocationSharing:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.somia.fyp.NewLocationSharing:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.somia.fyp.NewLocationSharing:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.somia.fyp.NewLocationSharing:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.somia.fyp.NewLocationSharing:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.somia.fyp.NewLocationSharing:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -12164,7 +12148,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010118, 0x7f010119, 0x7f01011a, 0x7f01011b
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -12176,11 +12160,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:arrowHeadLength
+          @attr name com.somia.fyp.NewLocationSharing:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -12192,11 +12176,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:arrowShaftLength
+          @attr name com.somia.fyp.NewLocationSharing:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -12208,11 +12192,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:barLength
+          @attr name com.somia.fyp.NewLocationSharing:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#color}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -12223,11 +12207,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:color
+          @attr name com.somia.fyp.NewLocationSharing:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -12239,11 +12223,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:drawableSize
+          @attr name com.somia.fyp.NewLocationSharing:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -12255,11 +12239,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:gapBetweenBars
+          @attr name com.somia.fyp.NewLocationSharing:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -12269,11 +12253,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:spinBars
+          @attr name com.somia.fyp.NewLocationSharing:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -12285,7 +12269,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:thickness
+          @attr name com.somia.fyp.NewLocationSharing:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FlatButton.
@@ -12294,9 +12278,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FlatButton_pb_colorNormal com.somia.fyp:pb_colorNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #FlatButton_pb_colorPressed com.somia.fyp:pb_colorPressed}</code></td><td></td></tr>
-           <tr><td><code>{@link #FlatButton_pb_cornerRadius com.somia.fyp:pb_cornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FlatButton_pb_colorNormal com.somia.fyp.NewLocationSharing:pb_colorNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #FlatButton_pb_colorPressed com.somia.fyp.NewLocationSharing:pb_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #FlatButton_pb_cornerRadius com.somia.fyp.NewLocationSharing:pb_cornerRadius}</code></td><td></td></tr>
            </table>
            @see #FlatButton_pb_colorNormal
            @see #FlatButton_pb_colorPressed
@@ -12306,7 +12290,7 @@ containing a value of this type.
             0x7f01011c, 0x7f01011d, 0x7f01011e
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pb_colorNormal}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pb_colorNormal}
           attribute's value can be found in the {@link #FlatButton} array.
 
 
@@ -12317,11 +12301,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pb_colorNormal
+          @attr name com.somia.fyp.NewLocationSharing:pb_colorNormal
         */
         public static final int FlatButton_pb_colorNormal = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pb_colorPressed}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pb_colorPressed}
           attribute's value can be found in the {@link #FlatButton} array.
 
 
@@ -12332,11 +12316,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pb_colorPressed
+          @attr name com.somia.fyp.NewLocationSharing:pb_colorPressed
         */
         public static final int FlatButton_pb_colorPressed = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pb_cornerRadius}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pb_cornerRadius}
           attribute's value can be found in the {@link #FlatButton} array.
 
 
@@ -12348,7 +12332,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pb_cornerRadius
+          @attr name com.somia.fyp.NewLocationSharing:pb_cornerRadius
         */
         public static final int FlatButton_pb_cornerRadius = 2;
         /** Attributes that can be used with a FloatingActionButton.
@@ -12357,34 +12341,34 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.somia.fyp:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.somia.fyp:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth com.somia.fyp:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation com.somia.fyp:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize com.somia.fyp:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorDisabled com.somia.fyp:fab_colorDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorNormal com.somia.fyp:fab_colorNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorPressed com.somia.fyp:fab_colorPressed}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_colorRipple com.somia.fyp:fab_colorRipple}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_elevationCompat com.somia.fyp:fab_elevationCompat}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_hideAnimation com.somia.fyp:fab_hideAnimation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_label com.somia.fyp:fab_label}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_progress com.somia.fyp:fab_progress}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_progress_backgroundColor com.somia.fyp:fab_progress_backgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_progress_color com.somia.fyp:fab_progress_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_progress_indeterminate com.somia.fyp:fab_progress_indeterminate}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_progress_max com.somia.fyp:fab_progress_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_progress_showBackground com.somia.fyp:fab_progress_showBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_shadowColor com.somia.fyp:fab_shadowColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_shadowRadius com.somia.fyp:fab_shadowRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_shadowXOffset com.somia.fyp:fab_shadowXOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_shadowYOffset com.somia.fyp:fab_shadowYOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_showAnimation com.somia.fyp:fab_showAnimation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_showShadow com.somia.fyp:fab_showShadow}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fab_size com.somia.fyp:fab_size}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.somia.fyp:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor com.somia.fyp:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.somia.fyp:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.somia.fyp.NewLocationSharing:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.somia.fyp.NewLocationSharing:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth com.somia.fyp.NewLocationSharing:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation com.somia.fyp.NewLocationSharing:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize com.somia.fyp.NewLocationSharing:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorDisabled com.somia.fyp.NewLocationSharing:fab_colorDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorNormal com.somia.fyp.NewLocationSharing:fab_colorNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorPressed com.somia.fyp.NewLocationSharing:fab_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorRipple com.somia.fyp.NewLocationSharing:fab_colorRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_elevationCompat com.somia.fyp.NewLocationSharing:fab_elevationCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_hideAnimation com.somia.fyp.NewLocationSharing:fab_hideAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_label com.somia.fyp.NewLocationSharing:fab_label}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress com.somia.fyp.NewLocationSharing:fab_progress}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_backgroundColor com.somia.fyp.NewLocationSharing:fab_progress_backgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_color com.somia.fyp.NewLocationSharing:fab_progress_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_indeterminate com.somia.fyp.NewLocationSharing:fab_progress_indeterminate}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_max com.somia.fyp.NewLocationSharing:fab_progress_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_showBackground com.somia.fyp.NewLocationSharing:fab_progress_showBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadowColor com.somia.fyp.NewLocationSharing:fab_shadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadowRadius com.somia.fyp.NewLocationSharing:fab_shadowRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadowXOffset com.somia.fyp.NewLocationSharing:fab_shadowXOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadowYOffset com.somia.fyp.NewLocationSharing:fab_shadowYOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_showAnimation com.somia.fyp.NewLocationSharing:fab_showAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_showShadow com.somia.fyp.NewLocationSharing:fab_showShadow}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_size com.somia.fyp.NewLocationSharing:fab_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.somia.fyp.NewLocationSharing:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor com.somia.fyp.NewLocationSharing:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.somia.fyp.NewLocationSharing:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -12425,7 +12409,7 @@ containing a value of this type.
             0x7f010136, 0x7f010137, 0x7f010204, 0x7f010205
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12436,11 +12420,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:backgroundTint
+          @attr name com.somia.fyp.NewLocationSharing:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 26;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12456,11 +12440,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:backgroundTintMode
+          @attr name com.somia.fyp.NewLocationSharing:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 27;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12472,11 +12456,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:borderWidth
+          @attr name com.somia.fyp.NewLocationSharing:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 24;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12488,11 +12472,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:elevation
+          @attr name com.somia.fyp.NewLocationSharing:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12506,11 +12490,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:fabSize
+          @attr name com.somia.fyp.NewLocationSharing:fabSize
         */
         public static final int FloatingActionButton_fabSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_colorDisabled}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_colorDisabled}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12521,11 +12505,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_colorDisabled
+          @attr name com.somia.fyp.NewLocationSharing:fab_colorDisabled
         */
         public static final int FloatingActionButton_fab_colorDisabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_colorNormal}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_colorNormal}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12536,11 +12520,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_colorNormal
+          @attr name com.somia.fyp.NewLocationSharing:fab_colorNormal
         */
         public static final int FloatingActionButton_fab_colorNormal = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_colorPressed}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_colorPressed}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12551,11 +12535,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_colorPressed
+          @attr name com.somia.fyp.NewLocationSharing:fab_colorPressed
         */
         public static final int FloatingActionButton_fab_colorPressed = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_colorRipple}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_colorRipple}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12566,11 +12550,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_colorRipple
+          @attr name com.somia.fyp.NewLocationSharing:fab_colorRipple
         */
         public static final int FloatingActionButton_fab_colorRipple = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_elevationCompat}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_elevationCompat}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12582,21 +12566,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_elevationCompat
+          @attr name com.somia.fyp.NewLocationSharing:fab_elevationCompat
         */
         public static final int FloatingActionButton_fab_elevationCompat = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_hideAnimation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_hideAnimation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:fab_hideAnimation
+          @attr name com.somia.fyp.NewLocationSharing:fab_hideAnimation
         */
         public static final int FloatingActionButton_fab_hideAnimation = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_label}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_label}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12606,11 +12590,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_label
+          @attr name com.somia.fyp.NewLocationSharing:fab_label
         */
         public static final int FloatingActionButton_fab_label = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_progress}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_progress}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12620,11 +12604,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_progress
+          @attr name com.somia.fyp.NewLocationSharing:fab_progress
         */
         public static final int FloatingActionButton_fab_progress = 19;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_progress_backgroundColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_progress_backgroundColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12635,11 +12619,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_progress_backgroundColor
+          @attr name com.somia.fyp.NewLocationSharing:fab_progress_backgroundColor
         */
         public static final int FloatingActionButton_fab_progress_backgroundColor = 16;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_progress_color}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_progress_color}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12650,11 +12634,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_progress_color
+          @attr name com.somia.fyp.NewLocationSharing:fab_progress_color
         */
         public static final int FloatingActionButton_fab_progress_color = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_progress_indeterminate}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_progress_indeterminate}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12664,11 +12648,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_progress_indeterminate
+          @attr name com.somia.fyp.NewLocationSharing:fab_progress_indeterminate
         */
         public static final int FloatingActionButton_fab_progress_indeterminate = 17;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_progress_max}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_progress_max}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12678,11 +12662,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_progress_max
+          @attr name com.somia.fyp.NewLocationSharing:fab_progress_max
         */
         public static final int FloatingActionButton_fab_progress_max = 18;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_progress_showBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_progress_showBackground}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12692,11 +12676,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_progress_showBackground
+          @attr name com.somia.fyp.NewLocationSharing:fab_progress_showBackground
         */
         public static final int FloatingActionButton_fab_progress_showBackground = 20;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_shadowColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_shadowColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12707,11 +12691,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_shadowColor
+          @attr name com.somia.fyp.NewLocationSharing:fab_shadowColor
         */
         public static final int FloatingActionButton_fab_shadowColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_shadowRadius}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_shadowRadius}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12723,11 +12707,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_shadowRadius
+          @attr name com.somia.fyp.NewLocationSharing:fab_shadowRadius
         */
         public static final int FloatingActionButton_fab_shadowRadius = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_shadowXOffset}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_shadowXOffset}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12739,11 +12723,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_shadowXOffset
+          @attr name com.somia.fyp.NewLocationSharing:fab_shadowXOffset
         */
         public static final int FloatingActionButton_fab_shadowXOffset = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_shadowYOffset}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_shadowYOffset}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12755,21 +12739,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_shadowYOffset
+          @attr name com.somia.fyp.NewLocationSharing:fab_shadowYOffset
         */
         public static final int FloatingActionButton_fab_shadowYOffset = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_showAnimation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_showAnimation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:fab_showAnimation
+          @attr name com.somia.fyp.NewLocationSharing:fab_showAnimation
         */
         public static final int FloatingActionButton_fab_showAnimation = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_showShadow}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_showShadow}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12779,11 +12763,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fab_showShadow
+          @attr name com.somia.fyp.NewLocationSharing:fab_showShadow
         */
         public static final int FloatingActionButton_fab_showShadow = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fab_size}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fab_size}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12796,11 +12780,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:fab_size
+          @attr name com.somia.fyp.NewLocationSharing:fab_size
         */
         public static final int FloatingActionButton_fab_size = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12812,11 +12796,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pressedTranslationZ
+          @attr name com.somia.fyp.NewLocationSharing:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 23;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12827,11 +12811,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:rippleColor
+          @attr name com.somia.fyp.NewLocationSharing:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 21;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -12841,7 +12825,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:useCompatPadding
+          @attr name com.somia.fyp.NewLocationSharing:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 25;
         /** Attributes that can be used with a FloatingActionButton_Behavior_Layout.
@@ -12850,7 +12834,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.somia.fyp:behavior_autoHide}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.somia.fyp.NewLocationSharing:behavior_autoHide}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
          */
@@ -12858,7 +12842,7 @@ containing a value of this type.
             0x7f010138
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#behavior_autoHide}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#behavior_autoHide}
           attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
 
 
@@ -12868,7 +12852,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:behavior_autoHide
+          @attr name com.somia.fyp.NewLocationSharing:behavior_autoHide
         */
         public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
         /** Attributes that can be used with a FloatingActionMenu.
@@ -12877,45 +12861,45 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_animationDelayPerItem com.somia.fyp:menu_animationDelayPerItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_backgroundColor com.somia.fyp:menu_backgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_buttonSpacing com.somia.fyp:menu_buttonSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_buttonToggleAnimation com.somia.fyp:menu_buttonToggleAnimation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_colorNormal com.somia.fyp:menu_colorNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_colorPressed com.somia.fyp:menu_colorPressed}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_colorRipple com.somia.fyp:menu_colorRipple}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_fab_hide_animation com.somia.fyp:menu_fab_hide_animation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_fab_label com.somia.fyp:menu_fab_label}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_fab_show_animation com.somia.fyp:menu_fab_show_animation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_fab_size com.somia.fyp:menu_fab_size}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_icon com.somia.fyp:menu_icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_colorNormal com.somia.fyp:menu_labels_colorNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_colorPressed com.somia.fyp:menu_labels_colorPressed}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_colorRipple com.somia.fyp:menu_labels_colorRipple}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_cornerRadius com.somia.fyp:menu_labels_cornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_customFont com.somia.fyp:menu_labels_customFont}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_ellipsize com.somia.fyp:menu_labels_ellipsize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_hideAnimation com.somia.fyp:menu_labels_hideAnimation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_margin com.somia.fyp:menu_labels_margin}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_maxLines com.somia.fyp:menu_labels_maxLines}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_padding com.somia.fyp:menu_labels_padding}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingBottom com.somia.fyp:menu_labels_paddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingLeft com.somia.fyp:menu_labels_paddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingRight com.somia.fyp:menu_labels_paddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingTop com.somia.fyp:menu_labels_paddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_position com.somia.fyp:menu_labels_position}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_showAnimation com.somia.fyp:menu_labels_showAnimation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_showShadow com.somia.fyp:menu_labels_showShadow}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_singleLine com.somia.fyp:menu_labels_singleLine}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_style com.somia.fyp:menu_labels_style}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_textColor com.somia.fyp:menu_labels_textColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_labels_textSize com.somia.fyp:menu_labels_textSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_openDirection com.somia.fyp:menu_openDirection}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_shadowColor com.somia.fyp:menu_shadowColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_shadowRadius com.somia.fyp:menu_shadowRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_shadowXOffset com.somia.fyp:menu_shadowXOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_shadowYOffset com.somia.fyp:menu_shadowYOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionMenu_menu_showShadow com.somia.fyp:menu_showShadow}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_animationDelayPerItem com.somia.fyp.NewLocationSharing:menu_animationDelayPerItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_backgroundColor com.somia.fyp.NewLocationSharing:menu_backgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_buttonSpacing com.somia.fyp.NewLocationSharing:menu_buttonSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_buttonToggleAnimation com.somia.fyp.NewLocationSharing:menu_buttonToggleAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_colorNormal com.somia.fyp.NewLocationSharing:menu_colorNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_colorPressed com.somia.fyp.NewLocationSharing:menu_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_colorRipple com.somia.fyp.NewLocationSharing:menu_colorRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_fab_hide_animation com.somia.fyp.NewLocationSharing:menu_fab_hide_animation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_fab_label com.somia.fyp.NewLocationSharing:menu_fab_label}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_fab_show_animation com.somia.fyp.NewLocationSharing:menu_fab_show_animation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_fab_size com.somia.fyp.NewLocationSharing:menu_fab_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_icon com.somia.fyp.NewLocationSharing:menu_icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_colorNormal com.somia.fyp.NewLocationSharing:menu_labels_colorNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_colorPressed com.somia.fyp.NewLocationSharing:menu_labels_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_colorRipple com.somia.fyp.NewLocationSharing:menu_labels_colorRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_cornerRadius com.somia.fyp.NewLocationSharing:menu_labels_cornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_customFont com.somia.fyp.NewLocationSharing:menu_labels_customFont}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_ellipsize com.somia.fyp.NewLocationSharing:menu_labels_ellipsize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_hideAnimation com.somia.fyp.NewLocationSharing:menu_labels_hideAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_margin com.somia.fyp.NewLocationSharing:menu_labels_margin}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_maxLines com.somia.fyp.NewLocationSharing:menu_labels_maxLines}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_padding com.somia.fyp.NewLocationSharing:menu_labels_padding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingBottom com.somia.fyp.NewLocationSharing:menu_labels_paddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingLeft com.somia.fyp.NewLocationSharing:menu_labels_paddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingRight com.somia.fyp.NewLocationSharing:menu_labels_paddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingTop com.somia.fyp.NewLocationSharing:menu_labels_paddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_position com.somia.fyp.NewLocationSharing:menu_labels_position}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_showAnimation com.somia.fyp.NewLocationSharing:menu_labels_showAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_showShadow com.somia.fyp.NewLocationSharing:menu_labels_showShadow}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_singleLine com.somia.fyp.NewLocationSharing:menu_labels_singleLine}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_style com.somia.fyp.NewLocationSharing:menu_labels_style}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_textColor com.somia.fyp.NewLocationSharing:menu_labels_textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_textSize com.somia.fyp.NewLocationSharing:menu_labels_textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_openDirection com.somia.fyp.NewLocationSharing:menu_openDirection}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_shadowColor com.somia.fyp.NewLocationSharing:menu_shadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_shadowRadius com.somia.fyp.NewLocationSharing:menu_shadowRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_shadowXOffset com.somia.fyp.NewLocationSharing:menu_shadowXOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_shadowYOffset com.somia.fyp.NewLocationSharing:menu_shadowYOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_showShadow com.somia.fyp.NewLocationSharing:menu_showShadow}</code></td><td></td></tr>
            </table>
            @see #FloatingActionMenu_menu_animationDelayPerItem
            @see #FloatingActionMenu_menu_backgroundColor
@@ -12970,7 +12954,7 @@ containing a value of this type.
             0x7f01015d, 0x7f01015e, 0x7f01015f
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_animationDelayPerItem}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_animationDelayPerItem}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -12980,11 +12964,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_animationDelayPerItem
+          @attr name com.somia.fyp.NewLocationSharing:menu_animationDelayPerItem
         */
         public static final int FloatingActionMenu_menu_animationDelayPerItem = 19;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_backgroundColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_backgroundColor}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -12995,11 +12979,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_backgroundColor
+          @attr name com.somia.fyp.NewLocationSharing:menu_backgroundColor
         */
         public static final int FloatingActionMenu_menu_backgroundColor = 35;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_buttonSpacing}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_buttonSpacing}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13011,21 +12995,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_buttonSpacing
+          @attr name com.somia.fyp.NewLocationSharing:menu_buttonSpacing
         */
         public static final int FloatingActionMenu_menu_buttonSpacing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_buttonToggleAnimation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_buttonToggleAnimation}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:menu_buttonToggleAnimation
+          @attr name com.somia.fyp.NewLocationSharing:menu_buttonToggleAnimation
         */
         public static final int FloatingActionMenu_menu_buttonToggleAnimation = 20;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_colorNormal}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_colorNormal}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13036,11 +13020,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_colorNormal
+          @attr name com.somia.fyp.NewLocationSharing:menu_colorNormal
         */
         public static final int FloatingActionMenu_menu_colorNormal = 31;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_colorPressed}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_colorPressed}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13051,11 +13035,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_colorPressed
+          @attr name com.somia.fyp.NewLocationSharing:menu_colorPressed
         */
         public static final int FloatingActionMenu_menu_colorPressed = 32;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_colorRipple}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_colorRipple}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13066,21 +13050,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_colorRipple
+          @attr name com.somia.fyp.NewLocationSharing:menu_colorRipple
         */
         public static final int FloatingActionMenu_menu_colorRipple = 33;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_fab_hide_animation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_fab_hide_animation}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:menu_fab_hide_animation
+          @attr name com.somia.fyp.NewLocationSharing:menu_fab_hide_animation
         */
         public static final int FloatingActionMenu_menu_fab_hide_animation = 38;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_fab_label}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_fab_label}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13090,21 +13074,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_fab_label
+          @attr name com.somia.fyp.NewLocationSharing:menu_fab_label
         */
         public static final int FloatingActionMenu_menu_fab_label = 36;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_fab_show_animation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_fab_show_animation}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:menu_fab_show_animation
+          @attr name com.somia.fyp.NewLocationSharing:menu_fab_show_animation
         */
         public static final int FloatingActionMenu_menu_fab_show_animation = 37;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_fab_size}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_fab_size}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13117,21 +13101,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:menu_fab_size
+          @attr name com.somia.fyp.NewLocationSharing:menu_fab_size
         */
         public static final int FloatingActionMenu_menu_fab_size = 24;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_icon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_icon}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:menu_icon
+          @attr name com.somia.fyp.NewLocationSharing:menu_icon
         */
         public static final int FloatingActionMenu_menu_icon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_colorNormal}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_colorNormal}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13142,11 +13126,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_colorNormal
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_colorNormal
         */
         public static final int FloatingActionMenu_menu_labels_colorNormal = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_colorPressed}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_colorPressed}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13157,11 +13141,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_colorPressed
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_colorPressed
         */
         public static final int FloatingActionMenu_menu_labels_colorPressed = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_colorRipple}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_colorRipple}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13172,11 +13156,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_colorRipple
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_colorRipple
         */
         public static final int FloatingActionMenu_menu_labels_colorRipple = 16;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_cornerRadius}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_cornerRadius}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13188,11 +13172,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_cornerRadius
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_cornerRadius
         */
         public static final int FloatingActionMenu_menu_labels_cornerRadius = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_customFont}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_customFont}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13202,11 +13186,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_customFont
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_customFont
         */
         public static final int FloatingActionMenu_menu_labels_customFont = 26;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_ellipsize}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_ellipsize}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13222,21 +13206,21 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>3</td><td></td></tr>
 <tr><td><code>marquee</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:menu_labels_ellipsize
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_ellipsize
         */
         public static final int FloatingActionMenu_menu_labels_ellipsize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_hideAnimation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_hideAnimation}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:menu_labels_hideAnimation
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_hideAnimation
         */
         public static final int FloatingActionMenu_menu_labels_hideAnimation = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_margin}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_margin}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13248,11 +13232,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_margin
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_margin
         */
         public static final int FloatingActionMenu_menu_labels_margin = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_maxLines}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_maxLines}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13262,11 +13246,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_maxLines
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_maxLines
         */
         public static final int FloatingActionMenu_menu_labels_maxLines = 23;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_padding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_padding}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13278,11 +13262,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_padding
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_padding
         */
         public static final int FloatingActionMenu_menu_labels_padding = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_paddingBottom}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_paddingBottom}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13294,11 +13278,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_paddingBottom
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_paddingBottom
         */
         public static final int FloatingActionMenu_menu_labels_paddingBottom = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_paddingLeft}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_paddingLeft}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13310,11 +13294,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_paddingLeft
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_paddingLeft
         */
         public static final int FloatingActionMenu_menu_labels_paddingLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_paddingRight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_paddingRight}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13326,11 +13310,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_paddingRight
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_paddingRight
         */
         public static final int FloatingActionMenu_menu_labels_paddingRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_paddingTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_paddingTop}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13342,11 +13326,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_paddingTop
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_paddingTop
         */
         public static final int FloatingActionMenu_menu_labels_paddingTop = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_position}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_position}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13359,21 +13343,21 @@ containing a value of this type.
 <tr><td><code>left</code></td><td>0</td><td></td></tr>
 <tr><td><code>right</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:menu_labels_position
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_position
         */
         public static final int FloatingActionMenu_menu_labels_position = 17;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_showAnimation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_showAnimation}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:menu_labels_showAnimation
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_showAnimation
         */
         public static final int FloatingActionMenu_menu_labels_showAnimation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_showShadow}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_showShadow}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13383,11 +13367,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_showShadow
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_showShadow
         */
         public static final int FloatingActionMenu_menu_labels_showShadow = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_singleLine}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_singleLine}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13397,21 +13381,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_singleLine
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_singleLine
         */
         public static final int FloatingActionMenu_menu_labels_singleLine = 21;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_style}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_style}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:menu_labels_style
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_style
         */
         public static final int FloatingActionMenu_menu_labels_style = 25;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_textColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_textColor}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13419,11 +13403,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:menu_labels_textColor
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_textColor
         */
         public static final int FloatingActionMenu_menu_labels_textColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_labels_textSize}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_labels_textSize}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13435,11 +13419,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_labels_textSize
+          @attr name com.somia.fyp.NewLocationSharing:menu_labels_textSize
         */
         public static final int FloatingActionMenu_menu_labels_textSize = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_openDirection}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_openDirection}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13452,11 +13436,11 @@ containing a value of this type.
 <tr><td><code>up</code></td><td>0</td><td></td></tr>
 <tr><td><code>down</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:menu_openDirection
+          @attr name com.somia.fyp.NewLocationSharing:menu_openDirection
         */
         public static final int FloatingActionMenu_menu_openDirection = 34;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_shadowColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_shadowColor}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13467,11 +13451,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_shadowColor
+          @attr name com.somia.fyp.NewLocationSharing:menu_shadowColor
         */
         public static final int FloatingActionMenu_menu_shadowColor = 27;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_shadowRadius}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_shadowRadius}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13483,11 +13467,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_shadowRadius
+          @attr name com.somia.fyp.NewLocationSharing:menu_shadowRadius
         */
         public static final int FloatingActionMenu_menu_shadowRadius = 28;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_shadowXOffset}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_shadowXOffset}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13499,11 +13483,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_shadowXOffset
+          @attr name com.somia.fyp.NewLocationSharing:menu_shadowXOffset
         */
         public static final int FloatingActionMenu_menu_shadowXOffset = 29;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_shadowYOffset}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_shadowYOffset}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13515,11 +13499,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_shadowYOffset
+          @attr name com.somia.fyp.NewLocationSharing:menu_shadowYOffset
         */
         public static final int FloatingActionMenu_menu_shadowYOffset = 30;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu_showShadow}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu_showShadow}
           attribute's value can be found in the {@link #FloatingActionMenu} array.
 
 
@@ -13529,7 +13513,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:menu_showShadow
+          @attr name com.somia.fyp.NewLocationSharing:menu_showShadow
         */
         public static final int FloatingActionMenu_menu_showShadow = 0;
         /** Attributes that can be used with a FontFamily.
@@ -13538,12 +13522,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderAuthority com.somia.fyp:fontProviderAuthority}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderCerts com.somia.fyp:fontProviderCerts}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.somia.fyp:fontProviderFetchStrategy}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.somia.fyp:fontProviderFetchTimeout}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderPackage com.somia.fyp:fontProviderPackage}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderQuery com.somia.fyp:fontProviderQuery}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderAuthority com.somia.fyp.NewLocationSharing:fontProviderAuthority}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderCerts com.somia.fyp.NewLocationSharing:fontProviderCerts}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.somia.fyp.NewLocationSharing:fontProviderFetchStrategy}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.somia.fyp.NewLocationSharing:fontProviderFetchTimeout}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderPackage com.somia.fyp.NewLocationSharing:fontProviderPackage}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderQuery com.somia.fyp.NewLocationSharing:fontProviderQuery}</code></td><td></td></tr>
            </table>
            @see #FontFamily_fontProviderAuthority
            @see #FontFamily_fontProviderCerts
@@ -13557,7 +13541,7 @@ containing a value of this type.
             0x7f010164, 0x7f010165
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontProviderAuthority}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontProviderAuthority}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -13567,21 +13551,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fontProviderAuthority
+          @attr name com.somia.fyp.NewLocationSharing:fontProviderAuthority
         */
         public static final int FontFamily_fontProviderAuthority = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontProviderCerts}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontProviderCerts}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:fontProviderCerts
+          @attr name com.somia.fyp.NewLocationSharing:fontProviderCerts
         */
         public static final int FontFamily_fontProviderCerts = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontProviderFetchStrategy}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontProviderFetchStrategy}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -13594,11 +13578,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>blocking</code></td><td>0</td><td></td></tr>
 <tr><td><code>async</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:fontProviderFetchStrategy
+          @attr name com.somia.fyp.NewLocationSharing:fontProviderFetchStrategy
         */
         public static final int FontFamily_fontProviderFetchStrategy = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontProviderFetchTimeout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontProviderFetchTimeout}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -13616,11 +13600,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>forever</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:fontProviderFetchTimeout
+          @attr name com.somia.fyp.NewLocationSharing:fontProviderFetchTimeout
         */
         public static final int FontFamily_fontProviderFetchTimeout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontProviderPackage}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontProviderPackage}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -13630,11 +13614,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fontProviderPackage
+          @attr name com.somia.fyp.NewLocationSharing:fontProviderPackage
         */
         public static final int FontFamily_fontProviderPackage = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontProviderQuery}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontProviderQuery}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -13644,7 +13628,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fontProviderQuery
+          @attr name com.somia.fyp.NewLocationSharing:fontProviderQuery
         */
         public static final int FontFamily_fontProviderQuery = 2;
         /** Attributes that can be used with a FontFamilyFont.
@@ -13653,9 +13637,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FontFamilyFont_font com.somia.fyp:font}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamilyFont_fontStyle com.somia.fyp:fontStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamilyFont_fontWeight com.somia.fyp:fontWeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_font com.somia.fyp.NewLocationSharing:font}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontStyle com.somia.fyp.NewLocationSharing:fontStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontWeight com.somia.fyp.NewLocationSharing:fontWeight}</code></td><td></td></tr>
            </table>
            @see #FontFamilyFont_font
            @see #FontFamilyFont_fontStyle
@@ -13665,17 +13649,17 @@ containing a value of this type.
             0x7f010166, 0x7f010167, 0x7f010168
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#font}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#font}
           attribute's value can be found in the {@link #FontFamilyFont} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:font
+          @attr name com.somia.fyp.NewLocationSharing:font
         */
         public static final int FontFamilyFont_font = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontStyle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontStyle}
           attribute's value can be found in the {@link #FontFamilyFont} array.
 
 
@@ -13688,11 +13672,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>italic</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:fontStyle
+          @attr name com.somia.fyp.NewLocationSharing:fontStyle
         */
         public static final int FontFamilyFont_fontStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontWeight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontWeight}
           attribute's value can be found in the {@link #FontFamilyFont} array.
 
 
@@ -13702,7 +13686,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fontWeight
+          @attr name com.somia.fyp.NewLocationSharing:fontWeight
         */
         public static final int FontFamilyFont_fontWeight = 2;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -13714,7 +13698,7 @@ containing a value of this type.
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundInsidePadding android:foregroundInsidePadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.somia.fyp:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.somia.fyp.NewLocationSharing:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -13743,7 +13727,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundInsidePadding = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -13753,7 +13737,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:foregroundInsidePadding
+          @attr name com.somia.fyp.NewLocationSharing:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 3;
         /** Attributes that can be used with a LinearConstraintLayout.
@@ -13786,10 +13770,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.somia.fyp:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.somia.fyp:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.somia.fyp:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.somia.fyp:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.somia.fyp.NewLocationSharing:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.somia.fyp.NewLocationSharing:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.somia.fyp.NewLocationSharing:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.somia.fyp.NewLocationSharing:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -13837,17 +13821,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:divider
+          @attr name com.somia.fyp.NewLocationSharing:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -13859,11 +13843,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:dividerPadding
+          @attr name com.somia.fyp.NewLocationSharing:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -13873,11 +13857,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:measureWithLargestChild
+          @attr name com.somia.fyp.NewLocationSharing:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -13892,7 +13876,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:showDividers
+          @attr name com.somia.fyp.NewLocationSharing:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -13971,9 +13955,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.somia.fyp:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.somia.fyp:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.somia.fyp:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.somia.fyp.NewLocationSharing:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.somia.fyp.NewLocationSharing:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.somia.fyp.NewLocationSharing:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -13983,7 +13967,7 @@ containing a value of this type.
             0x7f01016d, 0x7f01016e, 0x7f01016f
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -13993,11 +13977,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:circleCrop
+          @attr name com.somia.fyp.NewLocationSharing:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -14007,11 +13991,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:imageAspectRatio
+          @attr name com.somia.fyp.NewLocationSharing:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -14025,7 +14009,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:imageAspectRatioAdjust
+          @attr name com.somia.fyp.NewLocationSharing:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -14034,29 +14018,29 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_ambientEnabled com.somia.fyp:ambientEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.somia.fyp:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.somia.fyp:cameraMaxZoomPreference}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.somia.fyp:cameraMinZoomPreference}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.somia.fyp:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.somia.fyp:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.somia.fyp:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.somia.fyp:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.somia.fyp:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.somia.fyp:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.somia.fyp:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.somia.fyp:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode com.somia.fyp:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.somia.fyp:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.somia.fyp:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.somia.fyp:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.somia.fyp:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.somia.fyp:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.somia.fyp:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.somia.fyp:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.somia.fyp:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.somia.fyp:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.somia.fyp:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_ambientEnabled com.somia.fyp.NewLocationSharing:ambientEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.somia.fyp.NewLocationSharing:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.somia.fyp.NewLocationSharing:cameraMaxZoomPreference}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.somia.fyp.NewLocationSharing:cameraMinZoomPreference}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.somia.fyp.NewLocationSharing:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.somia.fyp.NewLocationSharing:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.somia.fyp.NewLocationSharing:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.somia.fyp.NewLocationSharing:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.somia.fyp.NewLocationSharing:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.somia.fyp.NewLocationSharing:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.somia.fyp.NewLocationSharing:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.somia.fyp.NewLocationSharing:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode com.somia.fyp.NewLocationSharing:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.somia.fyp.NewLocationSharing:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.somia.fyp.NewLocationSharing:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.somia.fyp.NewLocationSharing:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.somia.fyp.NewLocationSharing:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.somia.fyp.NewLocationSharing:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.somia.fyp.NewLocationSharing:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.somia.fyp.NewLocationSharing:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.somia.fyp.NewLocationSharing:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.somia.fyp.NewLocationSharing:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.somia.fyp.NewLocationSharing:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_ambientEnabled
            @see #MapAttrs_cameraBearing
@@ -14091,7 +14075,7 @@ containing a value of this type.
             0x7f010184, 0x7f010185, 0x7f010186
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#ambientEnabled}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#ambientEnabled}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14101,11 +14085,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:ambientEnabled
+          @attr name com.somia.fyp.NewLocationSharing:ambientEnabled
         */
         public static final int MapAttrs_ambientEnabled = 16;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14115,11 +14099,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cameraBearing
+          @attr name com.somia.fyp.NewLocationSharing:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cameraMaxZoomPreference}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cameraMaxZoomPreference}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14129,11 +14113,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cameraMaxZoomPreference
+          @attr name com.somia.fyp.NewLocationSharing:cameraMaxZoomPreference
         */
         public static final int MapAttrs_cameraMaxZoomPreference = 18;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cameraMinZoomPreference}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cameraMinZoomPreference}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14143,11 +14127,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cameraMinZoomPreference
+          @attr name com.somia.fyp.NewLocationSharing:cameraMinZoomPreference
         */
         public static final int MapAttrs_cameraMinZoomPreference = 17;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14157,11 +14141,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cameraTargetLat
+          @attr name com.somia.fyp.NewLocationSharing:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14171,11 +14155,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cameraTargetLng
+          @attr name com.somia.fyp.NewLocationSharing:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14185,11 +14169,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cameraTilt
+          @attr name com.somia.fyp.NewLocationSharing:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14199,11 +14183,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:cameraZoom
+          @attr name com.somia.fyp.NewLocationSharing:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#latLngBoundsNorthEastLatitude}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#latLngBoundsNorthEastLatitude}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14213,11 +14197,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:latLngBoundsNorthEastLatitude
+          @attr name com.somia.fyp.NewLocationSharing:latLngBoundsNorthEastLatitude
         */
         public static final int MapAttrs_latLngBoundsNorthEastLatitude = 21;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#latLngBoundsNorthEastLongitude}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#latLngBoundsNorthEastLongitude}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14227,11 +14211,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:latLngBoundsNorthEastLongitude
+          @attr name com.somia.fyp.NewLocationSharing:latLngBoundsNorthEastLongitude
         */
         public static final int MapAttrs_latLngBoundsNorthEastLongitude = 22;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#latLngBoundsSouthWestLatitude}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#latLngBoundsSouthWestLatitude}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14241,11 +14225,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:latLngBoundsSouthWestLatitude
+          @attr name com.somia.fyp.NewLocationSharing:latLngBoundsSouthWestLatitude
         */
         public static final int MapAttrs_latLngBoundsSouthWestLatitude = 19;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#latLngBoundsSouthWestLongitude}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#latLngBoundsSouthWestLongitude}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14255,11 +14239,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:latLngBoundsSouthWestLongitude
+          @attr name com.somia.fyp.NewLocationSharing:latLngBoundsSouthWestLongitude
         */
         public static final int MapAttrs_latLngBoundsSouthWestLongitude = 20;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14269,11 +14253,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:liteMode
+          @attr name com.somia.fyp.NewLocationSharing:liteMode
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#mapType}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14289,11 +14273,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:mapType
+          @attr name com.somia.fyp.NewLocationSharing:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14303,11 +14287,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:uiCompass
+          @attr name com.somia.fyp.NewLocationSharing:uiCompass
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14317,11 +14301,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:uiMapToolbar
+          @attr name com.somia.fyp.NewLocationSharing:uiMapToolbar
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14331,11 +14315,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:uiRotateGestures
+          @attr name com.somia.fyp.NewLocationSharing:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14345,11 +14329,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:uiScrollGestures
+          @attr name com.somia.fyp.NewLocationSharing:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14359,11 +14343,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:uiTiltGestures
+          @attr name com.somia.fyp.NewLocationSharing:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14373,11 +14357,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:uiZoomControls
+          @attr name com.somia.fyp.NewLocationSharing:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14387,11 +14371,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:uiZoomGestures
+          @attr name com.somia.fyp.NewLocationSharing:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14401,11 +14385,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:useViewLifecycle
+          @attr name com.somia.fyp.NewLocationSharing:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -14415,7 +14399,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:zOrderOnTop
+          @attr name com.somia.fyp.NewLocationSharing:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a MenuGroup.
@@ -14484,10 +14468,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.somia.fyp:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.somia.fyp:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.somia.fyp:actionViewClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_alphabeticModifiers com.somia.fyp:alphabeticModifiers}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.somia.fyp.NewLocationSharing:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.somia.fyp.NewLocationSharing:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.somia.fyp.NewLocationSharing:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_alphabeticModifiers com.somia.fyp.NewLocationSharing:alphabeticModifiers}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -14501,12 +14485,12 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_contentDescription com.somia.fyp:contentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_iconTint com.somia.fyp:iconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_iconTintMode com.somia.fyp:iconTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_numericModifiers com.somia.fyp:numericModifiers}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.somia.fyp:showAsAction}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_tooltipText com.somia.fyp:tooltipText}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_contentDescription com.somia.fyp.NewLocationSharing:contentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_iconTint com.somia.fyp.NewLocationSharing:iconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_iconTintMode com.somia.fyp.NewLocationSharing:iconTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_numericModifiers com.somia.fyp.NewLocationSharing:numericModifiers}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.somia.fyp.NewLocationSharing:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_tooltipText com.somia.fyp.NewLocationSharing:tooltipText}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -14541,17 +14525,17 @@ containing a value of this type.
             0x7f01018e, 0x7f01018f, 0x7f010190
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:actionLayout
+          @attr name com.somia.fyp.NewLocationSharing:actionLayout
         */
         public static final int MenuItem_actionLayout = 16;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -14561,11 +14545,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:actionProviderClass
+          @attr name com.somia.fyp.NewLocationSharing:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 18;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -14575,11 +14559,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:actionViewClass
+          @attr name com.somia.fyp.NewLocationSharing:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 17;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#alphabeticModifiers}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#alphabeticModifiers}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -14596,7 +14580,7 @@ containing a value of this type.
 <tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
 <tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:alphabeticModifiers
+          @attr name com.somia.fyp.NewLocationSharing:alphabeticModifiers
         */
         public static final int MenuItem_alphabeticModifiers = 13;
         /**
@@ -14678,7 +14662,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentDescription}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentDescription}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -14688,11 +14672,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentDescription
+          @attr name com.somia.fyp.NewLocationSharing:contentDescription
         */
         public static final int MenuItem_contentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#iconTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#iconTint}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -14703,11 +14687,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:iconTint
+          @attr name com.somia.fyp.NewLocationSharing:iconTint
         */
         public static final int MenuItem_iconTint = 21;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#iconTintMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#iconTintMode}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -14724,11 +14708,11 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:iconTintMode
+          @attr name com.somia.fyp.NewLocationSharing:iconTintMode
         */
         public static final int MenuItem_iconTintMode = 22;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#numericModifiers}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#numericModifiers}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -14745,11 +14729,11 @@ containing a value of this type.
 <tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
 <tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:numericModifiers
+          @attr name com.somia.fyp.NewLocationSharing:numericModifiers
         */
         public static final int MenuItem_numericModifiers = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -14765,11 +14749,11 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:showAsAction
+          @attr name com.somia.fyp.NewLocationSharing:showAsAction
         */
         public static final int MenuItem_showAsAction = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tooltipText}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tooltipText}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -14779,7 +14763,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tooltipText
+          @attr name com.somia.fyp.NewLocationSharing:tooltipText
         */
         public static final int MenuItem_tooltipText = 20;
         /** Attributes that can be used with a MenuView.
@@ -14795,8 +14779,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.somia.fyp:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow com.somia.fyp:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.somia.fyp.NewLocationSharing:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow com.somia.fyp.NewLocationSharing:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -14856,7 +14840,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -14866,17 +14850,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:preserveIconSpacing
+          @attr name com.somia.fyp.NewLocationSharing:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:subMenuArrow
+          @attr name com.somia.fyp.NewLocationSharing:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
@@ -14888,13 +14872,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation com.somia.fyp:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout com.somia.fyp:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground com.somia.fyp:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint com.somia.fyp:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance com.somia.fyp:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor com.somia.fyp:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu com.somia.fyp:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation com.somia.fyp.NewLocationSharing:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout com.somia.fyp.NewLocationSharing:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground com.somia.fyp.NewLocationSharing:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint com.somia.fyp.NewLocationSharing:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance com.somia.fyp.NewLocationSharing:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor com.somia.fyp.NewLocationSharing:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu com.somia.fyp.NewLocationSharing:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -14931,7 +14915,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -14943,31 +14927,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:elevation
+          @attr name com.somia.fyp.NewLocationSharing:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:headerLayout
+          @attr name com.somia.fyp.NewLocationSharing:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:itemBackground
+          @attr name com.somia.fyp.NewLocationSharing:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -14978,21 +14962,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:itemIconTint
+          @attr name com.somia.fyp.NewLocationSharing:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:itemTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -15003,17 +14987,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:itemTextColor
+          @attr name com.somia.fyp.NewLocationSharing:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:menu
+          @attr name com.somia.fyp.NewLocationSharing:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -15024,7 +15008,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.somia.fyp:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.somia.fyp.NewLocationSharing:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -15046,7 +15030,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -15056,7 +15040,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:overlapAnchor
+          @attr name com.somia.fyp.NewLocationSharing:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -15065,7 +15049,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.somia.fyp:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.somia.fyp.NewLocationSharing:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -15073,7 +15057,7 @@ containing a value of this type.
             0x7f01019a
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -15083,7 +15067,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:state_above_anchor
+          @attr name com.somia.fyp.NewLocationSharing:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a ProcessButton.
@@ -15092,12 +15076,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ProcessButton_pb_colorComplete com.somia.fyp:pb_colorComplete}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProcessButton_pb_colorError com.somia.fyp:pb_colorError}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProcessButton_pb_colorProgress com.somia.fyp:pb_colorProgress}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProcessButton_pb_textComplete com.somia.fyp:pb_textComplete}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProcessButton_pb_textError com.somia.fyp:pb_textError}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProcessButton_pb_textProgress com.somia.fyp:pb_textProgress}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProcessButton_pb_colorComplete com.somia.fyp.NewLocationSharing:pb_colorComplete}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProcessButton_pb_colorError com.somia.fyp.NewLocationSharing:pb_colorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProcessButton_pb_colorProgress com.somia.fyp.NewLocationSharing:pb_colorProgress}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProcessButton_pb_textComplete com.somia.fyp.NewLocationSharing:pb_textComplete}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProcessButton_pb_textError com.somia.fyp.NewLocationSharing:pb_textError}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProcessButton_pb_textProgress com.somia.fyp.NewLocationSharing:pb_textProgress}</code></td><td></td></tr>
            </table>
            @see #ProcessButton_pb_colorComplete
            @see #ProcessButton_pb_colorError
@@ -15111,7 +15095,7 @@ containing a value of this type.
             0x7f01019f, 0x7f0101a0
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pb_colorComplete}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pb_colorComplete}
           attribute's value can be found in the {@link #ProcessButton} array.
 
 
@@ -15122,11 +15106,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pb_colorComplete
+          @attr name com.somia.fyp.NewLocationSharing:pb_colorComplete
         */
         public static final int ProcessButton_pb_colorComplete = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pb_colorError}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pb_colorError}
           attribute's value can be found in the {@link #ProcessButton} array.
 
 
@@ -15137,11 +15121,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pb_colorError
+          @attr name com.somia.fyp.NewLocationSharing:pb_colorError
         */
         public static final int ProcessButton_pb_colorError = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pb_colorProgress}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pb_colorProgress}
           attribute's value can be found in the {@link #ProcessButton} array.
 
 
@@ -15152,11 +15136,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pb_colorProgress
+          @attr name com.somia.fyp.NewLocationSharing:pb_colorProgress
         */
         public static final int ProcessButton_pb_colorProgress = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pb_textComplete}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pb_textComplete}
           attribute's value can be found in the {@link #ProcessButton} array.
 
 
@@ -15166,11 +15150,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pb_textComplete
+          @attr name com.somia.fyp.NewLocationSharing:pb_textComplete
         */
         public static final int ProcessButton_pb_textComplete = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pb_textError}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pb_textError}
           attribute's value can be found in the {@link #ProcessButton} array.
 
 
@@ -15180,11 +15164,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pb_textError
+          @attr name com.somia.fyp.NewLocationSharing:pb_textError
         */
         public static final int ProcessButton_pb_textError = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#pb_textProgress}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#pb_textProgress}
           attribute's value can be found in the {@link #ProcessButton} array.
 
 
@@ -15194,7 +15178,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:pb_textProgress
+          @attr name com.somia.fyp.NewLocationSharing:pb_textProgress
         */
         public static final int ProcessButton_pb_textProgress = 0;
         /** Attributes that can be used with a RecycleListView.
@@ -15203,8 +15187,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.somia.fyp:paddingBottomNoButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.somia.fyp:paddingTopNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.somia.fyp.NewLocationSharing:paddingBottomNoButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.somia.fyp.NewLocationSharing:paddingTopNoTitle}</code></td><td></td></tr>
            </table>
            @see #RecycleListView_paddingBottomNoButtons
            @see #RecycleListView_paddingTopNoTitle
@@ -15213,7 +15197,7 @@ containing a value of this type.
             0x7f0101a1, 0x7f0101a2
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#paddingBottomNoButtons}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#paddingBottomNoButtons}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -15225,11 +15209,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:paddingBottomNoButtons
+          @attr name com.somia.fyp.NewLocationSharing:paddingBottomNoButtons
         */
         public static final int RecycleListView_paddingBottomNoButtons = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#paddingTopNoTitle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#paddingTopNoTitle}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -15241,7 +15225,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:paddingTopNoTitle
+          @attr name com.somia.fyp.NewLocationSharing:paddingTopNoTitle
         */
         public static final int RecycleListView_paddingTopNoTitle = 1;
         /** Attributes that can be used with a RecyclerView.
@@ -15252,15 +15236,15 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.somia.fyp:fastScrollEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.somia.fyp:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.somia.fyp:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.somia.fyp:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.somia.fyp:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.somia.fyp:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.somia.fyp:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.somia.fyp:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.somia.fyp:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.somia.fyp.NewLocationSharing:fastScrollEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.somia.fyp.NewLocationSharing:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.somia.fyp.NewLocationSharing:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.somia.fyp.NewLocationSharing:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.somia.fyp.NewLocationSharing:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.somia.fyp.NewLocationSharing:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.somia.fyp.NewLocationSharing:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.somia.fyp.NewLocationSharing:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.somia.fyp.NewLocationSharing:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
@@ -15292,7 +15276,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fastScrollEnabled}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fastScrollEnabled}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -15302,51 +15286,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fastScrollEnabled
+          @attr name com.somia.fyp.NewLocationSharing:fastScrollEnabled
         */
         public static final int RecyclerView_fastScrollEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fastScrollHorizontalThumbDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fastScrollHorizontalThumbDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:fastScrollHorizontalThumbDrawable
+          @attr name com.somia.fyp.NewLocationSharing:fastScrollHorizontalThumbDrawable
         */
         public static final int RecyclerView_fastScrollHorizontalThumbDrawable = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fastScrollHorizontalTrackDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fastScrollHorizontalTrackDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:fastScrollHorizontalTrackDrawable
+          @attr name com.somia.fyp.NewLocationSharing:fastScrollHorizontalTrackDrawable
         */
         public static final int RecyclerView_fastScrollHorizontalTrackDrawable = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fastScrollVerticalThumbDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fastScrollVerticalThumbDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:fastScrollVerticalThumbDrawable
+          @attr name com.somia.fyp.NewLocationSharing:fastScrollVerticalThumbDrawable
         */
         public static final int RecyclerView_fastScrollVerticalThumbDrawable = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fastScrollVerticalTrackDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fastScrollVerticalTrackDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:fastScrollVerticalTrackDrawable
+          @attr name com.somia.fyp.NewLocationSharing:fastScrollVerticalTrackDrawable
         */
         public static final int RecyclerView_fastScrollVerticalTrackDrawable = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -15356,11 +15340,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:layoutManager
+          @attr name com.somia.fyp.NewLocationSharing:layoutManager
         */
         public static final int RecyclerView_layoutManager = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -15370,11 +15354,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:reverseLayout
+          @attr name com.somia.fyp.NewLocationSharing:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -15384,11 +15368,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:spanCount
+          @attr name com.somia.fyp.NewLocationSharing:spanCount
         */
         public static final int RecyclerView_spanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -15398,7 +15382,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:stackFromEnd
+          @attr name com.somia.fyp.NewLocationSharing:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -15407,7 +15391,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.somia.fyp:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.somia.fyp.NewLocationSharing:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -15415,7 +15399,7 @@ containing a value of this type.
             0x7f0101ac
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -15423,7 +15407,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.somia.fyp:insetForeground
+          @attr name com.somia.fyp.NewLocationSharing:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Layout.
@@ -15432,7 +15416,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.somia.fyp:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.somia.fyp.NewLocationSharing:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Layout_behavior_overlapTop
          */
@@ -15440,7 +15424,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101ad
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
 
 
@@ -15452,7 +15436,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:behavior_overlapTop
+          @attr name com.somia.fyp.NewLocationSharing:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -15465,19 +15449,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.somia.fyp:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.somia.fyp:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.somia.fyp:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.somia.fyp:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.somia.fyp:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.somia.fyp:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.somia.fyp:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.somia.fyp:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.somia.fyp:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.somia.fyp:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.somia.fyp:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.somia.fyp:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.somia.fyp:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.somia.fyp.NewLocationSharing:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.somia.fyp.NewLocationSharing:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.somia.fyp.NewLocationSharing:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.somia.fyp.NewLocationSharing:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.somia.fyp.NewLocationSharing:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.somia.fyp.NewLocationSharing:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.somia.fyp.NewLocationSharing:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.somia.fyp.NewLocationSharing:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.somia.fyp.NewLocationSharing:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.somia.fyp.NewLocationSharing:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.somia.fyp.NewLocationSharing:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.somia.fyp.NewLocationSharing:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.somia.fyp.NewLocationSharing:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -15529,27 +15513,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:closeIcon
+          @attr name com.somia.fyp.NewLocationSharing:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:commitIcon
+          @attr name com.somia.fyp.NewLocationSharing:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -15559,21 +15543,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:defaultQueryHint
+          @attr name com.somia.fyp.NewLocationSharing:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:goIcon
+          @attr name com.somia.fyp.NewLocationSharing:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -15583,31 +15567,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:iconifiedByDefault
+          @attr name com.somia.fyp.NewLocationSharing:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:layout
+          @attr name com.somia.fyp.NewLocationSharing:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:queryBackground
+          @attr name com.somia.fyp.NewLocationSharing:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -15617,57 +15601,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:queryHint
+          @attr name com.somia.fyp.NewLocationSharing:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:searchHintIcon
+          @attr name com.somia.fyp.NewLocationSharing:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:searchIcon
+          @attr name com.somia.fyp.NewLocationSharing:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:submitBackground
+          @attr name com.somia.fyp.NewLocationSharing:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:suggestionRowLayout
+          @attr name com.somia.fyp.NewLocationSharing:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:voiceIcon
+          @attr name com.somia.fyp.NewLocationSharing:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SignInButton.
@@ -15676,9 +15660,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize com.somia.fyp:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme com.somia.fyp:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris com.somia.fyp:scopeUris}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize com.somia.fyp.NewLocationSharing:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme com.somia.fyp.NewLocationSharing:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris com.somia.fyp.NewLocationSharing:scopeUris}</code></td><td></td></tr>
            </table>
            @see #SignInButton_buttonSize
            @see #SignInButton_colorScheme
@@ -15688,7 +15672,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101bb, 0x7f0101bc, 0x7f0101bd
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonSize}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonSize}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -15704,11 +15688,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>wide</code></td><td>1</td><td></td></tr>
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:buttonSize
+          @attr name com.somia.fyp.NewLocationSharing:buttonSize
         */
         public static final int SignInButton_buttonSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#colorScheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#colorScheme}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -15724,18 +15708,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>light</code></td><td>1</td><td></td></tr>
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:colorScheme
+          @attr name com.somia.fyp.NewLocationSharing:colorScheme
         */
         public static final int SignInButton_colorScheme = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#scopeUris}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#scopeUris}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.somia.fyp:scopeUris
+          @attr name com.somia.fyp.NewLocationSharing:scopeUris
         */
         public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a SnackbarLayout.
@@ -15745,8 +15729,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation com.somia.fyp:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.somia.fyp:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation com.somia.fyp.NewLocationSharing:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.somia.fyp.NewLocationSharing:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -15762,7 +15746,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -15774,11 +15758,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:elevation
+          @attr name com.somia.fyp.NewLocationSharing:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -15790,7 +15774,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:maxActionInlineWidth
+          @attr name com.somia.fyp.NewLocationSharing:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -15803,7 +15787,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.somia.fyp:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.somia.fyp.NewLocationSharing:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -15840,13 +15824,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:popupTheme
+          @attr name com.somia.fyp.NewLocationSharing:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a StaggeredGridView.
@@ -15855,14 +15839,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #StaggeredGridView_column_count com.somia.fyp:column_count}</code></td><td></td></tr>
-           <tr><td><code>{@link #StaggeredGridView_column_count_landscape com.somia.fyp:column_count_landscape}</code></td><td></td></tr>
-           <tr><td><code>{@link #StaggeredGridView_column_count_portrait com.somia.fyp:column_count_portrait}</code></td><td></td></tr>
-           <tr><td><code>{@link #StaggeredGridView_grid_paddingBottom com.somia.fyp:grid_paddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #StaggeredGridView_grid_paddingLeft com.somia.fyp:grid_paddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #StaggeredGridView_grid_paddingRight com.somia.fyp:grid_paddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #StaggeredGridView_grid_paddingTop com.somia.fyp:grid_paddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #StaggeredGridView_item_margin com.somia.fyp:item_margin}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_column_count com.somia.fyp.NewLocationSharing:column_count}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_column_count_landscape com.somia.fyp.NewLocationSharing:column_count_landscape}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_column_count_portrait com.somia.fyp.NewLocationSharing:column_count_portrait}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_grid_paddingBottom com.somia.fyp.NewLocationSharing:grid_paddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_grid_paddingLeft com.somia.fyp.NewLocationSharing:grid_paddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_grid_paddingRight com.somia.fyp.NewLocationSharing:grid_paddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_grid_paddingTop com.somia.fyp.NewLocationSharing:grid_paddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_item_margin com.somia.fyp.NewLocationSharing:item_margin}</code></td><td></td></tr>
            </table>
            @see #StaggeredGridView_column_count
            @see #StaggeredGridView_column_count_landscape
@@ -15878,7 +15862,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0101c3, 0x7f0101c4, 0x7f0101c5, 0x7f0101c6
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#column_count}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#column_count}
           attribute's value can be found in the {@link #StaggeredGridView} array.
 
 
@@ -15888,11 +15872,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:column_count
+          @attr name com.somia.fyp.NewLocationSharing:column_count
         */
         public static final int StaggeredGridView_column_count = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#column_count_landscape}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#column_count_landscape}
           attribute's value can be found in the {@link #StaggeredGridView} array.
 
 
@@ -15902,11 +15886,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:column_count_landscape
+          @attr name com.somia.fyp.NewLocationSharing:column_count_landscape
         */
         public static final int StaggeredGridView_column_count_landscape = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#column_count_portrait}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#column_count_portrait}
           attribute's value can be found in the {@link #StaggeredGridView} array.
 
 
@@ -15916,11 +15900,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:column_count_portrait
+          @attr name com.somia.fyp.NewLocationSharing:column_count_portrait
         */
         public static final int StaggeredGridView_column_count_portrait = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#grid_paddingBottom}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#grid_paddingBottom}
           attribute's value can be found in the {@link #StaggeredGridView} array.
 
 
@@ -15932,11 +15916,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:grid_paddingBottom
+          @attr name com.somia.fyp.NewLocationSharing:grid_paddingBottom
         */
         public static final int StaggeredGridView_grid_paddingBottom = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#grid_paddingLeft}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#grid_paddingLeft}
           attribute's value can be found in the {@link #StaggeredGridView} array.
 
 
@@ -15948,11 +15932,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:grid_paddingLeft
+          @attr name com.somia.fyp.NewLocationSharing:grid_paddingLeft
         */
         public static final int StaggeredGridView_grid_paddingLeft = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#grid_paddingRight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#grid_paddingRight}
           attribute's value can be found in the {@link #StaggeredGridView} array.
 
 
@@ -15964,11 +15948,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:grid_paddingRight
+          @attr name com.somia.fyp.NewLocationSharing:grid_paddingRight
         */
         public static final int StaggeredGridView_grid_paddingRight = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#grid_paddingTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#grid_paddingTop}
           attribute's value can be found in the {@link #StaggeredGridView} array.
 
 
@@ -15980,11 +15964,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:grid_paddingTop
+          @attr name com.somia.fyp.NewLocationSharing:grid_paddingTop
         */
         public static final int StaggeredGridView_grid_paddingTop = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#item_margin}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#item_margin}
           attribute's value can be found in the {@link #StaggeredGridView} array.
 
 
@@ -15996,7 +15980,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:item_margin
+          @attr name com.somia.fyp.NewLocationSharing:item_margin
         */
         public static final int StaggeredGridView_item_margin = 3;
         /** Attributes that can be used with a SwitchCompat.
@@ -16008,17 +15992,17 @@ containing a value of this type.
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.somia.fyp:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.somia.fyp:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.somia.fyp:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.somia.fyp:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.somia.fyp:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.somia.fyp:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint com.somia.fyp:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.somia.fyp:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.somia.fyp:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint com.somia.fyp:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode com.somia.fyp:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.somia.fyp.NewLocationSharing:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.somia.fyp.NewLocationSharing:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.somia.fyp.NewLocationSharing:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.somia.fyp.NewLocationSharing:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.somia.fyp.NewLocationSharing:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.somia.fyp.NewLocationSharing:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint com.somia.fyp.NewLocationSharing:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.somia.fyp.NewLocationSharing:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.somia.fyp.NewLocationSharing:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint com.somia.fyp.NewLocationSharing:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode com.somia.fyp.NewLocationSharing:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -16060,7 +16044,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -16070,11 +16054,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:showText
+          @attr name com.somia.fyp.NewLocationSharing:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -16084,11 +16068,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:splitTrack
+          @attr name com.somia.fyp.NewLocationSharing:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -16100,11 +16084,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:switchMinWidth
+          @attr name com.somia.fyp.NewLocationSharing:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -16116,21 +16100,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:switchPadding
+          @attr name com.somia.fyp.NewLocationSharing:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:switchTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -16142,11 +16126,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:thumbTextPadding
+          @attr name com.somia.fyp.NewLocationSharing:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -16157,11 +16141,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:thumbTint
+          @attr name com.somia.fyp.NewLocationSharing:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -16178,21 +16162,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:thumbTintMode
+          @attr name com.somia.fyp.NewLocationSharing:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#track}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:track
+          @attr name com.somia.fyp.NewLocationSharing:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -16203,11 +16187,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:trackTint
+          @attr name com.somia.fyp.NewLocationSharing:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -16224,7 +16208,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:trackTintMode
+          @attr name com.somia.fyp.NewLocationSharing:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
@@ -16268,22 +16252,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground com.somia.fyp:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart com.somia.fyp:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity com.somia.fyp:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.somia.fyp:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.somia.fyp:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth com.somia.fyp:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth com.somia.fyp:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode com.somia.fyp:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding com.somia.fyp:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.somia.fyp:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.somia.fyp:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart com.somia.fyp:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop com.somia.fyp:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.somia.fyp:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance com.somia.fyp:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor com.somia.fyp:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground com.somia.fyp.NewLocationSharing:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart com.somia.fyp.NewLocationSharing:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity com.somia.fyp.NewLocationSharing:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.somia.fyp.NewLocationSharing:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.somia.fyp.NewLocationSharing:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth com.somia.fyp.NewLocationSharing:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth com.somia.fyp.NewLocationSharing:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode com.somia.fyp.NewLocationSharing:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding com.somia.fyp.NewLocationSharing:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.somia.fyp.NewLocationSharing:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.somia.fyp.NewLocationSharing:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart com.somia.fyp.NewLocationSharing:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop com.somia.fyp.NewLocationSharing:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.somia.fyp.NewLocationSharing:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance com.somia.fyp.NewLocationSharing:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor com.somia.fyp.NewLocationSharing:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -16309,17 +16293,17 @@ containing a value of this type.
             0x7f0101de, 0x7f0101df, 0x7f0101e0, 0x7f0101e1
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:tabBackground
+          @attr name com.somia.fyp.NewLocationSharing:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16331,11 +16315,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabContentStart
+          @attr name com.somia.fyp.NewLocationSharing:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16348,11 +16332,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:tabGravity
+          @attr name com.somia.fyp.NewLocationSharing:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16363,11 +16347,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabIndicatorColor
+          @attr name com.somia.fyp.NewLocationSharing:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16379,11 +16363,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabIndicatorHeight
+          @attr name com.somia.fyp.NewLocationSharing:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16395,11 +16379,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabMaxWidth
+          @attr name com.somia.fyp.NewLocationSharing:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16411,11 +16395,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabMinWidth
+          @attr name com.somia.fyp.NewLocationSharing:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16428,11 +16412,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:tabMode
+          @attr name com.somia.fyp.NewLocationSharing:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16444,11 +16428,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabPadding
+          @attr name com.somia.fyp.NewLocationSharing:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16460,11 +16444,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabPaddingBottom
+          @attr name com.somia.fyp.NewLocationSharing:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16476,11 +16460,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabPaddingEnd
+          @attr name com.somia.fyp.NewLocationSharing:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16492,11 +16476,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabPaddingStart
+          @attr name com.somia.fyp.NewLocationSharing:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16508,11 +16492,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabPaddingTop
+          @attr name com.somia.fyp.NewLocationSharing:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16523,21 +16507,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabSelectedTextColor
+          @attr name com.somia.fyp.NewLocationSharing:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:tabTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -16548,7 +16532,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:tabTextColor
+          @attr name com.somia.fyp.NewLocationSharing:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -16568,8 +16552,8 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_fontFamily com.somia.fyp:fontFamily}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.somia.fyp:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_fontFamily com.somia.fyp.NewLocationSharing:fontFamily}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.somia.fyp.NewLocationSharing:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_fontFamily
            @see #TextAppearance_android_shadowColor
@@ -16658,7 +16642,7 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#fontFamily}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#fontFamily}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
@@ -16668,18 +16652,18 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:fontFamily
+          @attr name com.somia.fyp.NewLocationSharing:fontFamily
         */
         public static final int TextAppearance_fontFamily = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.somia.fyp:textAllCaps
+          @attr name com.somia.fyp.NewLocationSharing:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 11;
         /** Attributes that can be used with a TextInputLayout.
@@ -16690,20 +16674,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled com.somia.fyp:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.somia.fyp:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.somia.fyp:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.somia.fyp:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled com.somia.fyp:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.somia.fyp:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.somia.fyp:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled com.somia.fyp:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.somia.fyp:hintTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.somia.fyp:passwordToggleContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.somia.fyp:passwordToggleDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.somia.fyp:passwordToggleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.somia.fyp:passwordToggleTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.somia.fyp:passwordToggleTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled com.somia.fyp.NewLocationSharing:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.somia.fyp.NewLocationSharing:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.somia.fyp.NewLocationSharing:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.somia.fyp.NewLocationSharing:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled com.somia.fyp.NewLocationSharing:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.somia.fyp.NewLocationSharing:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.somia.fyp.NewLocationSharing:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled com.somia.fyp.NewLocationSharing:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.somia.fyp.NewLocationSharing:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.somia.fyp.NewLocationSharing:passwordToggleContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.somia.fyp.NewLocationSharing:passwordToggleDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.somia.fyp.NewLocationSharing:passwordToggleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.somia.fyp.NewLocationSharing:passwordToggleTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.somia.fyp.NewLocationSharing:passwordToggleTintMode}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -16741,7 +16725,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16751,11 +16735,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:counterEnabled
+          @attr name com.somia.fyp.NewLocationSharing:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16765,31 +16749,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:counterMaxLength
+          @attr name com.somia.fyp.NewLocationSharing:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:counterOverflowTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:counterTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16799,21 +16783,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:errorEnabled
+          @attr name com.somia.fyp.NewLocationSharing:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:errorTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16823,11 +16807,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:hintAnimationEnabled
+          @attr name com.somia.fyp.NewLocationSharing:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16837,21 +16821,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:hintEnabled
+          @attr name com.somia.fyp.NewLocationSharing:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:hintTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#passwordToggleContentDescription}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#passwordToggleContentDescription}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16861,21 +16845,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:passwordToggleContentDescription
+          @attr name com.somia.fyp.NewLocationSharing:passwordToggleContentDescription
         */
         public static final int TextInputLayout_passwordToggleContentDescription = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#passwordToggleDrawable}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#passwordToggleDrawable}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:passwordToggleDrawable
+          @attr name com.somia.fyp.NewLocationSharing:passwordToggleDrawable
         */
         public static final int TextInputLayout_passwordToggleDrawable = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#passwordToggleEnabled}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#passwordToggleEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16885,11 +16869,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:passwordToggleEnabled
+          @attr name com.somia.fyp.NewLocationSharing:passwordToggleEnabled
         */
         public static final int TextInputLayout_passwordToggleEnabled = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#passwordToggleTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#passwordToggleTint}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16900,11 +16884,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:passwordToggleTint
+          @attr name com.somia.fyp.NewLocationSharing:passwordToggleTint
         */
         public static final int TextInputLayout_passwordToggleTint = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#passwordToggleTintMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#passwordToggleTintMode}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16920,7 +16904,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:passwordToggleTintMode
+          @attr name com.somia.fyp.NewLocationSharing:passwordToggleTintMode
         */
         public static final int TextInputLayout_passwordToggleTintMode = 15;
         /** Attributes that can be used with a Toolbar.
@@ -16931,33 +16915,33 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity com.somia.fyp:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.somia.fyp:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.somia.fyp:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.somia.fyp:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.somia.fyp:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.somia.fyp:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.somia.fyp:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.somia.fyp:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.somia.fyp:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.somia.fyp:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.somia.fyp:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.somia.fyp:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.somia.fyp:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.somia.fyp:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.somia.fyp:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.somia.fyp:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.somia.fyp:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.somia.fyp:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.somia.fyp:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin com.somia.fyp:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.somia.fyp:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.somia.fyp:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.somia.fyp:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.somia.fyp:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.somia.fyp:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.somia.fyp:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.somia.fyp:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity com.somia.fyp.NewLocationSharing:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.somia.fyp.NewLocationSharing:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.somia.fyp.NewLocationSharing:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.somia.fyp.NewLocationSharing:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.somia.fyp.NewLocationSharing:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.somia.fyp.NewLocationSharing:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.somia.fyp.NewLocationSharing:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.somia.fyp.NewLocationSharing:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.somia.fyp.NewLocationSharing:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.somia.fyp.NewLocationSharing:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.somia.fyp.NewLocationSharing:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.somia.fyp.NewLocationSharing:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.somia.fyp.NewLocationSharing:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.somia.fyp.NewLocationSharing:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.somia.fyp.NewLocationSharing:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.somia.fyp.NewLocationSharing:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.somia.fyp.NewLocationSharing:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.somia.fyp.NewLocationSharing:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.somia.fyp.NewLocationSharing:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin com.somia.fyp.NewLocationSharing:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.somia.fyp.NewLocationSharing:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.somia.fyp.NewLocationSharing:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.somia.fyp.NewLocationSharing:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.somia.fyp.NewLocationSharing:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.somia.fyp.NewLocationSharing:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.somia.fyp.NewLocationSharing:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.somia.fyp.NewLocationSharing:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -17012,7 +16996,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17025,11 +17009,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:buttonGravity
+          @attr name com.somia.fyp.NewLocationSharing:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17039,21 +17023,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:collapseContentDescription
+          @attr name com.somia.fyp.NewLocationSharing:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:collapseIcon
+          @attr name com.somia.fyp.NewLocationSharing:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17065,11 +17049,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetEnd
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17081,11 +17065,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetEndWithActions
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17097,11 +17081,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetLeft
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17113,11 +17097,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetRight
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17129,11 +17113,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetStart
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17145,21 +17129,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:contentInsetStartWithNavigation
+          @attr name com.somia.fyp.NewLocationSharing:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:logo
+          @attr name com.somia.fyp.NewLocationSharing:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17169,11 +17153,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:logoDescription
+          @attr name com.somia.fyp.NewLocationSharing:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17185,11 +17169,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:maxButtonHeight
+          @attr name com.somia.fyp.NewLocationSharing:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17199,31 +17183,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:navigationContentDescription
+          @attr name com.somia.fyp.NewLocationSharing:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:navigationIcon
+          @attr name com.somia.fyp.NewLocationSharing:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:popupTheme
+          @attr name com.somia.fyp.NewLocationSharing:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17233,21 +17217,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:subtitle
+          @attr name com.somia.fyp.NewLocationSharing:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:subtitleTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17258,11 +17242,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:subtitleTextColor
+          @attr name com.somia.fyp.NewLocationSharing:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#title}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17272,11 +17256,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:title
+          @attr name com.somia.fyp.NewLocationSharing:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17288,11 +17272,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:titleMargin
+          @attr name com.somia.fyp.NewLocationSharing:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17304,11 +17288,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:titleMarginBottom
+          @attr name com.somia.fyp.NewLocationSharing:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17320,11 +17304,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:titleMarginEnd
+          @attr name com.somia.fyp.NewLocationSharing:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17336,11 +17320,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:titleMarginStart
+          @attr name com.somia.fyp.NewLocationSharing:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17352,11 +17336,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:titleMarginTop
+          @attr name com.somia.fyp.NewLocationSharing:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17368,21 +17352,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:titleMargins
+          @attr name com.somia.fyp.NewLocationSharing:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:titleTextAppearance
+          @attr name com.somia.fyp.NewLocationSharing:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -17393,7 +17377,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:titleTextColor
+          @attr name com.somia.fyp.NewLocationSharing:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -17404,9 +17388,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.somia.fyp:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.somia.fyp:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.somia.fyp:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.somia.fyp.NewLocationSharing:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.somia.fyp.NewLocationSharing:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.somia.fyp.NewLocationSharing:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -17431,7 +17415,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -17443,11 +17427,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:paddingEnd
+          @attr name com.somia.fyp.NewLocationSharing:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -17459,17 +17443,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:paddingStart
+          @attr name com.somia.fyp.NewLocationSharing:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:theme
+          @attr name com.somia.fyp.NewLocationSharing:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -17479,8 +17463,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.somia.fyp:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.somia.fyp:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.somia.fyp.NewLocationSharing:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.somia.fyp.NewLocationSharing:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -17496,7 +17480,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -17507,11 +17491,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:backgroundTint
+          @attr name com.somia.fyp.NewLocationSharing:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -17527,7 +17511,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.somia.fyp:backgroundTintMode
+          @attr name com.somia.fyp.NewLocationSharing:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
@@ -17571,7 +17555,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #card_listItem_card_list_item_dividerHeight com.somia.fyp:card_list_item_dividerHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_listItem_card_list_item_dividerHeight com.somia.fyp.NewLocationSharing:card_list_item_dividerHeight}</code></td><td></td></tr>
            </table>
            @see #card_listItem_card_list_item_dividerHeight
          */
@@ -17579,7 +17563,7 @@ containing a value of this type.
             0x7f010206
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#card_list_item_dividerHeight}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#card_list_item_dividerHeight}
           attribute's value can be found in the {@link #card_listItem} array.
 
 
@@ -17591,7 +17575,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.somia.fyp:card_list_item_dividerHeight
+          @attr name com.somia.fyp.NewLocationSharing:card_list_item_dividerHeight
         */
         public static final int card_listItem_card_list_item_dividerHeight = 0;
         /** Attributes that can be used with a card_options.
@@ -17600,12 +17584,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #card_options_card_header_layout_resourceID com.somia.fyp:card_header_layout_resourceID}</code></td><td></td></tr>
-           <tr><td><code>{@link #card_options_card_layout_resourceID com.somia.fyp:card_layout_resourceID}</code></td><td></td></tr>
-           <tr><td><code>{@link #card_options_card_shadow_layout_resourceID com.somia.fyp:card_shadow_layout_resourceID}</code></td><td></td></tr>
-           <tr><td><code>{@link #card_options_card_thumbnail_layout_resourceID com.somia.fyp:card_thumbnail_layout_resourceID}</code></td><td></td></tr>
-           <tr><td><code>{@link #card_options_list_card_layout_resourceID com.somia.fyp:list_card_layout_resourceID}</code></td><td></td></tr>
-           <tr><td><code>{@link #card_options_list_card_layout_resourceIDs com.somia.fyp:list_card_layout_resourceIDs}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_card_header_layout_resourceID com.somia.fyp.NewLocationSharing:card_header_layout_resourceID}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_card_layout_resourceID com.somia.fyp.NewLocationSharing:card_layout_resourceID}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_card_shadow_layout_resourceID com.somia.fyp.NewLocationSharing:card_shadow_layout_resourceID}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_card_thumbnail_layout_resourceID com.somia.fyp.NewLocationSharing:card_thumbnail_layout_resourceID}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_list_card_layout_resourceID com.somia.fyp.NewLocationSharing:list_card_layout_resourceID}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_list_card_layout_resourceIDs com.somia.fyp.NewLocationSharing:list_card_layout_resourceIDs}</code></td><td></td></tr>
            </table>
            @see #card_options_card_header_layout_resourceID
            @see #card_options_card_layout_resourceID
@@ -17619,63 +17603,63 @@ containing a value of this type.
             0x7f01020b, 0x7f01020c
         };
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#card_header_layout_resourceID}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#card_header_layout_resourceID}
           attribute's value can be found in the {@link #card_options} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:card_header_layout_resourceID
+          @attr name com.somia.fyp.NewLocationSharing:card_header_layout_resourceID
         */
         public static final int card_options_card_header_layout_resourceID = 2;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#card_layout_resourceID}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#card_layout_resourceID}
           attribute's value can be found in the {@link #card_options} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:card_layout_resourceID
+          @attr name com.somia.fyp.NewLocationSharing:card_layout_resourceID
         */
         public static final int card_options_card_layout_resourceID = 0;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#card_shadow_layout_resourceID}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#card_shadow_layout_resourceID}
           attribute's value can be found in the {@link #card_options} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:card_shadow_layout_resourceID
+          @attr name com.somia.fyp.NewLocationSharing:card_shadow_layout_resourceID
         */
         public static final int card_options_card_shadow_layout_resourceID = 1;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#card_thumbnail_layout_resourceID}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#card_thumbnail_layout_resourceID}
           attribute's value can be found in the {@link #card_options} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:card_thumbnail_layout_resourceID
+          @attr name com.somia.fyp.NewLocationSharing:card_thumbnail_layout_resourceID
         */
         public static final int card_options_card_thumbnail_layout_resourceID = 3;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#list_card_layout_resourceID}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#list_card_layout_resourceID}
           attribute's value can be found in the {@link #card_options} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:list_card_layout_resourceID
+          @attr name com.somia.fyp.NewLocationSharing:list_card_layout_resourceID
         */
         public static final int card_options_list_card_layout_resourceID = 4;
         /**
-          <p>This symbol is the offset where the {@link com.somia.fyp.R.attr#list_card_layout_resourceIDs}
+          <p>This symbol is the offset where the {@link com.somia.fyp.NewLocationSharing.R.attr#list_card_layout_resourceIDs}
           attribute's value can be found in the {@link #card_options} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.somia.fyp:list_card_layout_resourceIDs
+          @attr name com.somia.fyp.NewLocationSharing:list_card_layout_resourceIDs
         */
         public static final int card_options_list_card_layout_resourceIDs = 5;
     };
