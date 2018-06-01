@@ -82,21 +82,27 @@ public class NewMapsFamily extends FragmentActivity implements OnMapReadyCallbac
             UID = Settings.Secure.getString(getApplicationContext().getContentResolver(),
                     Settings.Secure.ANDROID_ID);
         }
+
         final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
         mDatabase.child("MyLocation").child(UID).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
                 MyLocation myLocation = dataSnapshot.getValue(MyLocation.class);
-                LatLng newLocation = new LatLng(myLocation.getLat(), myLocation.getLng());
-                mMap.addMarker(new MarkerOptions().position(newLocation));
+                if (myLocation!=null)
+                {
+                    LatLng newLocation = new LatLng(myLocation.getLat(), myLocation.getLng());
+                    mMap.addMarker(new MarkerOptions().position(newLocation));
 
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(newLocation));
-                mMap.animateCamera(CameraUpdateFactory.zoomBy(11));
+                    mMap.moveCamera(CameraUpdateFactory.newLatLng(newLocation));
+                    mMap.animateCamera(CameraUpdateFactory.zoomBy(11));
 
-                Longitude.setText(Double.toString(myLocation.getLng()));
-                Latitude.setText(Double.toString(myLocation.getLat()));
-                getAddress(myLocation.getLat(),myLocation.getLng());
+                    Longitude.setText(Double.toString(myLocation.getLng()));
+                    Latitude.setText(Double.toString(myLocation.getLat()));
+                    getAddress(myLocation.getLat(),myLocation.getLng());
+                }else {
+                    Toast.makeText(NewMapsFamily.this,"please enter location",Toast.LENGTH_LONG).show();
+                }
 
             }
 

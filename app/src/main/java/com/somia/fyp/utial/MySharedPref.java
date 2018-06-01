@@ -11,6 +11,8 @@ import com.google.gson.Gson;
 
 public class MySharedPref {
     public static final String SHARD_PREF_AUDIO_BOOK="com.somia.fyp.MySharedPref";
+    public static final String SHARD_PREF_KEY_BLIND_BUTTON_CLICKED="SHARD_PREF_KEY_BLIND_BUTTON_CLICKED";
+    public static final String SHARD_PREF_KEY_FAMILY_BUTTON_CLICKED="SHARD_PREF_KEY_FAMILY_BUTTON_CLICKED";
    // com.ameerhamza6733.okAmeer.MySharedPref
     public static void saveObjectToSharedPreference(Context context, String preferenceFileName, String serializedObjectKey,
                                                     Object object) {
@@ -28,7 +30,7 @@ public class MySharedPref {
         SharedPreferences sharedPreferences = context.getSharedPreferences(preferenceFileName, 0);
         if (sharedPreferences.contains(preferenceKey)) {
             final Gson gson = new Gson();
-            return gson.fromJson(sharedPreferences.getString(preferenceKey, ""), classType);
+            return gson.fromJson(sharedPreferences.getString(preferenceKey, "0"), classType);
         }
         return null;
     }

@@ -33,29 +33,33 @@ private String userUiqID;
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-     if (intent.getAction().equals(ACTIon_START)){
-         Toast.makeText(this, "service starting", Toast.LENGTH_SHORT).show();
-         userUiqID= MySharedPref.getSavedObjectFromPreference(getApplicationContext(),MySharedPref.SHARD_PREF_AUDIO_BOOK,
-                 SignInBlindUser.FAMILY_PHONE_NUMBER,String.class);
-         if (userUiqID==null)
-             userUiqID= Settings.Secure.getString(getApplicationContext().getContentResolver(),
-                     Settings.Secure.ANDROID_ID);
-         getLocation(MyLocationService.this);
-         handler = new Handler();
+    if(intent!=null){
+        if (intent.getAction().equals(ACTIon_START)){
+            Toast.makeText(this, "service starting", Toast.LENGTH_SHORT).show();
+            userUiqID= MySharedPref.getSavedObjectFromPreference(getApplicationContext(),MySharedPref.SHARD_PREF_AUDIO_BOOK,
+                    SignInBlindUser.FAMILY_PHONE_NUMBER,String.class);
+            if (userUiqID==null)
+                userUiqID= Settings.Secure.getString(getApplicationContext().getContentResolver(),
+                        Settings.Secure.ANDROID_ID);
+            getLocation(MyLocationService.this);
+            handler = new Handler();
 
-         runnable = new Runnable() {
-             @Override
-             public void run() {
-                 getLocation(MyLocationService.this);
-                 handler.postDelayed(this, 10000);
-             }
-         };
-         handler.postDelayed(runnable,10000);
-     }else if (intent.getAction().equals(ACTION_STOP))
-     {
-         stopSelf();
-     }
-        return START_STICKY;
+            runnable = new Runnable() {
+                @Override
+                public void run() {
+                    getLocation(MyLocationService.this);
+                    handler.postDelayed(this, 10000);
+                }
+            };
+            handler.postDelayed(runnable,10000);
+        }else if (intent.getAction().equals(ACTION_STOP))
+        {
+            stopSelf();
+        }
+    }else {
+        stopSelf();
+    }
+        return Service.START_REDELIVER_INTENT;
     }
 
     @Override

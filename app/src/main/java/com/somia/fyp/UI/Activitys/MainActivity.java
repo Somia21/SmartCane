@@ -21,6 +21,7 @@ import com.somia.fyp.R;
 import com.somia.fyp.UI.fragment.VoiceRecgonizationFragment;
 import com.somia.fyp.assistant.commands.Receivers.SendSmsActivity;
 import com.somia.fyp.Interfacess.IGoogleSpeechRecognzerError;
+import com.somia.fyp.utial.MySharedPref;
 import com.somia.fyp.utial.SpeechRecognizerManager;
 import com.somia.fyp.utial.MyTextToSpeech;
 import com.github.clans.fab.FloatingActionButton;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements IGoogleSpeechReco
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        MySharedPref.saveObjectToSharedPreference(this,MySharedPref.SHARD_PREF_AUDIO_BOOK,MySharedPref.SHARD_PREF_KEY_BLIND_BUTTON_CLICKED,"1");
 //         Boolean isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE)
 //                .getBoolean("isFirstRun", true);
 //

@@ -34,6 +34,7 @@ public class SignInFamily extends Activity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin_familymember);
+        MySharedPref.saveObjectToSharedPreference(this,MySharedPref.SHARD_PREF_AUDIO_BOOK,MySharedPref.SHARD_PREF_KEY_FAMILY_BUTTON_CLICKED,"1");
 
 //        String userUiqID = MySharedPref.getSavedObjectFromPreference(getApplicationContext(), MySharedPref.SHARD_PREF_AUDIO_BOOK,
 //                SignInFamily.FAMILY_PHONE_NUMBER, String.class);
