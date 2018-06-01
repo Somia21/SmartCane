@@ -10,6 +10,8 @@ import android.provider.Settings;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.somia.fyp.UI.Activitys.SignInBlindUser;
+import com.somia.fyp.UI.Activitys.SignInFamily;
 import com.somia.fyp.UI.Activitys.singUpActivity;
 import com.somia.fyp.utial.MySharedPref;
 
@@ -33,7 +35,8 @@ private String userUiqID;
 
      if (intent.getAction().equals(ACTIon_START)){
          Toast.makeText(this, "service starting", Toast.LENGTH_SHORT).show();
-         userUiqID= MySharedPref.getSavedObjectFromPreference(getApplicationContext(),MySharedPref.SHARD_PREF_AUDIO_BOOK,singUpActivity.FAMILY_PHONE_NUMBER,String.class);
+         userUiqID= MySharedPref.getSavedObjectFromPreference(getApplicationContext(),MySharedPref.SHARD_PREF_AUDIO_BOOK,
+                 SignInBlindUser.FAMILY_PHONE_NUMBER,String.class);
          if (userUiqID==null)
              userUiqID= Settings.Secure.getString(getApplicationContext().getContentResolver(),
                      Settings.Secure.ANDROID_ID);
@@ -69,7 +72,9 @@ private String userUiqID;
                 MyLocation myLocation = new MyLocation(location.getLongitude(),location.getLatitude());
                 WriteToDatabase writeToDatabase = new WriteToDatabase();
                 writeToDatabase.saveToDabase(myLocation,userUiqID);
-                Log.d(TAG,"sening lcoation: "+location.getLatitude() +"getLongitude: "+location.getLongitude()+"to: "+ MySharedPref.getSavedObjectFromPreference(context,MySharedPref.SHARD_PREF_AUDIO_BOOK, singUpActivity.FAMILY_PHONE_NUMBER,String.class));
+                Log.d(TAG,"sending loction: "+location.getLatitude() +"getLongitude: "+location.getLongitude()+"to: "+
+                        MySharedPref.getSavedObjectFromPreference(context,MySharedPref.SHARD_PREF_AUDIO_BOOK,
+                                singUpActivity.FAMILY_PHONE_NUMBER,String.class));
             }
         };
         GetCurrentLocation myLocation = new GetCurrentLocation();

@@ -12,12 +12,12 @@
         android:id="@+id/instructions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Instructions for Usage
-         Number 1 For Making call say Make Call or Do Call
-         Number 2 For Writing Message say Send Message or Please Send Message
-         Number 3 For Object Recognition say Detect Object
-         Number 4 For Location Sharing say Share Location or say Share My Location
-         Number 5 For Reading Message say Read Message or Read My Messages"
+        android:text="Instructions for Usage..\n\n
+         Number 1: For Making call say Make Call or Do Call..!\n
+         Number 2: For Writing Message say Send Message or Please Send Message..!\n
+         Number 3: For Object Recognition say Detect Object..!\n
+         Number 4: For Location Sharing say Share Location or say Share My Location..!\n
+         Number 5: For Reading Message say Read Message or Read My Messages..!\n"
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="165dp" />
 </RelativeLayout>

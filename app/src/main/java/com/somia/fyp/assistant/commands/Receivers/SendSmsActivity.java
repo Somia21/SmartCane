@@ -58,10 +58,10 @@ import lolodev.permissionswrapper.wrapper.PermissionWrapper;
 public class SendSmsActivity extends AppCompatActivity implements INoNeedCommander, IGoogleSpeechRecognzerError {
 
     public static final String EXTRA_RECIPIENT_NAME = "EXTRA_RECIPIENT_NAME";
-    public static final String[] positiveWords = {"ji haan", "ha", "yas", "bhej do", "send kar do", "kar do"};
+    public static final String[] positiveWords = {"ji haan", "ha", "yas", "bhej do", "send kar do", "kar do","yes"};
    public static final String[] negativeWords = {"nahi send karna", "nahi", "no", "cancel kar do","cancel"};
     private static final int PICK_CONTACT_REQUEST = 14;
-    private static final String[] changeITwords = {"phir se likho", "dubara se likho","dubara  likho", "change kar do", "badal"};
+    private static final String[] changeITwords = {"phir se likho", "dubara se likho","dubara  likho", "change kar do", "badal","change"};
     private static String EXTRA_SMS_OR_WHATS_APP;
     protected TextView mSedingSmsIn;
     private boolean FlagGetSmsBody = false;
@@ -238,7 +238,7 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
         countDownTimer = new CountDownTimer(3000, 1000) {
 
             public void onTick(long millisUntilFinished) {
-                SendSmsActivity.this.mSedingSmsIn.setText("Seding sms in : " + millisUntilFinished / 1000);
+                SendSmsActivity.this.mSedingSmsIn.setText("Sending Message in : " + millisUntilFinished / 1000);
             }
 
             public void onFinish() {
@@ -266,22 +266,26 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
         Toast.makeText(this, Queary, Toast.LENGTH_LONG).show();
         if (!isRecipientNumberFound)
             new myContentNameFinder(Queary).execute();
-        else if (FlagGetSmsBody) { // after geting sms body ask user to where he/she want to send this sms or not?
+        else if (FlagGetSmsBody) { // after getting sms body ask user to where he/she want to send this sms or not?
             voiceRecgonizerDismiss();
             FlagGetSmsBody = false;
             //isNativeUrdu=false;
 
            // mSwitchTurnOnNativeUrdu.setVisibility(View.INVISIBLE);
+            //intiTextToSpeech("en-IN","Apka message hai"+mSmsBody.getText().toString());
+           // Log.d("Message",mSmsBody.getText().toString());
             intiTextToSpeech("hi", getResources().getString(R.string.send_kar_do_ya_badal_do));
             mSmsBody.setText(Queary);
-
-
         }
         else {
             voiceRecgonizerDismiss();
             for (String postiveWord : positiveWords)
                 if (Queary.toLowerCase().contains(postiveWord.toLowerCase()))
+                {
+                    //intiTextToSpeech("en-IN","Apka message hai"+mSmsBody.getText().toString());
                     startSedingSmsCountDown(mSmsBody.getText().toString());
+                }
+
             for (String negativeWord : negativeWords)
                 if (Queary.toLowerCase().contains(negativeWord.toLowerCase()))
                     Toast.makeText(SendSmsActivity.this, "App ka message cancel kar dea gay ha ", Toast.LENGTH_SHORT).show();

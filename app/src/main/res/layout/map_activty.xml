@@ -7,10 +7,28 @@
 
 
     <EditText
-        android:drawableEnd="@drawable/ic_mic_black_24dp"
-        android:text="Enter your destination "
+        android:text="Current Location of User"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/CurrentAddress"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/latitude"/>
+        <TextView
+            android:text="Latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/longitude"
+            />
+    </LinearLayout>
+
 
     <fragment
         android:id="@+id/map"

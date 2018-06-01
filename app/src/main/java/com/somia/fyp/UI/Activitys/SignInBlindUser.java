@@ -49,8 +49,7 @@ public class SignInBlindUser extends Activity {
                     Toast.makeText(SignInBlindUser.this,"please fill all required fields",Toast.LENGTH_SHORT).show();
                     return;
                 }
-                MySharedPref.saveObjectToSharedPreference(getApplicationContext(),
-                        MySharedPref.SHARD_PREF_AUDIO_BOOK,FAMILY_PHONE_NUMBER,phoneFamily.getText().toString());
+                MySharedPref.saveObjectToSharedPreference(getApplicationContext(),MySharedPref.SHARD_PREF_AUDIO_BOOK,FAMILY_PHONE_NUMBER,phoneFamily.getText().toString());
                 Intent i = new Intent(SignInBlindUser.this, MainActivity.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(i);

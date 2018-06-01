@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-170:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-170:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-170:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-170:12
 MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:19:1-31:12
 MERGED from [com.github.gabrielemariotti.cards:cardslib-core:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-core-2.1.0.aar\27e86d9401066ea31439d0597704449e\AndroidManifest.xml:19:1-31:12
 MERGED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:2:1-19:12
@@ -60,20 +60,20 @@ MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] C:\Users\Som
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.2.aar\39790701c7ccc37496ad71db9541a753\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d54781bffca7b5be010cfbc0fdc01382\AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.2.aar\eca1f4f0f9b9411a622faa9ba137093a\AndroidManifest.xml:2:1-6:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
-INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-170:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-170:12
+INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-170:12
 	package
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-170:12
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-167:12
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:1-170:12
 		INJECTED from D:\urAmeer-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:2:11-69
@@ -336,7 +336,7 @@ ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:42:5-71
 	android:name
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:42:22-68
 application
-ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:52:5-165:19
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:52:5-168:19
 MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:28:5-29:19
 MERGED from [com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-extra-staggeredgrid-2.1.0.aar\474cbf6667c5f474ca51906487c229ef\AndroidManifest.xml:28:5-29:19
 MERGED from [com.github.gabrielemariotti.cards:cardslib-core:2.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\cardslib-core-2.1.0.aar\27e86d9401066ea31439d0597704449e\AndroidManifest.xml:28:5-29:19
@@ -627,6 +627,12 @@ ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:162:9-164:68
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:164:13-56
 	android:name
 		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:163:13-60
+activity#com.somia.fyp.NewLocationSharing.NewMapsFamily
+ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:165:9-167:68
+	android:label
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:167:13-56
+	android:name
+		ADDED from D:\urAmeer-master\app\src\main\AndroidManifest.xml:166:13-61
 activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
 ADDED from [pub.devrel:easypermissions:0.4.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\easypermissions-0.4.2.aar\f1b047179e712fe851224aad3cc46411\AndroidManifest.xml:12:9-16:66
 	android:label

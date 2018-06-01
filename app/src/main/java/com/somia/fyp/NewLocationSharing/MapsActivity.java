@@ -66,7 +66,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 //                mMap.animateCamera(CameraUpdateFactory.zoomBy(11));
 //
 //            }
-
+//
 //            @Override
 //            public void onCancelled(DatabaseError databaseError) {
 //                Log.d(TAG,"database error:"+databaseError.getMessage());

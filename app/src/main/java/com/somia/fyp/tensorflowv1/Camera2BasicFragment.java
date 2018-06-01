@@ -456,7 +456,7 @@ public class Camera2BasicFragment extends Fragment
     CameraManager manager = (CameraManager) activity.getSystemService(Context.CAMERA_SERVICE);
     try {
 
-      if (!cameraOpenCloseLock.tryAcquire(2500, TimeUnit.MILLISECONDS)) {
+      if (!cameraOpenCloseLock.tryAcquire(2000, TimeUnit.MILLISECONDS)) {
         throw new RuntimeException("Time out waiting to lock camera opening.");
       }
       //TODO 5
@@ -540,7 +540,7 @@ public class Camera2BasicFragment extends Fragment
               classifyFrame();
             }
           }
-          backgroundHandler.postDelayed(periodicClassify,3000);
+          backgroundHandler.postDelayed(periodicClassify,1000);
         }
       };
 

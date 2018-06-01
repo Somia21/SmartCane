@@ -2,14 +2,19 @@ package com.somia.fyp.UI.Activitys;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.somia.fyp.NewLocationSharing.MapsActivity;
+import com.somia.fyp.NewLocationSharing.NewMapsFamily;
 import com.somia.fyp.R;
 import com.somia.fyp.utial.MySharedPref;
+
+import java.nio.channels.NonWritableChannelException;
 
 /**
  * Created by Somia on 5/27/2018.
@@ -26,8 +31,20 @@ public class SignInFamily extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin_familymember);
+
+//        String userUiqID = MySharedPref.getSavedObjectFromPreference(getApplicationContext(), MySharedPref.SHARD_PREF_AUDIO_BOOK,
+//                SignInFamily.FAMILY_PHONE_NUMBER, String.class);
+//        SharedPreferences prefs = getSharedPreferences("PREFERENCE", MODE_PRIVATE);
+//        if(userUiqID!=null)
+//        {
+//            startActivity(new Intent(SignInFamily.this, NewMapsFamily.class));
+//            Toast.makeText(SignInFamily.this, "First Run", Toast.LENGTH_LONG)
+//                    .show();
+//        }
+
 
         Myphone=findViewById(R.id.addYourPhoneNumber);
         FsignUp=findViewById(R.id.signupfamilyuser);
@@ -41,7 +58,7 @@ public class SignInFamily extends Activity {
                     return;
                 }
                 MySharedPref.saveObjectToSharedPreference(getApplicationContext(),MySharedPref.SHARD_PREF_AUDIO_BOOK,FAMILY_PHONE_NUMBER,Myphone.getText().toString());
-                Intent i = new Intent(SignInFamily.this, MainActivity.class);
+                Intent i = new Intent(SignInFamily.this, NewMapsFamily.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(i);
             }

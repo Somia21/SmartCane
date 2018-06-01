@@ -63,7 +63,6 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sms_unread);
 
-
         cards = new ArrayList<Card>();
         if (Build.VERSION.SDK_INT > 22) {
 
@@ -84,13 +83,6 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
             }
         };
 
-//        FloatingActionButton febRetry = (FloatingActionButton) findViewById(R.id.febRetry);
-//        febRetry.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                showVoiceRegoniztionFragment();
-//            }
-//        });
     }
 
     @Override
@@ -110,38 +102,39 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
         unread = SMSUtils.getUnreadMessages(this);
         String text = "";
         if (unread == null || unread.size() < 1) {
-
+            Log.d("First", "getUnreadSMSandUpdateUI: ");
             Toast.makeText(this, "no message to read ", Toast.LENGTH_SHORT).show();
-        }
-        Collections.reverse(unread);
-        for (SmsMmsMessage message : unread) {
-            Card card = new Card(this);
-            CardHeader header = new CardHeader(this);
-            header.setTitle(message.getContactName());
-            card.addCardHeader(header);
-            SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
-            String dateString = formatter.format(new Date(Long.parseLong(String.valueOf(message.getTimestamp()))));
-            card.setTitle(message.getMessageBody() + " time : " + dateString);
-            cards.add(card);
+            intiTextToSpeech("hi", "aapake paas koee unread message nahin hai");
 
-        }
+        } else if (unread.size() >=1) {
+            Collections.reverse(unread);
+            for (SmsMmsMessage message : unread) {
+                Card card = new Card(this);
+                CardHeader header = new CardHeader(this);
+                header.setTitle(message.getContactName());
+                card.addCardHeader(header);
+                SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+                String dateString = formatter.format(new Date(Long.parseLong(String.valueOf(message.getTimestamp()))));
+                card.setTitle(message.getMessageBody() + " time : " + dateString);
+                cards.add(card);
 
-
-        mCardArrayAdapter = new CardArrayAdapter(this, cards);
-
-        listView = (CardListView) findViewById(R.id.myList);
-        if (listView != null) {
-            listView.setAdapter(mCardArrayAdapter);
-        }
+            }
 
 
-        try {
-            intiTextToSpeech("hi-IN", "आपको कई मैसेज आए हैं  क्या आप चाहते हैं इसे सुनना");
-        } catch (Exception e) {
-            e.printStackTrace();
+            mCardArrayAdapter = new CardArrayAdapter(this, cards);
+
+            listView = (CardListView) findViewById(R.id.myList);
+            if (listView != null) {
+                listView.setAdapter(mCardArrayAdapter);
+            }
+
+            try {
+                intiTextToSpeech("hi-IN", "आपको कई मैसेज आए हैं  क्या आप चाहते हैं इसे सुनना");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
-
 
     private void intiTextToSpeech(final String LEN, final String text) {
         mTextToSpeechHandler = new Handler();
@@ -176,11 +169,9 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
                         newIntance.setStyle(1, R.style.AppTheme);
                         transactionFragment.add(android.R.id.content, newIntance).addToBackStack(null).commitAllowingStateLoss();
 
-
                         //  newIntance.show(fragmentManager, "fragment_voice_input");
 
                     }
-
 
                 } catch (Exception e) {
                     Toast.makeText(SmsUnreadActivity.this, "error" + e.getMessage(), Toast.LENGTH_SHORT).show();
@@ -283,10 +274,16 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
 
     private void speckThisMessage() throws Exception {
 
+        if (unread == null || unread.size() < 1) {
+            Log.d("First", "getUnreadSMSandUpdateUI: ");
+            Toast.makeText(this, "no message to read ", Toast.LENGTH_SHORT).show();
+            intiTextToSpeech("en-IN","aapake paas koee unread message nahin hai");
+        }
         if (unread.size() > 1)
-            intiTextToSpeech("en-IN", unread.get(0).getMessageBody() + "next message" + unread.get(1).getContactName() + "se aaya hai aap sunana chaahate hain ya nahin");
+
+            intiTextToSpeech("hi-IN", unread.get(0).getMessageBody() + "अगला मैसेज" + unread.get(1).getContactName() + "से आया क्या आप सुनना चाहते हैं या नहीं");// message from you want to listen or not
         else
-            intiTextToSpeech("en-IN", unread.get(0).getMessageBody());
+            intiTextToSpeech("hi-IN", unread.get(0).getMessageBody());
         unread.remove(0);
 
 
@@ -294,9 +291,12 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
 
     private void moveToNextMessage() throws Exception {
         if (unread.size() > 0) {
-            intiTextToSpeech("en-IN", "aagla message" + unread.get(0).getContactName() + "se aaya hai aap sunana chaahate hain ya nahin");
+            intiTextToSpeech("hi-IN", "अगला मैसेज" + unread.get(0).getContactName() + "से आया क्या आप सुनना चाहते हैं या नहीं");// message from you want to listen or not
             unread.remove(0);
-
+        }
+        else if(unread.size()<1)
+        {
+            intiTextToSpeech("hi-IN","कोई और मैसेज नहीं");//no more message
         }
     }
 
