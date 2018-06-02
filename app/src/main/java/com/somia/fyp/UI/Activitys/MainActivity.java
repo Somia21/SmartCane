@@ -112,11 +112,12 @@ public class MainActivity extends AppCompatActivity implements IGoogleSpeechReco
     }
 
     private void GoogleSpeechOROwn() {
-        if (isSpeekButtonPressed){
-            showVoiceFragment();
-        }else{
-            registerSpeechRecognizer();
-        }
+//        if (isSpeekButtonPressed){
+//            showVoiceFragment();
+//        }else{
+//            registerSpeechRecognizer();
+//        }
+        showVoiceFragment();
     }
 
     private void showVoiceFragment() {

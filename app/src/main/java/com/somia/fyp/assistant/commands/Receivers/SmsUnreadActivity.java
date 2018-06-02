@@ -113,14 +113,13 @@ public class SmsUnreadActivity extends AppCompatActivity implements INoNeedComma
                 CardHeader header = new CardHeader(this);
                 header.setTitle(message.getContactName());
                 card.addCardHeader(header);
-                SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
-                String dateString = formatter.format(new Date(Long.parseLong(String.valueOf(message.getTimestamp()))));
-                card.setTitle(message.getMessageBody() + " time : " + dateString);
+               // SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+               // String dateString = formatter.format(new Date(Long.parseLong(String.valueOf(message.getTimestamp()))));
+                card.setTitle(message.getMessageBody() );
+                        //+ " time : " + dateString);
                 cards.add(card);
 
             }
-
-
             mCardArrayAdapter = new CardArrayAdapter(this, cards);
 
             listView = (CardListView) findViewById(R.id.myList);

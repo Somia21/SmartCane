@@ -272,7 +272,7 @@ public class SendSmsActivity extends AppCompatActivity implements INoNeedCommand
             //isNativeUrdu=false;
 
            // mSwitchTurnOnNativeUrdu.setVisibility(View.INVISIBLE);
-            //intiTextToSpeech("en-IN","Apka message hai"+mSmsBody.getText().toString());
+          //  intiTextToSpeech("en-IN","Apka message hai"+Queary);
            // Log.d("Message",mSmsBody.getText().toString());
             intiTextToSpeech("hi", getResources().getString(R.string.send_kar_do_ya_badal_do));
             mSmsBody.setText(Queary);

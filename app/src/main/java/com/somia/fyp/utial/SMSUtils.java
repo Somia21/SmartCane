@@ -1,7 +1,5 @@
 package com.somia.fyp.utial;
 
-
-
 import android.annotation.SuppressLint;
 import android.content.ContentUris;
 import android.content.Context;

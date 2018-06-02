@@ -240,7 +240,7 @@ public class CallingActivity extends AppCompatActivity implements INoNeedCommand
                         String name = cur.getString(cur.getColumnIndex(
                                 ContactsContract.Contacts.DISPLAY_NAME));
                         Log.d("callingActivty", "Name from phone Book " + name);
-                        //MyTextToSpeech.intiTextToSpeech(CallingActivity.this, "en-IN", "Contact is "+name);
+                      //  MyTextToSpeech.intiTextToSpeech(CallingActivity.this, "en-IN", "Contact is "+name);
                         if (Query.toLowerCase().contains(name.toLowerCase())) {
                             Log.d("callingActivty", "requiredName found" + name);
                             mNameListFounded.add(name);
