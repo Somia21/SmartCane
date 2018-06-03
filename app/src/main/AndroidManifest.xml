@@ -165,6 +165,9 @@
         <activity
             android:name=".NewLocationSharing.NewMapsFamily"
             android:label="@string/title_activity_maps"></activity>
+        <activity
+            android:name=".UI.Activitys.LogOutBlindUser"
+            android:label="LogOutBlindUser"></activity>
     </application>
 
 </manifest>

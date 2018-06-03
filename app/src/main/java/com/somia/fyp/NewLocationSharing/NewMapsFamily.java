@@ -1,6 +1,7 @@
 package com.somia.fyp.NewLocationSharing;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -9,6 +10,8 @@ import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,6 +27,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.somia.fyp.R;
+import com.somia.fyp.UI.Activitys.FamilyorBlindUser;
 import com.somia.fyp.UI.Activitys.SignInBlindUser;
 import com.somia.fyp.UI.Activitys.SignInFamily;
 import com.somia.fyp.utial.MySharedPref;
@@ -43,6 +47,7 @@ public class NewMapsFamily extends FragmentActivity implements OnMapReadyCallbac
     TextView Longitude;
     TextView Latitude;
     TextView CurrentLocation;
+    Button Logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +58,15 @@ public class NewMapsFamily extends FragmentActivity implements OnMapReadyCallbac
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+        Logout=(Button)findViewById(R.id.LogOut);
+        Logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(NewMapsFamily.this,FamilyorBlindUser.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                NewMapsFamily.this.startActivity(intent);
+            }
+        });
 
     }
 
@@ -119,17 +133,10 @@ public class NewMapsFamily extends FragmentActivity implements OnMapReadyCallbac
             List<Address> addresses = geocoder.getFromLocation(lat, lng, 1);
             Address obj = addresses.get(0);
             String add = obj.getAddressLine(0);
-            add = add + "\n" + obj.getCountryName();
-            add = add + "\n" + obj.getCountryCode();
-            add = add + "\n" + obj.getAdminArea();
-            add = add + "\n" + obj.getPostalCode();
-            add = add + "\n" + obj.getSubAdminArea();
-            add = add + "\n" + obj.getLocality();
-            add = add + "\n" + obj.getSubThoroughfare();
 
             Log.v("IGA", "Address" + add);
             CurrentLocation=(TextView)findViewById(R.id.CurrentAddress);
-
+            CurrentLocation.setText(add.toString());
 
         } catch (IOException e) {
             e.printStackTrace();

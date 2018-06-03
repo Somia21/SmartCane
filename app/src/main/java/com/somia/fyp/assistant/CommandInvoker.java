@@ -5,6 +5,7 @@ import android.util.Log;
 
 import com.somia.fyp.assistant.commands.CallCommand;
 import com.somia.fyp.assistant.commands.InstructionsCommand;
+import com.somia.fyp.assistant.commands.Receivers.LogoutCommand;
 import com.somia.fyp.assistant.commands.TensorFlowCameraCommand;
 import com.somia.fyp.assistant.commands.ShareLocationCommand;
 import com.somia.fyp.assistant.commands.MapCommand;
@@ -23,7 +24,7 @@ public class CommandInvoker {
         {
             commands = new Command[] {new CallCommand(),new ReadSmsCommand(),
                     new SendSmsCommand(), new MapCommand(),new ShareLocationCommand(),
-                    new TensorFlowCameraCommand(),new InstructionsCommand()};
+                    new TensorFlowCameraCommand(),new InstructionsCommand(),new LogoutCommand()};
         }
         return commands;
     }

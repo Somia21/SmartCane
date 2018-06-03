@@ -245,8 +245,8 @@ public final class R {
         public static final int list_card_undobar_button = 0x7f0f00f5;
         public static final int list_card_undobar_message = 0x7f0f00f4;
         public static final int normal = 0x7f0f0031;
-        public static final int pressed = 0x7f0f010e;
-        public static final int selected = 0x7f0f010f;
+        public static final int pressed = 0x7f0f010f;
+        public static final int selected = 0x7f0f0110;
         public static final int undobar = 0x7f0f00d2;
         public static final int undobar_button = 0x7f0f00d4;
         public static final int undobar_message = 0x7f0f00d3;

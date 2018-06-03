@@ -19,7 +19,7 @@ public class CallCommand implements Command {
 
     @Override
     public String getDefaultPhrase() {
-        return "make call,do call,make phone call";
+        return "make call,do call,make phone call,call karo,phone karo";
     }
 
     @Override

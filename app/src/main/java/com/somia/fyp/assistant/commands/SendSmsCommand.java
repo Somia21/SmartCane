@@ -23,7 +23,7 @@ public class SendSmsCommand implements Command{
 
     @Override
     public String getDefaultPhrase() {
-        return "send message,please send message";
+        return "send message,please send message,message likho,write message";
     }
 
     @Override

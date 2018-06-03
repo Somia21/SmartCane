@@ -7,7 +7,7 @@
 
 
     <EditText
-        android:text="Current Location of User"
+        android:text="Current Location of Blind User"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/CurrentAddress"/>
@@ -27,6 +27,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/longitude"
             />
+        <Button
+            android:text="LogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LogOut"
+            />
     </LinearLayout>
 
 
@@ -35,7 +41,5 @@
         class="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:padding="8dp" />
-
 </LinearLayout>
